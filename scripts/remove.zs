@@ -3,8 +3,6 @@ import crafttweaker.api.item.IItemStack;
 
 craftingTable.removeRecipe(<item:create:andesite_alloy>);
 
-craftingTable.removeRecipe(<item:thermal:machine_frame>);
-
 craftingTable.removeRecipe(<item:mekanismgenerators:fusion_reactor_controller>);
 
 craftingTable.removeRecipe(<item:mekanism:mekasuit_helmet>);
@@ -13,15 +11,6 @@ craftingTable.removeRecipe(<item:mekanism:mekasuit_pants>);
 craftingTable.removeRecipe(<item:mekanism:mekasuit_boots>);
 
 craftingTable.removeRecipe(<item:mekanism:digital_miner>);
-
-craftingTable.removeRecipe(<item:miniutilities:iron_opinium_core>);
-craftingTable.removeRecipe(<item:miniutilities:gold_opinium_core>);
-craftingTable.removeRecipe(<item:miniutilities:diamond_opinium_core>);
-craftingTable.removeRecipe(<item:miniutilities:netherite_opinium_core>);
-craftingTable.removeRecipe(<item:miniutilities:emerald_opinium_core>);
-craftingTable.removeRecipe(<item:miniutilities:experience_opinium_core>);
-craftingTable.removeRecipe(<item:miniutilities:nether_star_opinium_core>);
-craftingTable.removeRecipe(<item:miniutilities:the_final_opinium_core>);
 
 craftingTable.removeRecipe(<item:envirotech:litherite_void_miner_ccu>);
 craftingTable.removeRecipe(<item:envirotech:erodium_void_miner_ccu>);
@@ -38,8 +27,9 @@ craftingTable.removeRecipe(<item:compactmachines:machine_large>);
 craftingTable.removeRecipe(<item:compactmachines:machine_giant>);
 craftingTable.removeRecipe(<item:compactmachines:machine_maximum>);
 
+
+// Soente para comprar na loja
 craftingTable.removeByModid("cyclic");
-
 craftingTable.removeByModid("inventorypets");
-
 craftingTable.removeByModid("smallships");
+craftingTable.removeByModid("modernlife");

@@ -81,10 +81,10 @@ undeadSouls = 50
 	genericWellsprings = false
 	#Size of vinteum veins
 	#Range: 1 ~ 20
-	vinteumVeinSize = 9
+	vinteumVeinSize = 3
 	#Count of vinteum veins
 	#Range: 1 ~ 100
-	vinteumVeinCount = 20
+	vinteumVeinCount = 5
 	#Max Y-value of vinteum veins
 	#Range: 10 ~ 255
 	vinteumVeinYValue = 63
