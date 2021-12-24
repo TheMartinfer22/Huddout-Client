@@ -1,8 +1,8 @@
 import crafttweaker.api.registries.IRecipeManager;
 import crafttweaker.api.item.IItemStack;
 
-mods.extendedcrafting.CombinationCrafting.addRecipe("7c35659c-9637-443b-8f4f-0b8f618a3659", <item:mekanism:digital_miner>, 1000000, [
-	<item:mekanism:atomic_disassembler>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:industrialforegoing:machine_frame_supreme>, <item:mekanism:teleportation_core>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:teleportation_core>, <item:mekanism:robit>
+mods.extendedcrafting.CombinationCrafting.addRecipe("95d3d0d2-dfe8-4138-be4f-ada671fad3f3", <item:mekanism:digital_miner>, 100000, [
+	<item:mekanism:atomic_disassembler>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:industrialforegoing:machine_frame_advanced>, <item:mekanism:teleportation_core>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:teleportation_core>, <item:mekanism:robit>
 ]);
 
 craftingTable.removeRecipe(<item:thermal:machine_frame>);
@@ -72,10 +72,10 @@ craftingTable.addShaped("e1ceb6b8-333a-4856-af76-68d24b036082", <item:miniutilit
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:gold_opinium_core>);
-craftingTable.addShaped("9757d214-1a8c-476a-a905-bf3e29148638", <item:miniutilities:gold_opinium_core>, [
-	[<item:silentgems:chaos_gold_block>, <item:miniutilities:iron_opinium_core>, <item:silentgems:chaos_gold_block>], 
+craftingTable.addShaped("93c097be-a129-4c9a-a01e-9959ba221e38", <item:miniutilities:gold_opinium_core>, [
+	[<item:silentgems:chaos_gold_ingot>, <item:miniutilities:iron_opinium_core>, <item:silentgems:chaos_gold_ingot>], 
 	[<item:miniutilities:iron_opinium_core>, <item:minecraft:air>, <item:miniutilities:iron_opinium_core>], 
-	[<item:silentgems:chaos_gold_block>, <item:miniutilities:iron_opinium_core>, <item:silentgems:chaos_gold_block>]
+	[<item:silentgems:chaos_gold_ingot>, <item:miniutilities:iron_opinium_core>, <item:silentgems:chaos_gold_ingot>]
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:diamond_opinium_core>);
@@ -86,10 +86,10 @@ craftingTable.addShaped("3ece7895-9a66-4317-89d4-c627da2b382b", <item:miniutilit
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:netherite_opinium_core>);
-craftingTable.addShaped("18c126e7-6c1b-4aa8-a8d4-5a7aeb2ad40a", <item:miniutilities:netherite_opinium_core>, [
-	[<item:theabyss:netherfire_ingot>, <item:miniutilities:diamond_opinium_core>, <item:theabyss:netherfire_ingot>], 
+craftingTable.addShaped("67925a58-8d96-4464-a4d2-ca6e9d4389f4", <item:miniutilities:netherite_opinium_core>, [
+	[<item:minecraft:netherite_block>, <item:miniutilities:diamond_opinium_core>, <item:minecraft:netherite_block>], 
 	[<item:miniutilities:diamond_opinium_core>, <item:minecraft:air>, <item:miniutilities:diamond_opinium_core>], 
-	[<item:theabyss:netherfire_ingot>, <item:miniutilities:diamond_opinium_core>, <item:theabyss:netherfire_ingot>]
+	[<item:minecraft:netherite_block>, <item:miniutilities:diamond_opinium_core>, <item:minecraft:netherite_block>]
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:emerald_opinium_core>);
@@ -114,10 +114,10 @@ craftingTable.addShaped("7e7e2c99-aa41-4902-b46e-74d5b4798d96", <item:miniutilit
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:the_final_opinium_core>);
-craftingTable.addShaped("0e4795d0-8074-4536-b6c6-b589467906a9", <item:miniutilities:the_final_opinium_core>, [
-	[<item:silentgear:tyrian_steel_block>, <item:miniutilities:nether_star_opinium_core>, <item:silentgear:tyrian_steel_block>], 
+craftingTable.addShaped("155922e9-962b-4767-ae19-052f40b0fa88", <item:miniutilities:the_final_opinium_core>, [
+	[<item:envirocore:kyronite>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:kyronite>], 
 	[<item:miniutilities:nether_star_opinium_core>, <item:miniutilities:unstable_block>, <item:miniutilities:nether_star_opinium_core>], 
-	[<item:silentgear:tyrian_steel_block>, <item:miniutilities:nether_star_opinium_core>, <item:silentgear:tyrian_steel_block>]
+	[<item:envirocore:kyronite>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:kyronite>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped("61fce964-d5cb-435d-a2e3-cc7cffbdec57", 0, <item:envirotech:litherite_void_miner_ccu>, [
@@ -128,32 +128,32 @@ mods.extendedcrafting.TableCrafting.addShaped("61fce964-d5cb-435d-a2e3-cc7cffbde
 	[<item:envirocore:structure_panel>, <item:envirocore:structure_panel>, <item:envirocore:structure_panel>, <item:envirocore:structure_panel>, <item:envirocore:structure_panel>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("b44b7056-fcfd-4a49-9288-b87275b1d7ff", 0, <item:envirotech:erodium_void_miner_ccu>, [
-	[<item:envirocore:erodium>, <item:envirocore:erodium>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:erodium>, <item:envirocore:erodium>], 
+mods.extendedcrafting.TableCrafting.addShaped("8bf8ed23-6f71-4d7d-9d26-4da673faec7c", 0, <item:envirotech:erodium_void_miner_ccu>, [
+	[<item:envirocore:erodium>, <item:envirocore:erodium>, <item:envirocore:erodium>, <item:envirocore:erodium>, <item:envirocore:erodium>], 
 	[<item:envirocore:erodium>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:laser_core>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:erodium>], 
 	[<item:envirocore:erodium>, <item:miniutilities:netherite_opinium_core>, <item:envirotech:litherite_void_miner_ccu>.withTag({program_slot: {items: []}, counter: {tick_total: 0 as int, tick_progress: 0 as int}, direction: 2 as int}), <item:miniutilities:netherite_opinium_core>, <item:envirocore:erodium>], 
 	[<item:envirocore:erodium>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:laser_core>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:erodium>], 
-	[<item:envirocore:erodium>, <item:envirocore:erodium>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:erodium>, <item:envirocore:erodium>]
+	[<item:envirocore:erodium>, <item:envirocore:erodium>, <item:envirocore:erodium>, <item:envirocore:erodium>, <item:envirocore:erodium>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("12608f92-d16a-400b-b4bf-e6b9ad12db15", 0, <item:envirotech:kyronite_void_miner_ccu>, [
+mods.extendedcrafting.TableCrafting.addShaped("fde92136-9543-4186-8779-0656cc71c534", 0, <item:envirotech:kyronite_void_miner_ccu>, [
 	[<item:envirocore:kyronite>, <item:envirocore:kyronite>, <item:envirocore:kyronite>, <item:extendedcrafting:nether_star_block>, <item:envirocore:kyronite>, <item:envirocore:kyronite>, <item:envirocore:kyronite>], 
-	[<item:envirocore:kyronite>, <item:miniutilities:emerald_opinium_core>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:laser_core>, <item:miniutilities:netherite_opinium_core>, <item:miniutilities:emerald_opinium_core>, <item:envirocore:kyronite>], 
+	[<item:envirocore:kyronite>, <item:powah:charged_snowball>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:laser_core>, <item:miniutilities:netherite_opinium_core>, <item:powah:charged_snowball>, <item:envirocore:kyronite>], 
 	[<item:envirocore:kyronite>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:kyronite>, <item:envirocore:laser_core>, <item:envirocore:kyronite>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:kyronite>], 
-	[<item:envirocore:kyronite>, <item:miniutilities:emerald_opinium_core>, <item:envirocore:kyronite>, <item:envirotech:erodium_void_miner_ccu>.withTag({program_slot: {items: []}, counter: {tick_total: 0 as int, tick_progress: 0 as int}, direction: 2 as int}), <item:envirocore:kyronite>, <item:miniutilities:emerald_opinium_core>, <item:envirocore:kyronite>], 
+	[<item:envirocore:kyronite>, <item:powah:charged_snowball>, <item:envirocore:kyronite>, <item:envirotech:erodium_void_miner_ccu>.withTag({program_slot: {items: []}, counter: {tick_total: 0 as int, tick_progress: 0 as int}, direction: 2 as int}), <item:envirocore:kyronite>, <item:powah:charged_snowball>, <item:envirocore:kyronite>], 
 	[<item:envirocore:kyronite>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:kyronite>, <item:envirocore:laser_core>, <item:envirocore:kyronite>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:kyronite>], 
-	[<item:envirocore:kyronite>, <item:miniutilities:emerald_opinium_core>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:laser_core>, <item:miniutilities:netherite_opinium_core>, <item:miniutilities:emerald_opinium_core>, <item:envirocore:kyronite>], 
+	[<item:envirocore:kyronite>, <item:powah:charged_snowball>, <item:miniutilities:netherite_opinium_core>, <item:envirocore:laser_core>, <item:miniutilities:netherite_opinium_core>, <item:powah:charged_snowball>, <item:envirocore:kyronite>], 
 	[<item:envirocore:kyronite>, <item:envirocore:kyronite>, <item:envirocore:kyronite>, <item:extendedcrafting:nether_star_block>, <item:envirocore:kyronite>, <item:envirocore:kyronite>, <item:envirocore:kyronite>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("0f0e5a50-71db-4a3f-b4b3-db9e1f9643ae", 0, <item:envirotech:pladium_void_miner_ccu>, [
-	[<item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>], 
+mods.extendedcrafting.TableCrafting.addShaped("865f3685-492d-47e3-a5fc-04d69fd5a572", 0, <item:envirotech:pladium_void_miner_ccu>, [
+	[<item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>], 
 	[<item:envirocore:pladium>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:laser_core>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:pladium>], 
 	[<item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:laser_core>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>], 
 	[<item:envirocore:pladium>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:pladium>, <item:envirotech:kyronite_void_miner_ccu>.withTag({program_slot: {items: []}, counter: {tick_total: 0 as int, tick_progress: 0 as int}, direction: 2 as int}), <item:envirocore:pladium>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:pladium>], 
 	[<item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:laser_core>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>], 
 	[<item:envirocore:pladium>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:laser_core>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:pladium>], 
-	[<item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>]
+	[<item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped("5cb7865b-bec0-4282-a599-06e98c50769d", 0, <item:envirotech:ionite_void_miner_ccu>, [
@@ -228,9 +228,9 @@ craftingTable.addShaped("814f3e53-4a6a-47af-ab74-768b42cfba24", <item:extendedcr
 ]);
 
 craftingTable.removeRecipe(<item:silents_mechanisms:alloy_machine_frame>);
-craftingTable.addShaped("4f1f98ef-2bd9-47f3-82f4-72c1dff4a0de", <item:silents_mechanisms:alloy_machine_frame>, [
+craftingTable.addShaped("a0d68b93-31df-429f-9673-195a0fff941e", <item:silents_mechanisms:alloy_machine_frame>, [
 	[<item:silents_mechanisms:redstone_alloy_block>, <item:botania:mana_glass>, <item:silents_mechanisms:redstone_alloy_block>], 
-	[<item:botania:mana_glass>, <item:psi:ebony_psimetal>, <item:botania:mana_glass>], 
+	[<item:botania:mana_glass>, <item:silents_mechanisms:refined_iron_ingot>, <item:botania:mana_glass>], 
 	[<item:silents_mechanisms:redstone_alloy_block>, <item:botania:mana_glass>, <item:silents_mechanisms:redstone_alloy_block>]
 ]);
 
@@ -416,13 +416,6 @@ craftingTable.addShaped("31b83426-85f7-4510-ad44-160d72515cad", <item:mekanism:e
 	[<item:minecraft:redstone>, <item:silentgear:blaze_gold_ingot>, <item:minecraft:redstone>]
 ]);
 
-craftingTable.removeRecipe(<item:bloodmagic:altar>);
-craftingTable.addShaped("db288362-d424-48c8-9028-51ea64e9f34f", <item:bloodmagic:altar>, [
-	[<item:botania:livingrock>, <item:minecraft:air>, <item:botania:livingrock>], 
-	[<item:botania:livingrock>, <item:ironfurnaces:emerald_furnace>, <item:botania:livingrock>], 
-	[<item:silentgear:blaze_gold_ingot>, <item:silentgear:blaze_gold_ingot>, <item:silentgear:blaze_gold_ingot>]
-]);
-
 craftingTable.removeRecipe(<item:mekanismgenerators:wind_generator>);
 craftingTable.addShaped("7ee85f39-8ec8-4103-933a-4c8759669664", <item:mekanismgenerators:wind_generator>, [
 	[<item:mekanism:basic_control_circuit>, <item:mekanism:ingot_osmium>, <item:mekanism:basic_control_circuit>], 
@@ -529,4 +522,10 @@ craftingTable.addShaped("1e87d0a3-43e4-460b-b79f-2e54f7caa3dc", <item:bigreactor
 	[<item:bigreactors:reinforced_reactorcasing>, <item:minecraft:comparator>, <item:bigreactors:reinforced_reactorcasing>], 
 	[<item:silents_mechanisms:uranium_ingot>, <item:powah:crystal_nitro>, <item:silents_mechanisms:uranium_ingot>], 
 	[<item:bigreactors:reinforced_reactorcasing>, <item:minecraft:redstone>, <item:bigreactors:reinforced_reactorcasing>]
+]);
+
+craftingTable.addShaped("982265c1-cce8-4d87-9b06-b4c76b7c0057", <item:inventorypets:nugget_emerald>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:silentgear:emerald_shard>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
