@@ -18,3 +18,6 @@ craftingTable.removeRecipe(<item:mekanism:steel_casing>);
 
 craftingTable.removeRecipe(<item:thermal:rf_coil>);
 <recipetype:thermal:bottler>.addRecipe("rf_coil", <item:thermal:rf_coil>, <item:silents_mechanisms:redstone_alloy_ingot>, <fluid:tconstruct:molten_gold> *144, 500);
+
+<recipetype:thermal:press>.addRecipe("iron_sheet", [<item:create:iron_sheet> % 100], <fluid:minecraft:empty>, [<item:thermal:iron_plate>], 500);
+
