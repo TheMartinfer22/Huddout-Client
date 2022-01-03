@@ -34,7 +34,6 @@ craftingTable.removeRecipe(<item:miniutilities:quantum_quarry>);
 craftingTable.removeRecipe(<item:hats:hat_launcher>);
 
 // Soente para comprar na loja
-craftingTable.removeByModid("cyclic");
 craftingTable.removeByModid("inventorypets");
 craftingTable.removeByModid("smallships");
 craftingTable.removeByModid("modernlife");

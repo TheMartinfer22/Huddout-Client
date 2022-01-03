@@ -158,7 +158,7 @@ mods.extendedcrafting.TableCrafting.addShaped("9d4a590a-3753-4aff-afd5-8a088a3ed
 
 craftingTable.removeRecipe(<item:extendedcrafting:luminessence>);
 craftingTable.addShaped("814f3e53-4a6a-47af-ab74-768b42cfba24", <item:extendedcrafting:luminessence>, [
-	[<item:eidolon:ender_calx>, <item:eidolon:ender_calx>, <item:minecraft:air>], 
+	[<item:thermal:emerald_dust>, <item:thermal:emerald_dust>, <item:minecraft:air>], 
 	[<item:minecraft:redstone_block>, <item:minecraft:gunpowder>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);

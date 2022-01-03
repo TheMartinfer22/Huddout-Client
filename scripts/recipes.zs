@@ -446,62 +446,57 @@ craftingTable.addShaped("982265c1-cce8-4d87-9b06-b4c76b7c0057", <item:inventoryp
 ]);
 
 craftingTable.removeRecipe(<item:envirocore:litherite_frame>);
-mods.extendedcrafting.TableCrafting.addShaped("85074dac-598a-4373-92e4-c866c3431f93", 0, <item:envirocore:litherite_frame>, [
-	[<item:minecraft:lapis_block>, <item:envirocore:litherite_interconnect>, <item:envirocore:litherite_interconnect>, <item:envirocore:litherite_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:litherite_interconnect>, <item:envirocore:structure_panel>, <item:envirocore:litherite_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:litherite>, <item:envirocore:structure_panel>, <item:envirocore:litherite>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:litherite>, <item:envirocore:structure_panel>, <item:envirocore:litherite>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:litherite>, <item:envirocore:litherite>, <item:envirocore:litherite>, <item:minecraft:lapis_block>]
+craftingTable.addShaped("e29a069c-e9d2-4ce0-986a-e423566788a4", <item:envirocore:litherite_frame>, [
+	[<item:minecraft:air>, <item:envirocore:litherite_interconnect>, <item:minecraft:air>], 
+	[<item:minecraft:lapis_lazuli>, <item:envirocore:structure_panel>, <item:minecraft:lapis_lazuli>], 
+	[<item:minecraft:air>, <item:minecraft:diamond>, <item:minecraft:air>]
 ]);
 
 craftingTable.removeRecipe(<item:envirocore:erodium_frame>);
-mods.extendedcrafting.TableCrafting.addShaped("3e16c541-2183-4fbc-88d8-6f78b7457c01", 0, <item:envirocore:erodium_frame>, [
-	[<item:minecraft:lapis_block>, <item:envirocore:erodium_interconnect>, <item:envirocore:erodium_interconnect>, <item:envirocore:erodium_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:erodium_interconnect>, <item:envirocore:structure_panel>, <item:envirocore:erodium_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:erodium>, <item:envirocore:structure_panel>, <item:envirocore:erodium>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:erodium>, <item:envirocore:structure_panel>, <item:envirocore:erodium>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:erodium>, <item:envirocore:erodium>, <item:envirocore:erodium>, <item:minecraft:lapis_block>]
+craftingTable.addShaped("6136f50b-1a83-4519-964d-5656795c2b17", <item:envirocore:erodium_frame>, [
+	[<item:minecraft:air>, <item:envirocore:erodium_interconnect>, <item:minecraft:air>], 
+	[<item:envirocore:erodium_crystal>, <item:envirocore:litherite_frame>, <item:envirocore:erodium_crystal>], 
+	[<item:minecraft:air>, <item:miniutilities:iron_opinium_core>, <item:minecraft:air>]
 ]);
 
 craftingTable.removeRecipe(<item:envirocore:kyronite_frame>);
-mods.extendedcrafting.TableCrafting.addShaped("9f80d2a0-3d64-4249-86a0-274023b8ade6", 0, <item:envirocore:kyronite_frame>, [
-	[<item:minecraft:lapis_block>, <item:envirocore:kyronite_interconnect>, <item:envirocore:kyronite_interconnect>, <item:envirocore:kyronite_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:kyronite_interconnect>, <item:envirocore:structure_panel>, <item:envirocore:kyronite_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:kyronite>, <item:envirocore:structure_panel>, <item:envirocore:kyronite>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:kyronite>, <item:envirocore:structure_panel>, <item:envirocore:kyronite>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:kyronite>, <item:envirocore:kyronite>, <item:envirocore:kyronite>, <item:minecraft:lapis_block>]
+craftingTable.addShaped("220f3573-6465-441a-9921-8732f27549cf", <item:envirocore:kyronite_frame>, [
+	[<item:minecraft:air>, <item:envirocore:kyronite_interconnect>, <item:minecraft:air>], 
+	[<item:envirocore:kyronite_crystal>, <item:envirocore:erodium_frame>, <item:envirocore:kyronite_crystal>], 
+	[<item:minecraft:air>, <item:miniutilities:gold_opinium_core>, <item:minecraft:air>]
 ]);
 
 craftingTable.removeRecipe(<item:envirocore:pladium_frame>);
-mods.extendedcrafting.TableCrafting.addShaped("7ff3c19d-2754-4320-a065-893a9a4b0d18", 0, <item:envirocore:pladium_frame>, [
-	[<item:minecraft:lapis_block>, <item:envirocore:pladium_interconnect>, <item:envirocore:pladium_interconnect>, <item:envirocore:pladium_interconnect>, <item:envirocore:pladium_interconnect>, <item:envirocore:pladium_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:pladium_interconnect>, <item:envirocore:pladium_interconnect>, <item:envirocore:kyronite_frame>, <item:envirocore:pladium_interconnect>, <item:envirocore:pladium_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:pladium>, <item:envirocore:pladium_interconnect>, <item:envirocore:kyronite_frame>, <item:envirocore:pladium_interconnect>, <item:envirocore:pladium>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:kyronite_frame>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:kyronite_frame>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:kyronite_frame>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:envirocore:pladium>, <item:minecraft:lapis_block>]
+craftingTable.addShaped("fd39dc80-b5ae-4ed5-bea9-5d24dfb56a01", <item:envirocore:pladium_frame>, [
+	[<item:minecraft:air>, <item:envirocore:pladium_interconnect>, <item:minecraft:air>], 
+	[<item:envirocore:pladium_crystal>, <item:envirocore:kyronite_frame>, <item:envirocore:pladium_crystal>], 
+	[<item:minecraft:air>, <item:miniutilities:diamond_opinium_core>, <item:minecraft:air>]
 ]);
 
 craftingTable.removeRecipe(<item:envirocore:ionite_frame>);
-mods.extendedcrafting.TableCrafting.addShaped("9c78b410-6746-40d6-898f-aa64fa22283e", 0, <item:envirocore:ionite_frame>, [
-	[<item:minecraft:lapis_block>, <item:envirocore:ionite_interconnect>, <item:envirocore:ionite_interconnect>, <item:envirocore:ionite_interconnect>, <item:envirocore:ionite_interconnect>, <item:envirocore:ionite_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:ionite_interconnect>, <item:envirocore:ionite_interconnect>, <item:envirocore:structure_panel>, <item:envirocore:ionite_interconnect>, <item:envirocore:ionite_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:ionite>, <item:envirocore:ionite_interconnect>, <item:envirocore:structure_panel>, <item:envirocore:ionite_interconnect>, <item:envirocore:ionite>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:envirocore:structure_panel>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:envirocore:structure_panel>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:minecraft:lapis_block>]
+craftingTable.addShaped("c9e94350-4339-46f0-b607-7c4923baec0a", <item:envirocore:ionite_frame>, [
+	[<item:minecraft:air>, <item:envirocore:ionite_interconnect>, <item:minecraft:air>], 
+	[<item:envirocore:ionite_crystal>, <item:envirocore:pladium_frame>, <item:envirocore:ionite_crystal>], 
+	[<item:minecraft:air>, <item:miniutilities:netherite_opinium_core>, <item:minecraft:air>]
 ]);
 
 craftingTable.removeRecipe(<item:envirocore:aethium_frame>);
-mods.extendedcrafting.TableCrafting.addShaped("d2e3e7a0-a795-409e-b18e-5806608a8323", 0, <item:envirocore:aethium_frame>, [
-	[<item:minecraft:lapis_block>, <item:envirocore:aethium_interconnect>, <item:envirocore:aethium_interconnect>, <item:envirocore:aethium_interconnect>, <item:envirocore:aethium_interconnect>, <item:envirocore:aethium_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:aethium_interconnect>, <item:envirocore:aethium_interconnect>, <item:envirocore:structure_panel>, <item:envirocore:aethium_interconnect>, <item:envirocore:aethium_interconnect>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:aethium>, <item:envirocore:aethium_interconnect>, <item:envirocore:structure_panel>, <item:envirocore:aethium_interconnect>, <item:envirocore:aethium>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:aethium>, <item:envirocore:aethium>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:aethium>, <item:envirocore:aethium>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:aethium>, <item:envirocore:aethium>, <item:envirocore:structure_panel>, <item:envirocore:aethium>, <item:envirocore:aethium>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:aethium>, <item:envirocore:aethium>, <item:envirocore:structure_panel>, <item:envirocore:aethium>, <item:envirocore:aethium>, <item:minecraft:lapis_block>], 
-	[<item:minecraft:lapis_block>, <item:envirocore:aethium>, <item:envirocore:aethium>, <item:envirocore:aethium>, <item:envirocore:aethium>, <item:envirocore:aethium>, <item:minecraft:lapis_block>]
+craftingTable.addShaped("ed5efb0d-0709-4e65-8404-3c84bb574e64", <item:envirocore:aethium_frame>, [
+	[<item:minecraft:air>, <item:envirocore:aethium_interconnect>, <item:minecraft:air>], 
+	[<item:envirocore:aethium_crystal>, <item:envirocore:ionite_frame>, <item:envirocore:aethium_crystal>], 
+	[<item:minecraft:air>, <item:miniutilities:emerald_opinium_core>, <item:minecraft:air>]
 ]);
 
+craftingTable.removeRecipe(<item:envirocore:nanorite_frame>);
+craftingTable.addShaped("d2cbc891-64fe-4121-8e87-7a979abcdbbc", <item:envirocore:nanorite_frame>, [
+	[<item:minecraft:air>, <item:envirocore:nanorite_interconnect>, <item:minecraft:air>], 
+	[<item:envirocore:nanorite_crystal>, <item:envirocore:aethium_frame>, <item:envirocore:nanorite_crystal>], 
+	[<item:minecraft:air>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:air>]
+]);
+
+craftingTable.removeRecipe(<item:envirocore:xerothium_frame>);
+craftingTable.addShaped("689c11bf-81ae-4ed0-8adb-87668795ed2c", <item:envirocore:xerothium_frame>, [
+	[<item:minecraft:air>, <item:envirocore:xerothium_interconnect>, <item:minecraft:air>], 
+	[<item:envirocore:xerothium_crystal>, <item:envirocore:nanorite_frame>, <item:envirocore:xerothium_crystal>], 
+	[<item:minecraft:air>, <item:miniutilities:the_final_opinium_core>, <item:minecraft:air>]
+]);

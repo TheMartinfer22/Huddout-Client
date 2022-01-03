@@ -13,15 +13,6 @@ craftingTable.removeRecipe(<item:mekanism:mekasuit_boots>);
 craftingTable.removeRecipe(<item:mekanism:digital_miner>);
 craftingTable.removeRecipe(<item:mekanism:atomic_disassembler>);
 
-craftingTable.removeRecipe(<item:envirotech:litherite_void_miner_ccu>);
-craftingTable.removeRecipe(<item:envirotech:erodium_void_miner_ccu>);
-craftingTable.removeRecipe(<item:envirotech:kyronite_void_miner_ccu>);
-craftingTable.removeRecipe(<item:envirotech:pladium_void_miner_ccu>);
-craftingTable.removeRecipe(<item:envirotech:ionite_void_miner_ccu>);
-craftingTable.removeRecipe(<item:envirotech:aethium_void_miner_ccu>);
-craftingTable.removeRecipe(<item:envirotech:nanorite_void_miner_ccu>);
-craftingTable.removeRecipe(<item:envirotech:xerothium_void_miner_ccu>);
-
 craftingTable.removeRecipe(<item:compactmachines:wall>);
 craftingTable.removeRecipe(<item:compactmachines:machine_normal>);
 craftingTable.removeRecipe(<item:compactmachines:machine_large>);
