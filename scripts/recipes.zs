@@ -72,10 +72,10 @@ craftingTable.addShaped("e1ceb6b8-333a-4856-af76-68d24b036082", <item:miniutilit
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:gold_opinium_core>);
-craftingTable.addShaped("93c097be-a129-4c9a-a01e-9959ba221e38", <item:miniutilities:gold_opinium_core>, [
-	[<item:silentgems:chaos_gold_ingot>, <item:miniutilities:iron_opinium_core>, <item:silentgems:chaos_gold_ingot>], 
+craftingTable.addShaped("c61108b0-99bc-4277-ab4e-cc6845b1211b", <item:miniutilities:gold_opinium_core>, [
+	[<item:silentgear:blaze_gold_ingot>, <item:miniutilities:iron_opinium_core>, <item:silentgear:blaze_gold_ingot>], 
 	[<item:miniutilities:iron_opinium_core>, <item:minecraft:air>, <item:miniutilities:iron_opinium_core>], 
-	[<item:silentgems:chaos_gold_ingot>, <item:miniutilities:iron_opinium_core>, <item:silentgems:chaos_gold_ingot>]
+	[<item:silentgear:blaze_gold_ingot>, <item:miniutilities:iron_opinium_core>, <item:silentgear:blaze_gold_ingot>]
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:diamond_opinium_core>);
@@ -86,10 +86,10 @@ craftingTable.addShaped("3ece7895-9a66-4317-89d4-c627da2b382b", <item:miniutilit
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:netherite_opinium_core>);
-craftingTable.addShaped("67925a58-8d96-4464-a4d2-ca6e9d4389f4", <item:miniutilities:netherite_opinium_core>, [
-	[<item:minecraft:netherite_block>, <item:miniutilities:diamond_opinium_core>, <item:minecraft:netherite_block>], 
+craftingTable.addShaped("cfbf2b6e-38e0-46b5-a116-f7e322f73c84", <item:miniutilities:netherite_opinium_core>, [
+	[<item:minecraft:netherite_ingot>, <item:miniutilities:diamond_opinium_core>, <item:minecraft:netherite_ingot>], 
 	[<item:miniutilities:diamond_opinium_core>, <item:minecraft:air>, <item:miniutilities:diamond_opinium_core>], 
-	[<item:minecraft:netherite_block>, <item:miniutilities:diamond_opinium_core>, <item:minecraft:netherite_block>]
+	[<item:minecraft:netherite_ingot>, <item:miniutilities:diamond_opinium_core>, <item:minecraft:netherite_ingot>]
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:emerald_opinium_core>);
@@ -491,12 +491,36 @@ craftingTable.removeRecipe(<item:envirocore:nanorite_frame>);
 craftingTable.addShaped("d2cbc891-64fe-4121-8e87-7a979abcdbbc", <item:envirocore:nanorite_frame>, [
 	[<item:minecraft:air>, <item:envirocore:nanorite_interconnect>, <item:minecraft:air>], 
 	[<item:envirocore:nanorite_crystal>, <item:envirocore:aethium_frame>, <item:envirocore:nanorite_crystal>], 
-	[<item:minecraft:air>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:air>]
+	[<item:minecraft:air>, <item:miniutilities:experience_opinium_core>, <item:minecraft:air>]
 ]);
 
 craftingTable.removeRecipe(<item:envirocore:xerothium_frame>);
 craftingTable.addShaped("689c11bf-81ae-4ed0-8adb-87668795ed2c", <item:envirocore:xerothium_frame>, [
 	[<item:minecraft:air>, <item:envirocore:xerothium_interconnect>, <item:minecraft:air>], 
 	[<item:envirocore:xerothium_crystal>, <item:envirocore:nanorite_frame>, <item:envirocore:xerothium_crystal>], 
-	[<item:minecraft:air>, <item:miniutilities:the_final_opinium_core>, <item:minecraft:air>]
+	[<item:minecraft:air>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:air>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped("a29c1c2c-9cdc-4aaf-8ac4-7296026b0bcf", 0, <item:powah:energy_cell_creative>, [
+	[<item:powah:energy_cell_nitro>, <item:mekanism:ultimate_energy_cube>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:elite_induction_cell>, <item:mekanism:elite_induction_cell>, <item:mekanism:elite_induction_cell>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:ultimate_energy_cube>, <item:powah:energy_cell_nitro>], 
+	[<item:powah:energy_cell_niotic>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:elite_energy_cube>, <item:mekanism:advanced_induction_cell>, <item:miniutilities:the_final_opinium_core>, <item:mekanism:advanced_induction_cell>, <item:mekanism:elite_energy_cube>, <item:mekanism:ultimate_induction_cell>, <item:powah:energy_cell_niotic>], 
+	[<item:powah:energy_cell_blazing>, <item:mekanism:elite_induction_cell>, <item:mekanism:advanced_induction_cell>, <item:mekanism:advanced_energy_cube>, <item:extendedcrafting:ultimate_singularity>, <item:mekanism:advanced_energy_cube>, <item:mekanism:advanced_induction_cell>, <item:mekanism:elite_induction_cell>, <item:powah:energy_cell_blazing>], 
+	[<item:powah:energy_cell_hardened>, <item:mekanism:elite_induction_cell>, <item:mekanism:advanced_induction_cell>, <item:mekanism:basic_induction_cell>, <item:mekanism:basic_energy_cube>, <item:mekanism:basic_induction_cell>, <item:mekanism:advanced_induction_cell>, <item:mekanism:elite_induction_cell>, <item:powah:energy_cell_hardened>], 
+	[<item:powah:energy_cell_basic>, <item:extendedcrafting:the_ultimate_ingot>, <item:miniutilities:the_final_opinium_core>, <item:extendedcrafting:ultimate_singularity>, <item:miniutilities:the_final_opinium_core>, <item:extendedcrafting:ultimate_singularity>, <item:miniutilities:the_final_opinium_core>, <item:extendedcrafting:the_ultimate_ingot>, <item:powah:energy_cell_basic>], 
+	[<item:powah:energy_cell_hardened>, <item:mekanism:elite_induction_cell>, <item:mekanism:advanced_induction_cell>, <item:mekanism:basic_induction_cell>, <item:mekanism:basic_energy_cube>, <item:mekanism:basic_induction_cell>, <item:mekanism:advanced_induction_cell>, <item:mekanism:elite_induction_cell>, <item:powah:energy_cell_hardened>], 
+	[<item:powah:energy_cell_blazing>, <item:mekanism:elite_induction_cell>, <item:mekanism:advanced_induction_cell>, <item:mekanism:advanced_energy_cube>, <item:extendedcrafting:ultimate_singularity>, <item:mekanism:advanced_energy_cube>, <item:mekanism:advanced_induction_cell>, <item:mekanism:elite_induction_cell>, <item:powah:energy_cell_blazing>], 
+	[<item:powah:energy_cell_niotic>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:elite_energy_cube>, <item:mekanism:advanced_induction_cell>, <item:miniutilities:the_final_opinium_core>, <item:mekanism:advanced_induction_cell>, <item:mekanism:elite_energy_cube>, <item:mekanism:ultimate_induction_cell>, <item:powah:energy_cell_niotic>], 
+	[<item:powah:energy_cell_nitro>, <item:mekanism:ultimate_energy_cube>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:elite_induction_cell>, <item:mekanism:elite_induction_cell>, <item:mekanism:elite_induction_cell>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:ultimate_energy_cube>, <item:powah:energy_cell_nitro>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped("e450eba7-0675-4729-ab4e-35ca4fe954f1", 0, <item:refinedstorage:creative_storage_disk>, [
+	[<item:extrastorage:storagepart_16384k>, <item:extrastorage:storagepart_16384k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_256k>, <item:extendedcrafting:ultimate_singularity>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_16384k>, <item:extrastorage:storagepart_16384k>], 
+	[<item:extrastorage:storagepart_16384k>, <item:extrastorage:storagepart_4096k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_4096k>, <item:extrastorage:storagepart_16384k>], 
+	[<item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_4096k>, <item:extrastorage:storagepart_1024k>, <item:miniutilities:the_final_opinium_core>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_4096k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_1024k>], 
+	[<item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_4096k>, <item:extendedcrafting:the_ultimate_ingot>, <item:extrastorage:storagepart_4096k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_256k>], 
+	[<item:extendedcrafting:ultimate_singularity>, <item:extrastorage:storagepart_256k>, <item:miniutilities:the_final_opinium_core>, <item:extendedcrafting:the_ultimate_ingot>, <item:refinedstorage:storage_housing>, <item:extendedcrafting:the_ultimate_ingot>, <item:miniutilities:the_final_opinium_core>, <item:extrastorage:storagepart_256k>, <item:extendedcrafting:ultimate_singularity>], 
+	[<item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_4096k>, <item:extendedcrafting:the_ultimate_ingot>, <item:extrastorage:storagepart_4096k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_256k>], 
+	[<item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_4096k>, <item:extrastorage:storagepart_1024k>, <item:miniutilities:the_final_opinium_core>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_4096k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_1024k>], 
+	[<item:extrastorage:storagepart_16384k>, <item:extrastorage:storagepart_4096k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_4096k>, <item:extrastorage:storagepart_16384k>], 
+	[<item:extrastorage:storagepart_16384k>, <item:extrastorage:storagepart_16384k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_256k>, <item:extendedcrafting:ultimate_singularity>, <item:extrastorage:storagepart_256k>, <item:extrastorage:storagepart_1024k>, <item:extrastorage:storagepart_16384k>, <item:extrastorage:storagepart_16384k>]
 ]);
