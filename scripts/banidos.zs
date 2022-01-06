@@ -14,3 +14,7 @@ mods.jei.JEI.addInfo(<item:inventorypets:pet_qcm>, ["Item Banido"]);
 craftingTable.removeRecipe(<item:botania:laputa_shard>);
 mods.jei.JEI.addInfo(<item:botania:laputa_shard>, ["Item Banido"]);
 
+craftingTable.removeRecipe(<item:create:schematicannon>);
+mods.jei.JEI.addInfo(<item:create:schematicannon>, ["Item Banido"]);
+
+
