@@ -1,6 +1,6 @@
 {
   // This is only as a reminder that the config changed. Turn to true if you accept that I'm the new config
-  "reminder": true,
+  "reminder": false,
   
   // The amount of mana used in alfheim market to trade items [Default: 500]
   "AlfheimMarket": {
