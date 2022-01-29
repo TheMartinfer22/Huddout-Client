@@ -30,14 +30,14 @@
 	#Enable/disable Fountain Jets spraying
 	"Fountain Jets" = true
 	#Enable/disable Water Splash effects when water spills down
-	"Waterfall Splash" = false
+	"Waterfall Splash" = true
 	#Limit sounds to waterfall strengths above this value
 	#Range: 0 ~ 10
 	"Waterfall Strength Cutoff" = 0
 	#Enable/disable Minecraft's Underwater particle effect
-	"Disable Underwater Particles" = true
+	"Disable Underwater Particles" = false
 	#Enable/disable Water Ripple effects for rain and water splash
-	"Water Ripples" = false
+	"Water Ripples" = true
 	#Enable/disable Aurora processing
 	Auroras = true
 	#Cap the maximum bands that will be rendered
@@ -66,13 +66,13 @@
 ["Sound Options"]
 	#Scaling factor to apply to biome sounds
 	#Range: 0 ~ 100
-	"Biome Sound Volume" = 60
+	"Biome Sound Volume" = 100
 	#Scaling factor to apply to spot sounds
 	#Range: 0 ~ 100
-	"Spot Sound Volume" = 60
+	"Spot Sound Volume" = 100
 	#Scaling factor to apply to waterfall sounds
 	#Range: 0 ~ 100
-	"Waterfall Volume" = 60
+	"Waterfall Volume" = 100
 	#Occlude WATERFALL sounds
 	"Occlude WATERFALL sounds" = false
 

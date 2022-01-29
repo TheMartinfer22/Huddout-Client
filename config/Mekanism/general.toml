@@ -4,7 +4,7 @@
 	#Log Mekanism packet names. Debug setting.
 	logPackets = false
 	#Disable to make the anchor upgrade not do anything.
-	allowChunkloading = false
+	allowChunkloading = true
 	#How many ticks must pass until a block's active state is synced with the client, if it has been rapidly changing.
 	blockDeactivationDelay = 60
 	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
@@ -114,7 +114,7 @@
 	#Laser Settings
 	[general.laser]
 		#If enabled, lasers can break blocks and the flamethrower starts fires.
-		aestheticWorldDamage = false
+		aestheticWorldDamage = true
 		#How far (in blocks) a laser can travel.
 		range = 64
 		#Energy needed to destroy or attract blocks with a Laser (per block hardness level).

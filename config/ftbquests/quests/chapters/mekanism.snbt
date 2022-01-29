@@ -1,0 +1,61 @@
+{
+	id: "1419F5EC5012400B"
+	group: "4FCBF57EFAF8C3EC"
+	order_index: 0
+	filename: "mekanism"
+	title: "Mekanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "6E26D34C1CEE48F5"
+			tasks: [{
+				id: "679E5F7AA0EEEDC6"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "568033C5722FC4F4"
+			tasks: [{
+				id: "7DC715CCFC112E10"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "5148E5425FF759C2"
+			tasks: [{
+				id: "08E23D5927900AA9"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "1EF8DF6074E43206"
+			tasks: [{
+				id: "681153F71D224A41"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "64BEBD5D57309C39"
+			tasks: [{
+				id: "6A38B1F23DD9D30F"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+		}
+	]
+}

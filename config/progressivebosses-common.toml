@@ -23,19 +23,19 @@
 		"Spawn Radius Player Check" = 128
 		#If false and there's more than 1 player around the Wither, difficulty will be the average of all the players' difficulty instead of summing them.
 		"Sum Spawned Wither Difficulty" = false
+		#Percentage bonus difficulty added to the Wither when more than one player is present. Each player past the first one will add this percentage to the difficulty.
+		#Range: 0.0 ~ 24.0
+		"Bonus Difficulty per Player" = 0.25
 		#The Maximum difficulty (times spawned) reachable by Wither.
 		#Range: > 1
 		"Max Difficulty" = 24
 		#How much difficulty will players start with when joining a world? Note that this will apply when the first Wither is spawned so if the player has already spawned one this will not apply.
 		#Range: > 0
-		"Starting Difficulty" = 3
-		#Entities that extend the vanilla Wither but shouldn't be taken into account by the mod (e.g. Botania's Pink Wither).
-		"Entity Blacklist" = ["botania:pink_wither"]
-		#Percentage bonus difficulty added to the Wither when more than one player is present. Each player past the first one will add this percentage to the difficulty.
-		#Range: 0.0 ~ 24.0
-		"Bonus Difficulty per Player" = 0.25
+		"Starting Difficulty" = 0
 		#Set to false to disable the first Wither summoned message.
 		"Show First Summoned Wither Message" = true
+		#Entities that extend the vanilla Wither but shouldn't be taken into account by the mod (e.g. Botania's Pink Wither).
+		"Entity Blacklist" = ["botania:pink_wither"]
 
 	#Handles various small features, such as the explosion
 	[Wither.Misc]
@@ -209,15 +209,15 @@
 	[Dragon."Difficulty Settings"]
 		#If false and there's more than 1 player around the Dragon, difficulty will be the average of all the players' difficulty instead of summing them.
 		"Sum Killed Dragons Difficulty" = false
+		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
+		#Range: 0.0 ~ 24.0
+		"Bonus Difficulty per Player" = 0.25
 		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
 		#Range: > 1
 		"Max Difficulty" = 24
 		#How much difficulty will players start with when joining a world? Note that this will apply when the player joins the world if the current player difficulty is below this value.
 		#Range: > 0
 		"Starting Difficulty" = 0
-		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
-		#Range: 0.0 ~ 24.0
-		"Bonus Difficulty per Player" = 0.25
 		#Set to false to disable the first Dragon killed message.
 		"Show First Killed Dragon Message" = true
 
@@ -357,6 +357,8 @@
 		#Max number of bonus crystals that can spawn inside the towers.
 		#Range: 0 ~ 10
 		"Max Bonus Crystals" = 5
+		#Everytime the dragon is hit (when below 20% of health) there's a chance to to trigger a Crystal respawn Phase. The phase can only happen once. The chance is 0% when health >= 20% and 100% when health <= 5%.
+		"Enable crystal respawn" = true
 		#Difficulty multiplied by this number will output how many tries will the dragon take to respawn crystals. Tries are capped between 1 and 100.
 		#Range: 0.0 ~ 100.0
 		"Crystal Respawn Multiplier" = 0.6
@@ -365,8 +367,6 @@
 		"Crystal Respawn Inside Tower Chance" = 0.005
 		#Crystals can no longer be destroyed by other explosions.
 		"Explosion Immune" = true
-		#Everytime the dragon is hit (when below 20% of health) there's a chance to to trigger a Crystal respawn Phase. The phase can only happen once. The chance is 0% when health >= 20% and 100% when health <= 5%.
-		"Enable crystal respawn" = true
 
 ["Elder Guardian"]
 	#Bonus Health and Health regeneration.

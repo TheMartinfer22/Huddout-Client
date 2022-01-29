@@ -10,6 +10,9 @@
 	#Enable Weaponsmith, Fletcher, Armorer and Leatherworker Villagers trading Dungeons Gear items. 
 	#If you have other mods messing with the trades of those professions or simply don't want it, disable this feature. [true / false]
 	enableVillagerTrades = true
+	#Enable Friendly Fire on Pets 
+	#If you dislike (or outright hate) your pets and would like to kill them, enable this feature. [true / false]
+	enableFriendlyPetFire = false
 	#Enable Librarian Villagers trading books enchanted with this mod's enchantments. 
 	#Disable this feature if you want to prevent this. [true / false]
 	enableEnchantmentTrades = true
@@ -62,9 +65,6 @@
 	#The emerald value for an artifact [0-64, default: 24]
 	#Range: 0 ~ 64
 	artifactValue = 24
-	#Enable Friendly Fire on Pets 
-	#If you dislike (or outright hate) your pets and would like to kill them, enable this feature. [true / false]
-	enableFriendlyPetFire = false
 
 #Compatibility Configuration
 [compatibility_configuration]

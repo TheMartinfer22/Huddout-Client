@@ -41,7 +41,7 @@ disabled = false
 #If the voice chat should use semi 3D stereo sound
 stereo = true
 #If the voice chat icons should be hidden
-hide_icons = true
+hide_icons = false
 #If the group HUD should be visible
 show_group_hud = true
 #If the own icon should be shown when in a group

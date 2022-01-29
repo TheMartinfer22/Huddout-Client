@@ -33,7 +33,7 @@
 	#Skips spawning drops in world adding them directly to your inventory
 	"Auto Pickup" = false
 	#Allow players to use shape mining
-	"Allow Shapes" = false
+	"Allow Shapes" = true
 	#How many excavations should be kept in undo history (may lead to exploits or instability)
 	#Range: > 0
 	"Max Undos" = 3

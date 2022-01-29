@@ -24,10 +24,10 @@
 	"Flame Lily Generation" = true
 	#How much FE should the Solar Panel Generate?
 	#Range: 0 ~ 1000000
-	"Solar Panel Generation" = 2
+	"Solar Panel Generation" = 4
 	#How much FE should the Lunar Panel Generate?
 	#Range: 0 ~ 1000000
-	"Lunar Panel Generation" = 2
+	"Lunar Panel Generation" = 4
 	#How many Panels should it take to increase the multiplier by 1?
 	#Range: 1 ~ 1000000
 	"Panel Multiplier Amount" = 50
@@ -37,16 +37,16 @@
 	"Ender Ore Generation" = true
 	#What should the Vein Size of Ender Ore be?
 	#Range: 0 ~ 256
-	"Ender Ore Vein" = 3
+	"Ender Ore Vein" = 12
 	#What should the minimum generation height be for Ender Ore?
 	#Range: 0 ~ 256
 	"Ender Ore Min" = 0
 	#What should the maximum generation height be for Ender Ore?
 	#Range: 0 ~ 256
-	"Ender Ore Max" = 25
+	"Ender Ore Max" = 55
 	#How many times should Ender Ore try to generate?
 	#Range: 0 ~ 255
-	"Ender Ore Gen Attempts" = 4
+	"Ender Ore Gen Attempts" = 12
 
 ["Blessed Earth Settings"]
 	#How long should it minimum wait before trying to spawn
@@ -57,7 +57,7 @@
 	"Area Size for entity count" = 2
 	#At what amount of entities in the area should mob spawning be halted
 	#Range: 1 ~ 10
-	"Mob cap for Area" = 1
+	"Mob cap for Area" = 3
 
 ["Blursed Earth Settings"]
 	#How long should it minimum wait before trying to spawn
@@ -68,7 +68,7 @@
 	"Area Size for entity count" = 2
 	#At what amount of entities in the area should mob spawning be halted
 	#Range: 1 ~ 10
-	"Mob cap for Area" = 1
+	"Mob cap for Area" = 3
 
 ["Cursed Earth Settings"]
 	#How long should it minimum wait before trying to spawn
@@ -79,5 +79,5 @@
 	"Area Size for entity count" = 2
 	#At what amount of entities in the area should mob spawning be halted
 	#Range: 1 ~ 10
-	"Mob cap for Area" = 1
+	"Mob cap for Area" = 3
 

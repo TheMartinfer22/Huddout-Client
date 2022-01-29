@@ -69,6 +69,10 @@ displayTooLargePackets = true
 	slowArmorStands = true
 	#Enables dynamic entity rendering, stops non-visible entities from beeing rendered but can sometimes cause a slight phasing-in delay. Usually a large boost to fps, default = true. Require restart
 	enableDynamicEntityRendering = true
+	#List of entities excluded from beeing affected by dynamic entity rendering, by entity ID: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
+	excludedRenderHidingMobs = []
+	#Should entities with glowing effect always be rendered?. default = true
+	alwaysglow = true
 	#Enables dynamic update distance, it will reduces entity updates when far away from the player, respecting the entities own update range. default = true. Requires restart
 	enableDynamicEntityUpdates = true
 	#Entity dynamic update distance setting, reduces the entities own update range from players at which entities get slowed down, in chunks(16blocks). The higher you set this, the closer to the player entities will get slower updates. Default = 0
@@ -76,10 +80,6 @@ displayTooLargePackets = true
 	entityUpdateDistanceReduction = 0
 	#List of entities excluded from beeing affected by dynamic entity updates: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
 	excludedTickDistanceMobs = []
-	#List of entities excluded from beeing affected by dynamic entity rendering, by entity ID: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
-	excludedRenderHidingMobs = []
-	#Should entities with glowing effect always be rendered?. default = true
-	alwaysglow = true
 
 ["Entity AI Settings"]
 	#Sets the tick interval in which non-running AI tasks are rechecked. Vanilla default is 1(starting with 1.13+), this mods suggested default is 4(as it was in vanilla 1.12)
@@ -100,7 +100,7 @@ displayTooLargePackets = true
 
 ["General performance improvements settings"]
 	#Enable FPS improvements, default = true
-	betterFps = false
+	betterFps = true
 	#Reduces crafting lag by caching recipe lookups, helps a lot with autocrafting/crafting related lag. default = true
 	cacheRecipes = true
 	#Enable fast spawn radius check, this makes entity spawn mechanics lag less. default = true

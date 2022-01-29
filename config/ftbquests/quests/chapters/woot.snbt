@@ -1,0 +1,10 @@
+{
+	id: "495B596C027AD46B"
+	group: "6A02CF9EBD79DC0A"
+	order_index: 1
+	filename: "woot"
+	title: "Woot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

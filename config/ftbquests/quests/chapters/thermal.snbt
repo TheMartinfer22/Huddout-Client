@@ -1,0 +1,19 @@
+{
+	id: "4D2FA7E2A68E1B92"
+	group: "4FCBF57EFAF8C3EC"
+	order_index: 1
+	filename: "thermal"
+	title: "Thermal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "3FF26A54867B8E2D"
+		tasks: [{
+			id: "2DF394B981C80793"
+			type: "item"
+			item: "thermal:machine_frame"
+		}]
+	}]
+}

@@ -1,0 +1,282 @@
+{
+	id: "157F30A42E17F690"
+	group: "2FD49F470B9B7EB4"
+	order_index: 1
+	filename: "idade_da_pedra"
+	title: "Idade da pedra"
+	icon: "minecraft:cobblestone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "6D4F9FD2BE7F6D28"
+			tasks: [
+				{
+					id: "4CDE27A529638FC5"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64L
+				}
+				{
+					id: "36AF82C5D290D0AC"
+					type: "item"
+					item: "minecraft:granite"
+					count: 64L
+				}
+				{
+					id: "238406BBBCCA6DE2"
+					type: "item"
+					item: "minecraft:diorite"
+					count: 64L
+				}
+				{
+					id: "07676C00B270BCBB"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 64L
+				}
+				{
+					id: "467419FCD20FB9E6"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 64L
+				}
+				{
+					id: "29EACE06EF0200C7"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "6C3A8653014743F7"
+					type: "pmmo:levelreward"
+					auto: "invisible"
+					skill: "mining"
+					amount: 2.0d
+				}
+				{
+					id: "77E36E349BF46F99"
+					type: "item"
+					item: {
+						id: "mekanismtools:stone_paxel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["6D4F9FD2BE7F6D28"]
+			id: "548F0F6E0BEC1867"
+			tasks: [
+				{
+					id: "3C9ACAA2AD00347A"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64L
+				}
+				{
+					id: "4CC7E272DBA96557"
+					type: "item"
+					item: "minecraft:red_sand"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "3E083A3B5E6EA85F"
+					type: "item"
+					item: "minecraft:glass"
+					count: 256
+				}
+				{
+					id: "6E8A720620E1DB5F"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "farming"
+					amount: 500.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["6D4F9FD2BE7F6D28"]
+			id: "17F902F9CB6B4AC7"
+			tasks: [{
+				id: "1BE502CC8AD721C8"
+				type: "item"
+				item: "minecraft:furnace"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "48B5B5014BDD0940"
+					type: "item"
+					item: "minecraft:blast_furnace"
+					count: 16
+				}
+				{
+					id: "329BFE033B03CADC"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "smithing"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["17F902F9CB6B4AC7"]
+			id: "11CF94AEDEC672E4"
+			tasks: [{
+				id: "3F1B05F50F2FC942"
+				type: "item"
+				item: "minecraft:blast_furnace"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "1BB3190AD6CD7CFA"
+					type: "item"
+					item: "thermal:machine_furnace"
+				}
+				{
+					id: "5F0209832DD6293B"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "smithing"
+					amount: 400.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["6D4F9FD2BE7F6D28"]
+			id: "15ECDD59BFC63D36"
+			tasks: [
+				{
+					id: "64812AB221B0816D"
+					type: "item"
+					item: {
+						id: "minecraft:stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "329F3F45050EAB14"
+					type: "item"
+					item: {
+						id: "minecraft:stone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D78CB63752843F1"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C88253EEB40E479"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C4143C51F2DD97E"
+					type: "item"
+					item: {
+						id: "minecraft:stone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7CB49548A219CB7D"
+					type: "item"
+					item: {
+						id: "mekanismtools:stone_paxel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "586DCF1C43A51534"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "mining"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "1C6CDEDA247C0D41"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "combat"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "0002F66BA4AC1E90"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "woodcutting"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "44542F1B3B59F502"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "farming"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "4DD49DC60BD51301"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "excavation"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+	]
+}
