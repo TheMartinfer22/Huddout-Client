@@ -115,7 +115,7 @@
 	[none."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -139,7 +139,7 @@
 	[taiga."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -229,7 +229,7 @@
 	[extreme_hills."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -319,7 +319,7 @@
 	[jungle."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -409,7 +409,7 @@
 	[mesa."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -499,7 +499,7 @@
 	[plains."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -589,7 +589,7 @@
 	[savanna."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -679,7 +679,7 @@
 	[icy."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -835,7 +835,7 @@
 	[the_end."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -859,7 +859,7 @@
 	[beach."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -949,7 +949,7 @@
 	[forest."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1039,7 +1039,7 @@
 	[ocean."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1129,7 +1129,7 @@
 	[desert."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1219,7 +1219,7 @@
 	[river."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1309,7 +1309,7 @@
 	[swamp."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1465,7 +1465,7 @@
 	[mushroom."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 0
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1555,7 +1555,7 @@
 	[nether."mana-and-artifice:lantern_wraith"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 4
+		spawnWeight = 2
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1

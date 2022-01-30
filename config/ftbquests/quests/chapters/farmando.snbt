@@ -1,0 +1,91 @@
+{
+	id: "448F273CA4CB419D"
+	group: "2FD49F470B9B7EB4"
+	order_index: 3
+	filename: "farmando"
+	title: "Farmando"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "4FB5C5A38A8F6244"
+			tasks: [{
+				id: "1A3624F69538E5D6"
+				type: "item"
+				item: "minecraft:sugar_cane"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "5F713E22EFD1300B"
+			tasks: [{
+				id: "6E0A50813B40D06F"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "4D62C09069D44967"
+			tasks: [{
+				id: "16828F7530E42DAE"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "07FDB4F9C07B35DD"
+			tasks: [{
+				id: "5B4984099CB2F136"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			id: "2B3FF3708750BA37"
+			tasks: [{
+				id: "30EE29022080E66D"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "4C164B89CD8054F9"
+			tasks: [{
+				id: "7A93A0715E6CE70A"
+				type: "item"
+				item: "minecraft:beetroot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "306C7383318F978E"
+			tasks: [{
+				id: "0A4F049718EEE5B9"
+				type: "item"
+				item: "minecraft:sweet_berries"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "4C38DCDD42C1353E"
+			tasks: [{
+				id: "75446AD02E1DEB30"
+				type: "item"
+				item: "minecraft:melon_slice"
+			}]
+		}
+	]
+}

@@ -1,0 +1,424 @@
+{
+	id: "2647BD63069E1095"
+	group: "2FD49F470B9B7EB4"
+	order_index: 0
+	filename: "o_comeo_da_evoluo"
+	title: "O começo da evolução"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Pegando no Tronco !!"
+			x: 0.0d
+			y: 0.0d
+			id: "03F48592E9B2D485"
+			tasks: [
+				{
+					id: "1FA2C2421FBDA2EB"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 64L
+				}
+				{
+					id: "15D09857308D5504"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 64L
+				}
+				{
+					id: "6A22BFDE632CFAF9"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 64L
+				}
+				{
+					id: "072C5D6C0B9BB6C6"
+					type: "item"
+					item: "minecraft:jungle_log"
+					count: 64L
+				}
+				{
+					id: "4E2D198083751DBB"
+					type: "item"
+					item: "minecraft:acacia_log"
+					count: 64L
+				}
+				{
+					id: "6385DAE599EB6280"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "4130BD867724B5D1"
+					type: "pmmo:xpreward"
+					team_reward: false
+					auto: "enabled"
+					skill: "woodcutting"
+					amount: 250.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "27E4E513F6696EF9"
+					type: "pmmo:xpreward"
+					team_reward: false
+					auto: "invisible"
+					skill: "building"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "0504360C46A1CD90"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "combat"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "3617D53E8E165D2A"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "fishing"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "6FA0FF58BB22D28D"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "smithing"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "7453C93BD1A709B4"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "agility"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "32D6B2A3C326AB28"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "magic"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "77EA087175251C1E"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "alchemy"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "63DFF9844A03E494"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "endurance"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["03F48592E9B2D485"]
+			dependency_requirement: "one_completed"
+			id: "2423199707381A50"
+			tasks: [{
+				id: "2FBF19554D0288DE"
+				type: "item"
+				icon: "minecraft:oak_planks"
+				item: "minecraft:oak_planks"
+				count: 256L
+				consume_items: false
+			}]
+			rewards: [
+				{
+					id: "293FE21431E51F25"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "building"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "6431BC79B85F727A"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "woodcutting"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "2595403A4921856E"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "crafting"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["03F48592E9B2D485"]
+			dependency_requirement: "all_started"
+			id: "04C93A746C7718D4"
+			tasks: [
+				{
+					id: "6B5CC1551BC403F3"
+					type: "item"
+					item: "minecraft:oak_leaves"
+					count: 64L
+				}
+				{
+					id: "3267BB3770DFDFC3"
+					type: "item"
+					item: "minecraft:spruce_leaves"
+					count: 64L
+				}
+				{
+					id: "14CC8A6485C26E2D"
+					type: "item"
+					item: "minecraft:birch_leaves"
+					count: 64L
+				}
+				{
+					id: "5B67BFCE166F49C1"
+					type: "item"
+					item: "minecraft:jungle_leaves"
+					count: 64L
+				}
+				{
+					id: "2D2B25D39C31E989"
+					type: "item"
+					item: "minecraft:acacia_leaves"
+					count: 64L
+				}
+				{
+					id: "0CF7CB3428776754"
+					type: "item"
+					item: "minecraft:dark_oak_leaves"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "5EE216F552B148CF"
+					type: "item"
+					item: "silentgear:netherwood_sapling"
+					count: 8
+				}
+				{
+					id: "045EF87A6E6EBABB"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "woodcutting"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "6F657E428B1688E9"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "farming"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["04C93A746C7718D4"]
+			id: "63FF82963EDBE825"
+			tasks: [{
+				id: "03AA919443241370"
+				type: "item"
+				item: "minecraft:apple"
+				count: 64L
+			}]
+			rewards: [{
+				id: "697FCA3CC2F6726E"
+				type: "item"
+				item: "cyclic:apple_diamond"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["2423199707381A50"]
+			id: "55CC5EBF8106AE42"
+			tasks: [
+				{
+					id: "5EDC2A1D12B7A1B4"
+					type: "item"
+					item: {
+						id: "tconstruct:sword"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.5f
+								"tconstruct:durability": 1.1f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.6f
+								"tconstruct:mining_speed": 1.0f
+								"tconstruct:attack_damage": 3.0f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 66.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:silky_shears"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "24D0C5FBFABFFC3C"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4633BDB19A53FD2A"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00A8AA4F1036A15D"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "79028E9BB6C989F6"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6F41F770E5619797"
+					type: "item"
+					item: {
+						id: "mekanismtools:wood_paxel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A20A6CCF8EABC39"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "37623F33F9204C99"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "combat"
+					amount: 500.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: [
+				"2423199707381A50"
+				"6D4F9FD2BE7F6D28"
+			]
+			id: "109E4CAF434EF58D"
+			tasks: [{
+				id: "393E5E56B0594DEF"
+				type: "item"
+				item: "minecraft:chest"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "43E903470861D697"
+					type: "item"
+					item: "storagedrawers:controller"
+				}
+				{
+					id: "4B3B4116A7F7856A"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "7FD295E563BCBD1E"
+					type: "item"
+					item: "storagedrawers:quantify_key"
+				}
+				{
+					id: "406549A0DC49BF80"
+					type: "item"
+					item: "storagedrawers:oak_full_drawers_4"
+					count: 8
+				}
+				{
+					id: "66AFFE19EB9255E2"
+					type: "item"
+					item: "storagedrawers:emerald_storage_upgrade"
+					count: 8
+				}
+			]
+		}
+	]
+}

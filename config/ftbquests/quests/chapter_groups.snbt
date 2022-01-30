@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "2FD49F470B9B7EB4", title: "O Inicio" }
+		{ id: "4FCBF57EFAF8C3EC", title: "Meio" }
+		{ id: "6A02CF9EBD79DC0A", title: "Fim" }
+	]
+}

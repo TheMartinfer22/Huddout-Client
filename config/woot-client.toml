@@ -2,7 +2,7 @@
 #Settings for the anvil
 [anvil]
 	#Anvil generates particles when correctly placed
-	particles = false
+	particles = true
 
 #Settings for the layout guide
 [layout]

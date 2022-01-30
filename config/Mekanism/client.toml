@@ -31,9 +31,9 @@
 	#Enable item information HUD during gameplay
 	enableHUD = true
 	#How far (in blocks) from the player radiation particles can spawn.
-	radiationParticleRadius = 10
+	radiationParticleRadius = 30
 	#How many particles spawn when rendering radiation effects (scaled by radiation level).
-	radiationParticleCount = 30
+	radiationParticleCount = 100
 	#Color of energy in item durability display.
 	energyColor = 3997338
 	#Range at which Tile Entity Renderer's added by Mekanism can render at, for example the contents of multiblocks. Vanilla defaults the rendering range for TERs to 64 for most blocks, but uses a range of 256 for beacons and end gateways.

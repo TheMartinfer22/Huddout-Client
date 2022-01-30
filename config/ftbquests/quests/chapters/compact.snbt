@@ -1,0 +1,71 @@
+{
+	id: "566B04D1686E0913"
+	group: "2FD49F470B9B7EB4"
+	order_index: 6
+	filename: "compact"
+	title: "Compact"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "4A9CA941FEF640B9"
+			tasks: [{
+				id: "11EC3D2060A7E3D6"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "0D416DC56091103C"
+			tasks: [{
+				id: "131C8028C4A865A7"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "42C179AFA9778C99"
+			tasks: [{
+				id: "5E26FEBAD4BCF250"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "6A5BCFBDC31EF438"
+			tasks: [{
+				id: "374BAA60623319E9"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "32BF3A17BA47D699"
+			tasks: [{
+				id: "7C298FC0A10AD94B"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			id: "657E3994BB9AD8DB"
+			tasks: [{
+				id: "4918679E69ADC13E"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+	]
+}

@@ -1,0 +1,111 @@
+{
+	id: "6935745C1E573C56"
+	group: "2FD49F470B9B7EB4"
+	order_index: 5
+	filename: "matando_mobs_2"
+	title: "Matando mobs 2"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["5FEA7CA20AEEF883"]
+			id: "0BD4F3F8ED820127"
+			tasks: [{
+				id: "69973F5E74B47671"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 16L
+			}]
+			rewards: [{
+				id: "2C91E93FFB760F7E"
+				type: "pmmo:xpreward"
+				auto: "invisible"
+				skill: "combat"
+				amount: 450.0d
+				ignoreBonuses: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["0BD4F3F8ED820127"]
+			id: "3A10AC7D23B8A2E4"
+			tasks: [{
+				id: "1D2121EA15A02D4C"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 32L
+			}]
+			rewards: [{
+				id: "17A4BE9461C904DF"
+				type: "pmmo:xpreward"
+				auto: "invisible"
+				skill: "combat"
+				amount: 450.0d
+				ignoreBonuses: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["0BD4F3F8ED820127"]
+			id: "30B312EEEBB397A6"
+			tasks: [{
+				id: "6178623651DDE63E"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 32L
+			}]
+			rewards: [{
+				id: "7ECA77604DBA507A"
+				type: "pmmo:xpreward"
+				auto: "invisible"
+				skill: "combat"
+				amount: 450.0d
+				ignoreBonuses: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["0BD4F3F8ED820127"]
+			id: "034FEAE5541F3CD8"
+			tasks: [{
+				id: "419CD01882B5ACB3"
+				type: "kill"
+				entity: "minecraft:piglin_brute"
+				value: 32L
+			}]
+			rewards: [{
+				id: "003E9F285CF82A98"
+				type: "pmmo:xpreward"
+				auto: "invisible"
+				skill: "combat"
+				amount: 450.0d
+				ignoreBonuses: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["0BD4F3F8ED820127"]
+			id: "6F860E93DAF3C6FF"
+			tasks: [{
+				id: "5962E1B0C2766893"
+				type: "kill"
+				entity: "minecraft:zombified_piglin"
+				value: 32L
+			}]
+			rewards: [{
+				id: "331EAE706ADAFF12"
+				type: "pmmo:xpreward"
+				auto: "invisible"
+				skill: "combat"
+				amount: 450.0d
+				ignoreBonuses: false
+			}]
+		}
+	]
+}

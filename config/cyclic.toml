@@ -63,9 +63,9 @@
 		#True means only players with OP can use this /cyclic command
 		health = true
 		#True means only players with OP can use this /cyclic command
-		home = false
+		home = true
 		#True means only players with OP can use this /cyclic command
-		hunger = false
+		hunger = true
 		#True means only players with OP can use this /cyclic command
 		dev = false
 		#True means only players with OP can use this /cyclic command
@@ -113,40 +113,40 @@
 		[cyclic.energy.cost]
 			#Power per recipe in the packager
 			#Range: 0 ~ 64000
-			packager = 100
+			packager = 50
 			#Power per use disenchanter
 			#Range: 0 ~ 64000
-			disenchanter = 5000
+			disenchanter = 2500
 			#Power per use user
 			#Range: 0 ~ 64000
-			user = 100
+			user = 50
 			#Power per repair anvil
 			#Range: 0 ~ 64000
-			anvil = 500
+			anvil = 250
 			#Power per recipe melter
 			#Range: 0 ~ 64000
-			melter = 10000
+			melter = 5000
 			#Power per recipe solidifier
 			#Range: 0 ~ 64000
-			solidifier = 10000
+			solidifier = 5000
 			#Power per use dropper
 			#Range: 0 ~ 64000
-			dropper = 100
+			dropper = 50
 			#Power per use forester
 			#Range: 0 ~ 64000
-			forester = 100
+			forester = 50
 			#Power per use harvester
 			#Range: 0 ~ 64000
-			harvester = 500
+			harvester = 250
 			#Power per tick while in use
 			#Range: 0 ~ 64000
 			beacon = 0
 			#Power per use miner
 			#Range: 0 ~ 64000
-			miner = 20
+			miner = 10
 			#Power per use uncraft
 			#Range: 0 ~ 64000
-			uncraft = 9000
+			uncraft = 1000
 			#Power per use collector_fluid
 			#Range: 0 ~ 64000
 			collector_fluid = 500
@@ -155,7 +155,7 @@
 			peat_farm = 500
 			#Power per use crafter
 			#Range: 0 ~ 64000
-			crafter = 800
+			crafter = 500
 			#Power per tick while in use
 			#Range: 0 ~ 64000
 			structure = 10

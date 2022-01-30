@@ -1,7 +1,7 @@
 
 [client]
 	#Controls whether Psi's shaders are used. If you're using the GLSL Shaders mod and are having graphical troubles with Psi stuff, you may want to turn this off.
-	useShaders = false
+	useShaders = true
 	#Controls whether the Psi Bar should be rendered on the right of the screen or not.
 	psiBarOnRight = true
 	#Controls whether the Psi Bar should be hidden if it's full and the player is holding an item that uses Psi.
@@ -10,7 +10,7 @@
 	#Range: 1 ~ 5
 	maxPsiBarScale = 3
 	#Controls whether the Spell Programmer screen will pause the game in singleplayer.
-	pauseGameInProgrammer = false
+	pauseGameInProgrammer = true
 	#Controls whether or not the Programmer will display the coordinates as a pair of two numbers or as a letter and a number
 	changeGridCoordinatesToLetterNumber = false
 

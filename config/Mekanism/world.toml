@@ -13,7 +13,7 @@
 		shouldGenerate = true
 		#Chance that copper generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 10
+		perChunk = 16
 		#Maximum number of blocks in a vein of copper.
 		#Range: 1 ~ 512
 		maxVeinSize = 8
@@ -31,7 +31,7 @@
 		shouldGenerate = true
 		#Chance that tin generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 5
+		perChunk = 14
 		#Maximum number of blocks in a vein of tin.
 		#Range: 1 ~ 512
 		maxVeinSize = 8
@@ -49,7 +49,7 @@
 		shouldGenerate = true
 		#Chance that osmium generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 4
+		perChunk = 12
 		#Maximum number of blocks in a vein of osmium.
 		#Range: 1 ~ 512
 		maxVeinSize = 8
@@ -67,7 +67,7 @@
 		shouldGenerate = true
 		#Chance that uranium generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 3
+		perChunk = 8
 		#Maximum number of blocks in a vein of uranium.
 		#Range: 1 ~ 512
 		maxVeinSize = 8
@@ -85,7 +85,7 @@
 		shouldGenerate = true
 		#Chance that fluorite generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 2
+		perChunk = 6
 		#Maximum number of blocks in a vein of fluorite.
 		#Range: 1 ~ 512
 		maxVeinSize = 12
@@ -103,7 +103,7 @@
 		shouldGenerate = true
 		#Chance that lead generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 3
+		perChunk = 8
 		#Maximum number of blocks in a vein of lead.
 		#Range: 1 ~ 512
 		maxVeinSize = 8
@@ -121,7 +121,7 @@
 		shouldGenerate = true
 		#Chance that salt generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 1
+		perChunk = 2
 		#Base radius of a vein of salt.
 		#Range: 1 ~ 4
 		baseRadius = 2

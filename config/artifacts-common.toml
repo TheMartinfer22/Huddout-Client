@@ -29,7 +29,7 @@ artifact_rarity = 1.0
 	mimic_chance = 0.3
 	#Probability for an ore vein to generate underneath a campsite
 	#Range: 0.0 ~ 1.0
-	ore_chance = 0.5
+	ore_chance = 0.25
 	#Whether to use wooden chests from other mods when generating campsites
 	#(keeping this enabled may make it easier to distinguish them from mimics)
 	use_modded_chests = true
