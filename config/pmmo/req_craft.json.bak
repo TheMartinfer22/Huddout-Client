@@ -341,11 +341,11 @@
 	},
 	"storagedrawers:controller":
 	{
-		"crafting": 12
+		"crafting": 20
 	},
 	"storagedrawers:controller_slave":
 	{
-		"crafting": 10
+		"crafting": 20
 	},
 	"storagedrawers:conversion_upgrade":
 	{

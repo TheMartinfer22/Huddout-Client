@@ -125,153 +125,123 @@
 	},
 	"iceandfire:amphithere":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:cockatrice":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:cyclops":
 	{
-		"combat": 100,
-		"magic": 300
+		"combat": 100
 	},
 	"iceandfire:deathworm":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:dread_beast":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:dread_ghoul":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:dread_horse":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:dread_knight":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:dread_lich":
 	{
-		"combat": 50,
-		"magic": 30
+		"combat": 50
 	},
 	"iceandfire:dread_lich_skull":
 	{
-		"combat": 50,
-		"magic": 30
+		"combat": 50
 	},
 	"iceandfire:dread_scuttler":
 	{
-		"combat": 60,
-		"magic": 30
+		"combat": 60
 	},
 	"iceandfire:dread_thrall":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:fire_dragon":
 	{
-		"combat": 1000,
-		"magic": 1000
+		"combat": 1000
 	},
 	"iceandfire:gorgon":
 	{
-		"combat": 40,
-		"magic": 30
+		"combat": 40
 	},
 	"iceandfire:hippocampus":
 	{
-		"combat": 25,
-		"magic": 30
+		"combat": 25
 	},
 	"iceandfire:hippogryph":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:hydra":
 	{
-		"combat": 100,
-		"magic": 70
+		"combat": 100
 	},
 	"iceandfire:ice_dragon":
 	{
-		"combat": 1000,
-		"magic": 1000
+		"combat": 1000
 	},
 	"iceandfire:lightning_dragon":
 	{
-		"combat": 1000,
-		"magic": 1000
+		"combat": 1000
 	},
 	"iceandfire:myrmex_queen":
 	{
-		"combat": 100,
-		"magic": 30
+		"combat": 100
 	},
 	"iceandfire:myrmex_royal":
 	{
-		"combat": 100,
-		"magic": 30
+		"combat": 100
 	},
 	"iceandfire:myrmex_sentinel":
 	{
-		"combat": 45,
-		"magic": 30
+		"combat": 45
 	},
 	"iceandfire:myrmex_soldier":
 	{
-		"combat": 45,
-		"magic": 30
+		"combat": 45
 	},
 	"iceandfire:myrmex_swarmer":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:myrmex_worker":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:pixie":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:sea_serpent":
 	{
-		"combat": 1000,
-		"magic": 1400
+		"combat": 1000
 	},
 	"iceandfire:siren":
 	{
-		"combat": 40,
-		"magic": 30
+		"combat": 40
 	},
 	"iceandfire:stymphalian_bird":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"iceandfire:troll":
 	{
-		"combat": 50,
-		"magic": 30
+		"combat": 50
 	},
 	"lycanitesmobs:abaia":
 	{
@@ -695,137 +665,90 @@
 	},
 	"minecraft:blaze":
 	{
-		"combat": 30,
-		"magic": 30
+		"combat": 30
 	},
 	"minecraft:cave_spider":
 	{
-		"combat": 25,
-		"magic": 30
+		"combat": 25
 	},
 	"minecraft:creeper":
 	{
-		"combat": 25,
-		"magic": 30
+		"combat": 25
 	},
 	"minecraft:drowned":
 	{
-		"combat": 25,
-		"magic": 30
+		"combat": 25
 	},
 	"minecraft:elder_guardian":
 	{
-		"combat": 100,
-		"magic": 300
+		"combat": 100
 	},
 	"minecraft:ender_dragon":
 	{
-		"combat": 2500,
-		"magic": 3000
+		"combat": 2500
 	},
 	"minecraft:enderman":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"minecraft:evoker":
 	{
-		"combat": 40,
-		"magic": 40
+		"combat": 40
 	},
 	"minecraft:guardian":
 	{
-		"combat": 25,
-		"magic": 30
+		"combat": 25
 	},
 	"minecraft:husk":
 	{
-		"combat": 45,
-		"magic": 30
+		"combat": 45
 	},
 	"minecraft:magma_cube":
 	{
-		"combat": 7.5,
-		"magic": 30
+		"combat": 7.5
 	},
 	"minecraft:ravager":
 	{
-		"combat": 50,
-		"magic": 30
+		"combat": 50
 	},
 	"minecraft:silverfish":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"minecraft:skeleton":
 	{
-		"combat": 25,
-		"magic": 30
+		"combat": 25
 	},
 	"minecraft:slime":
 	{
-		"combat": 5,
-		"magic": 30
+		"combat": 5
 	},
 	"minecraft:spider":
 	{
-		"combat": 20,
-		"magic": 30
+		"combat": 20
 	},
 	"minecraft:vindicator":
 	{
-		"combat": 35,
-		"magic": 30
+		"combat": 35
 	},
 	"minecraft:wither":
 	{
-		"combat": 1000,
-		"magic": 500
+		"combat": 1000
 	},
 	"minecraft:wither_skeleton":
 	{
-		"combat": 40,
-		"magic": 30
+		"combat": 40
 	},
 	"minecraft:zombie":
 	{
-		"combat": 15,
-		"magic": 30
+		"combat": 15
 	},
 	"minecraft:zombie_pigman":
 	{
-		"combat": 25,
-		"magic": 30
+		"combat": 25
 	},
 	"minecraft:zombie_villager":
 	{
-		"combat": 15,
-		"magic": 30
-	},
-	"minecraft:cow":
-	{
-		"combat": 25,
-		"magic": 30
-	},
-	"minecraft:chicken":
-	{
-		"combat": 25,
-		"magic": 30
-	},
-	"minecraft:horse":
-	{
-		"combat": 25,
-		"magic": 30
-	},
-	"minecraft:pig":
-	{
-		"combat": 25,
-		"magic": 30
-	},
-	"minecraft:sheep":
-	{
-		"combat": 25,
-		"magic": 30
-	},
+		"combat": 15
+	}
 }

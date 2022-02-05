@@ -1,13 +1,11 @@
 {
 	"#forge:saplings":
 	{
-		"farming": 10,
-		"magic": 30
+		"farming": 10
 	},
 	"#minecraft:saplings":
 	{
-		"farming": 10,
-		"magic": 30
+		"farming": 10
 	},
 	"ars_nouveau:blue_archwood_sapling":
 	{
@@ -120,118 +118,95 @@
 	},
 	"minecraft:acacia_sapling":
 	{
-		"farming": 30,
-		"magic": 30
+		"farming": 30
 	},
 	"minecraft:bamboo":
 	{
-		"farming": 1.2,
-		"magic": 30
+		"farming": 1.2
 	},
 	"minecraft:bamboo_sapling":
 	{
-		"farming": 1.2,
-		"magic": 30
+		"farming": 1.2
 	},
 	"minecraft:beetroot":
 	{
-		"farming": 12,
-		"magic": 30
+		"farming": 12
 	},
 	"minecraft:beetroots":
 	{
-		"farming": 12,
-		"magic": 30
+		"farming": 12
 	},
 	"minecraft:birch_sapling":
 	{
-		"farming": 20,
-		"magic": 30
+		"farming": 20
 	},
 	"minecraft:cactus":
 	{
-		"farming": 6,
-		"magic": 30
+		"farming": 6
 	},
 	"minecraft:carrot":
 	{
-		"farming": 8,
-		"magic": 30
+		"farming": 8
 	},
 	"minecraft:carrots":
 	{
-		"farming": 8,
-		"magic": 30
+		"farming": 8
 	},
 	"minecraft:cocoa":
 	{
-		"farming": 17,
-		"magic": 30
+		"farming": 17
 	},
 	"minecraft:dark_oak_sapling":
 	{
-		"farming": 15,
-		"magic": 30
+		"farming": 15
 	},
 	"minecraft:jungle_sapling":
 	{
-		"farming": 25,
-		"magic": 30
+		"farming": 25
 	},
 	"minecraft:kelp":
 	{
-		"farming": 2,
-		"magic": 30
+		"farming": 2
 	},
 	"minecraft:kelp_plant":
 	{
-		"farming": 2,
-		"magic": 30
+		"farming": 2
 	},
 	"minecraft:nether_wart":
 	{
-		"farming": 11,
-		"magic": 30
+		"farming": 11
 	},
 	"minecraft:oak_sapling":
 	{
-		"farming": 10,
-		"magic": 30
+		"farming": 10
 	},
 	"minecraft:potato":
 	{
-		"farming": 6.6,
-		"magic": 30
+		"farming": 6.6
 	},
 	"minecraft:potatoes":
 	{
-		"farming": 6.6,
-		"magic": 30
+		"farming": 6.6
 	},
 	"minecraft:sea_pickle":
 	{
-		"farming": 4,
-		"magic": 30
+		"farming": 4
 	},
 	"minecraft:spruce_sapling":
 	{
-		"farming": 15,
-		"magic": 30
+		"farming": 15
 	},
 	"minecraft:sugar_cane":
 	{
-		"farming": 5,
-		"magic": 30
+		"farming": 5
 	},
 	"minecraft:wheat":
 	{
-		"farming": 9,
-		"magic": 30
+		"farming": 9
 	},
 	"minecraft:wheat_seeds":
 	{
-		"farming": 9,
-		"magic": 30
+		"farming": 9
 	},
 	"traverse:brown_autumnal_sapling":
 	{

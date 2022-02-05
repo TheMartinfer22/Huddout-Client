@@ -246,6 +246,63 @@
 	{
 		"building": 20
 	},
+	"industrialforegoing:dissolution_chamber":
+	{
+		"building": 28
+	},
+	"industrialforegoing:fluid_extractor":
+	{
+		"building": 14
+	},
+	"industrialforegoing:latex_processing_unit":
+	{
+		"building": 20
+	},
+	"industrialforegoing:animal_rancher":
+	{
+		"building": 20
+	},
+	"industrialforegoing:mob_crusher":
+	{
+		"building": 24,
+		"combat": 18
+	},
+	"industrialforegoing:mob_duplicator":
+	{
+		"building": 24,
+		"magic": 28
+	},
+	"industrialforegoing:wither_builder":
+	{
+		"building": 22,
+		"magic": 18
+	},
+	"industrialforegoing:mob_slaughter_factory":
+	{
+		"building": 24,
+		"combat": 20
+	},
+	"bigreactors:basic_reactorcontroller":
+	{
+		"building": 28,
+		"agility": 20
+	},
+	"bigreactors:reinforced_reactorcontroller":
+	{
+		"building": 36,
+		"agility": 28
+	},
+	"bigreactors:basic_turbinecontroller":
+	{
+		"building": 28,
+		"agility": 20
+	},
+	"bigreactors:reinforced_turbinecontroller":
+	{
+		"building": 28,
+		"agility": 20
+	},
+	
 	"lycanitesmobs:aberrationtreat":
 	{
 		"combat": 10,
@@ -516,16 +573,92 @@
 	{
 		"building": 10
 	},
+	"cyclic:placer":
+	{
+		"building": 20
+	},
+	"industrialforegoing:block_placer":
+	{
+		"building": 20
+	},
+	"mekanismgenerators:fusion_reactor_controller":
+	{
+		"building": 32
+	},
+	"refinedstorage:grid":
+	{
+		"crafting": 20
+	},
+	"refinedstorage:crafting_grid":
+	{
+		"crafting": 24
+	},
+	"refinedstorage:pattern_grid":
+	{
+		"crafting": 16
+	},
+	"envirotech:litherite_void_miner_ccu":
+	{
+		"building": 20,
+		"mining": 24
+	},
+	"envirotech:erodium_void_miner_ccu":
+	{
+		"building": 22,
+		"mining": 30
+	},
+	"envirotech:kyronite_void_miner_ccu":
+	{
+		"building": 26,
+		"mining": 36
+	},
+	"envirotech:pladium_void_miner_ccu":
+	{
+		"building": 30,
+		"mining": 42
+	},
+	"envirotech:ionite_void_miner_ccu":
+	{
+		"building": 34,
+		"mining": 50
+	},
+	"envirotech:aethium_void_miner_ccu":
+	{
+		"building": 40,
+		"mining": 58
+	},
+	"envirotech:nanorite_void_miner_ccu":
+	{
+		"building": 44,
+		"mining": 64
+	},
+	"envirotech:xerothium_void_miner_ccu":
+	{
+		"building": 44,
+		"mining": 70
+	},
+	"conjuring:conjurer":
+	{
+		"building": 22,
+		"magic": 20
+	},
+	"miniutilities:quantum_quarry":
+	{
+		"building": 24,
+		"mining": 30,
+		"crafting": 18
+	},
+	
 	"storagedrawers:compacting_drawers_3":
 	{
-		"crafting": 30
+		"crafting": 10
 	},
 	"storagedrawers:controller":
 	{
-		"crafting": 40
+		"crafting": 10
 	},
 	"storagedrawers:controller_slave":
 	{
-		"crafting": 50
+		"crafting": 10
 	}
 }

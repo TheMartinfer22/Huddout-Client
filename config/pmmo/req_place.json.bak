@@ -740,6 +740,7 @@
 	"conjuring:conjurer":
 	{
 		"building": 22,
+		"combat": 22,
 		"magic": 20
 	},
 	"storagedrawers:compacting_drawers_3":

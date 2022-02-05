@@ -2,5 +2,9 @@
 	"minecraft:giant":
 	{
 		"flying": 69
+	},
+	"mekanismgenerators:wind_generator":
+	{
+		"building": 20
 	}
 }
