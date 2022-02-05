@@ -388,7 +388,7 @@
 		"Spawn Gorgon Chance" = 75
 		#Maximum gorgon health
 		#Range: 1.0 ~ 10000.0
-		"Gorgon Max Health" = 100.0
+		"Gorgon Max Health" = 500.0
 
 	[Mobs.Others]
 		#True if dread liches are allowed to spawn
@@ -398,7 +398,7 @@
 		"Lich Spawn Weight" = 2
 		#Maximum hydra health
 		#Range: 1.0 ~ 10000.0
-		"Hydra Max Health" = 250.0
+		"Hydra Max Health" = 500.0
 		#True if hydra caves are allowed to generate
 		"Generate Hydra Caves" = true
 		#One out of this number chance per chunk to generate a hydra cave.
@@ -409,7 +409,7 @@
 		"Ghost Max Health" = 30.0
 		#Maximum ghost attack strength.
 		#Range: 0.0 ~ 10000.0
-		"Ghost Attack Strength" = 5.0
+		"Ghost Attack Strength" = 9.0
 		#True if ghosts can rarely spawn from brutal PvP deaths.
 		"Ghost Spawn from PvP deaths" = true
 		#Villager Scribe House generation weight. Lower = lower chance to spawn
