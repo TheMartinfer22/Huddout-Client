@@ -18,7 +18,7 @@ displayTooLargePackets = true
 		#Range: 1 ~ 200
 		meanTickAITH = 55
 		#Whether to debug lagging entities and log offenders, requires load balancing to be enabled. default = true
-		logEntityAILag = true
+		logEntityAILag = false
 
 	["Load balancing settings"."Tile entities load balancing settings"]
 		#Enables Tile entity load balancing. default: true
