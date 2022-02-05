@@ -1635,55 +1635,55 @@
 	},
 	"minecraft:diamond_axe":
 	{
-		"woodcutting": 40
+		"woodcutting": 22
 	},
 	"minecraft:diamond_hoe":
 	{
-		"farming": 30
+		"farming": 22
 	},
 	"minecraft:diamond_pickaxe":
 	{
-		"mining": 40
+		"mining": 22
 	},
 	"minecraft:diamond_shovel":
 	{
-		"excavation": 40
+		"excavation": 22
 	},
 	"minecraft:golden_axe":
 	{
-		"woodcutting": 30
+		"woodcutting": 8
 	},
 	"minecraft:golden_hoe":
 	{
-		"farming": 50
+		"farming": 8
 	},
 	"minecraft:golden_pickaxe":
 	{
-		"mining": 30
+		"mining": 8
 	},
 	"minecraft:golden_shovel":
 	{
-		"excavation": 30
+		"excavation": 8
 	},
 	"minecraft:iron_axe":
 	{
-		"woodcutting": 20
+		"woodcutting": 16
 	},
 	"minecraft:iron_hoe":
 	{
-		"farming": 20
+		"farming": 16
 	},
 	"minecraft:iron_pickaxe":
 	{
-		"mining": 20
+		"mining": 16
 	},
 	"minecraft:iron_shovel":
 	{
-		"excavation": 20
+		"excavation": 16
 	},
 	"minecraft:netherite_axe":
 	{
-		"woodcutting": 60
+		"woodcutting": 40
 	},
 	"minecraft:netherite_hoe":
 	{
@@ -1691,27 +1691,27 @@
 	},
 	"minecraft:netherite_pickaxe":
 	{
-		"mining": 60
+		"mining": 40
 	},
 	"minecraft:netherite_shovel":
 	{
-		"excavation": 60
+		"excavation": 40
 	},
 	"minecraft:stone_axe":
 	{
-		"woodcutting": 10
+		"woodcutting": 7
 	},
 	"minecraft:stone_hoe":
 	{
-		"farming": 10
+		"farming": 7
 	},
 	"minecraft:stone_pickaxe":
 	{
-		"mining": 10
+		"mining": 7
 	},
 	"minecraft:stone_shovel":
 	{
-		"excavation": 10
+		"excavation": 7
 	},
 	"minecraft:wooden_axe":
 	{
@@ -1731,8 +1731,87 @@
 	},
 	"mekanism:atomic_disassembler":
 	{
+		"farming": 20,
+		"excavation": 20,
+		"woodcutting": 20,
+		"mining": 24
+	},
+	"mekanismtools:stone_paxel":
+	{
+		"farming": 14,
+		"excavation": 14,
+		"woodcutting": 14,
+		"mining": 14
+	},
+	"mekanismtools:iron_paxel":
+	{
+		"farming": 18,
+		"excavation": 18,
+		"woodcutting": 18,
+		"mining": 18
+	},
+	"mekanismtools:diamond_paxel":
+	{
+		"farming": 20,
+		"excavation": 20,
+		"woodcutting": 20,
+		"mining": 20
+	},
+	"mekanismtools:gold_paxel":
+	{
+		"farming": 8,
+		"excavation": 8,
+		"woodcutting": 8,
+		"mining": 8
+	},
+	"mekanismtools:netherite_paxel":
+	{
 		"farming": 24,
-		"combat": 16
+		"excavation": 24,
+		"woodcutting": 24,
+		"mining": 24
+	},
+	"mekanismtools:bronze_paxel":
+	{
+		"farming": 18,
+		"excavation": 18,
+		"woodcutting": 18,
+		"mining": 18
+	},
+	"mekanismtools:lapis_lazuli_paxel":
+	{
+		"farming": 14,
+		"excavation": 14,
+		"woodcutting": 14,
+		"mining": 14
+	},
+	"mekanismtools:osmium_paxel":
+	{
+		"farming": 16,
+		"excavation": 16,
+		"woodcutting": 16,
+		"mining": 16
+	},
+	"mekanismtools:refined_glowstone_paxel":
+	{
+		"farming": 20,
+		"excavation": 20,
+		"woodcutting": 20,
+		"mining": 20
+	},
+	"mekanismtools:refined_obsidian_paxel":
+	{
+		"farming": 26,
+		"excavation": 26,
+		"woodcutting": 26,
+		"mining": 26
+	},
+	"mekanismtools:steel_paxel":
+	{
+		"farming": 18,
+		"excavation": 18,
+		"woodcutting": 18,
+		"mining": 18
 	},
 	"oresandmetals:adamant_axe":
 	{

@@ -18,13 +18,12 @@
 	},
 	"minecraft:fermented_spider_eye":
 	{
-		"alchemy": 12,
-		"magic": 14
+		"alchemy": 12
 	},
 	"minecraft:ghast_tear":
 	{
 		"alchemy": 20,
-		"magic": 9
+		"magic": 30
 	},
 	"minecraft:glistering_melon_slice":
 	{

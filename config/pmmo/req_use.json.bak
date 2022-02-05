@@ -483,7 +483,6 @@
 		"taming": 30,
 		"cooking": 35
 	},
-	
 	"minecolonies:blockhuttownhall":
 	{
 		"mining": 15,
@@ -517,6 +516,82 @@
 	{
 		"building": 10
 	},
+	"cyclic:placer":
+	{
+		"building": 20
+	},
+	"industrialforegoing:block_placer":
+	{
+		"building": 20
+	},
+	"mekanismgenerators:fusion_reactor_controller":
+	{
+		"building": 32
+	},
+	"refinedstorage:grid":
+	{
+		"crafting": 20
+	},
+	"refinedstorage:crafting_grid":
+	{
+		"crafting": 24
+	},
+	"refinedstorage:pattern_grid":
+	{
+		"crafting": 16
+	},
+	"envirotech:litherite_void_miner_ccu":
+	{
+		"building": 20,
+		"mining": 24
+	},
+	"envirotech:erodium_void_miner_ccu":
+	{
+		"building": 22,
+		"mining": 30
+	},
+	"envirotech:kyronite_void_miner_ccu":
+	{
+		"building": 26,
+		"mining": 36
+	},
+	"envirotech:pladium_void_miner_ccu":
+	{
+		"building": 30,
+		"mining": 42
+	},
+	"envirotech:ionite_void_miner_ccu":
+	{
+		"building": 34,
+		"mining": 50
+	},
+	"envirotech:aethium_void_miner_ccu":
+	{
+		"building": 40,
+		"mining": 58
+	},
+	"envirotech:nanorite_void_miner_ccu":
+	{
+		"building": 44,
+		"mining": 64
+	},
+	"envirotech:xerothium_void_miner_ccu":
+	{
+		"building": 44,
+		"mining": 70
+	},
+	"conjuring:conjurer":
+	{
+		"building": 22,
+		"magic": 20
+	},
+	"miniutilities:quantum_quarry":
+	{
+		"building": 24,
+		"mining": 30,
+		"crafting": 18
+	},
+	
 	"storagedrawers:compacting_drawers_3":
 	{
 		"crafting": 30

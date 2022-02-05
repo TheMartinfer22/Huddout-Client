@@ -1253,8 +1253,79 @@
 	},
 	"mekanism:atomic_disassembler":
 	{
-		"farming": 24,
 		"combat": 16
+	},
+	"mekanismtools:wood_paxel":
+	{
+		"combat": 12
+	},
+	"mekanismtools:stone_paxel":
+	{
+		"combat": 14
+	},
+	"mekanismtools:iron_paxel":
+	{
+		"combat": 18
+	},
+	"mekanismtools:diamond_paxel":
+	{
+		"combat": 20
+	},
+	"mekanismtools:gold_paxel":
+	{
+		"combat": 8
+	},
+	"mekanismtools:netherite_paxel":
+	{
+		"combat": 24
+	},
+	"mekanismtools:bronze_paxel":
+	{
+		"combat": 18
+	},
+	"mekanismtools:lapis_lazuli_paxel":
+	{
+		"combat": 14
+	},
+	"mekanismtools:osmium_paxel":
+	{
+		"combat": 16
+	},
+	"mekanismtools:refined_glowstone_paxel":
+	{
+		"combat": 20
+	},
+	"mekanismtools:refined_obsidian_paxel":
+	{
+		"combat": 26
+	},
+	"mekanismtools:steel_paxel":
+	{
+		"combat": 18
+	},
+	"mekanismtools:bronze_sword":
+	{
+		"combat": 24
+	},
+	"mekanismtools:lapis_lazuli_sword":
+	{
+		"combat": 14
+	},
+	"mekanismtools:osmium_sword":
+	{
+		"combat": 20
+	},
+	"mekanismtools:refined_glowstone_sword":
+	{
+		"combat": 20
+	},
+	"mekanismtools:refined_obsidian_sword":
+	{
+		"combat": 24
+	},
+	"mekanismtools:steel_sword":
+	{
+		"combat": 14
 	},
 	"mvw:amethyst_bow":
 	{

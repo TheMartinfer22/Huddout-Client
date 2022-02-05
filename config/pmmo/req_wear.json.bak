@@ -1596,6 +1596,125 @@
 		"combat": 32,
 		"endurance": 72
 	},
+	"mekanism:mekasuit_bodyarmor":
+	{
+		"combat": 32,
+		"endurance": 72
+	},
+	"mekanism:mekasuit_pants":
+	{
+		"combat": 32,
+		"endurance": 72
+	},
+	"mekanism:mekasuit_boots":
+	{
+		"combat": 32,
+		"endurance": 72
+	},
+	"mekanism:jetpack_armored":
+	{
+		"endurance": 20
+	},
+	"mekanism:jetpack":
+	{
+		"endurance": 12
+	},
+	"mekanismtools:bronze_helmet":
+	{
+		"endurance": 12
+	},
+	"mekanismtools:bronze_chestplate":
+	{
+		"endurance": 12
+	},
+	"mekanismtools:bronze_leggings":
+	{
+		"endurance": 12
+	},
+	"mekanismtools:bronze_boots":
+	{
+		"endurance": 12
+	},
+	"mekanismtools:lapis_lazuli_helmet":
+	{
+		"endurance": 8
+	},
+	"mekanismtools:lapis_lazuli_chestplate":
+	{
+		"endurance": 8
+	},
+	"mekanismtools:lapis_lazuli_leggings":
+	{
+		"endurance": 8
+	},
+	"mekanismtools:lapis_lazuli_boots":
+	{
+		"endurance": 8
+	},
+	"mekanismtools:osmium_helmet":
+	{
+		"endurance": 18
+	},
+	"mekanismtools:osmium_chestplate":
+	{
+		"endurance": 18
+	},
+	"mekanismtools:osmium_leggings":
+	{
+		"endurance": 18
+	},
+	"mekanismtools:osmium_boots":
+	{
+		"endurance": 18
+	},
+	"mekanismtools:refined_glowstone_helmet":
+	{
+		"endurance": 12
+	},
+	"mekanismtools:refined_glowstone_chestplate":
+	{
+		"endurance": 12
+	},
+	"mekanismtools:refined_glowstone_leggings":
+	{
+		"endurance": 12
+	},
+	"mekanismtools:refined_glowstone_boots":
+	{
+		"endurance": 12
+	},
+	"mekanismtools:refined_obsidian_helmet":
+	{
+		"endurance": 24
+	},
+	"mekanismtools:refined_obsidian_chestplate":
+	{
+		"endurance": 24
+	},
+	"mekanismtools:refined_obsidian_leggings":
+	{
+		"endurance": 24
+	},
+	"mekanismtools:refined_obsidian_boots":
+	{
+		"endurance": 24
+	},
+	"mekanismtools:steel_helmet":
+	{
+		"endurance": 18
+	},
+	"mekanismtools:steel_chestplate":
+	{
+		"endurance": 18
+	},
+	"mekanismtools:steel_leggings":
+	{
+		"endurance": 18
+	},
+	"mekanismtools:steel_boots":
+	{
+		"endurance": 18
+	},
 	"oresandmetals:adamant_boots":
 	{
 		"endurance": 35
