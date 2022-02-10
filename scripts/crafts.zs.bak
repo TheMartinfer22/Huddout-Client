@@ -31,8 +31,6 @@ craftingTable.removeRecipe(<item:mekanism:digital_miner>);
 
 mods.extendedcrafting.CompressionCrafting.addRecipe("ultimate_ingot", <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:the_ultimate_ingot>, 9, <item:extendedcrafting:ultimate_catalyst>, 4000000, 2000);  
 
-<recipetype:thermal:press>.removeRecipe(<item:thermal:enderium_coin>);
-<recipetype:tconstruct:casting_table>.removeRecipe(<item:thermal:enderium_coin>);
 
 craftingTable.removeRecipe(<item:mekanism:energy_tablet>);
 craftingTable.addShaped("9698fa14-ce85-450f-aa1d-f80b92f4ff45", <item:mekanism:energy_tablet>, [

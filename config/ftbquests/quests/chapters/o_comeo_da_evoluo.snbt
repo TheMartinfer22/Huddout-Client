@@ -50,82 +50,11 @@
 					count: 64L
 				}
 			]
-			rewards: [
-				{
-					id: "4130BD867724B5D1"
-					type: "pmmo:xpreward"
-					team_reward: false
-					auto: "enabled"
-					skill: "woodcutting"
-					amount: 250.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "27E4E513F6696EF9"
-					type: "pmmo:xpreward"
-					team_reward: false
-					auto: "invisible"
-					skill: "building"
-					amount: 100.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "0504360C46A1CD90"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "combat"
-					amount: 100.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "3617D53E8E165D2A"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "fishing"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "6FA0FF58BB22D28D"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "smithing"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "7453C93BD1A709B4"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "agility"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "32D6B2A3C326AB28"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "magic"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "77EA087175251C1E"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "alchemy"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "63DFF9844A03E494"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "endurance"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-			]
+			rewards: [{
+				id: "06A1786D1C3AB33B"
+				type: "loot"
+				table_id: 3924578816994886274L
+			}]
 		}
 		{
 			x: 2.0d
@@ -141,32 +70,11 @@
 				count: 256L
 				consume_items: false
 			}]
-			rewards: [
-				{
-					id: "293FE21431E51F25"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "building"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "6431BC79B85F727A"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "woodcutting"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "2595403A4921856E"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "crafting"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-			]
+			rewards: [{
+				id: "5453AE4AFC13E2AD"
+				type: "random"
+				table_id: 3924578816994886274L
+			}]
 		}
 		{
 			x: 0.0d
@@ -220,20 +128,9 @@
 					count: 8
 				}
 				{
-					id: "045EF87A6E6EBABB"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "woodcutting"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "6F657E428B1688E9"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "farming"
-					amount: 200.0d
-					ignoreBonuses: false
+					id: "0D1265254AE28979"
+					type: "random"
+					table_id: 3924578816994886274L
 				}
 			]
 		}
@@ -366,14 +263,6 @@
 					type: "xp"
 					xp: 150
 				}
-				{
-					id: "37623F33F9204C99"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "combat"
-					amount: 500.0d
-					ignoreBonuses: false
-				}
 			]
 		}
 		{
@@ -391,11 +280,6 @@
 				count: 32L
 			}]
 			rewards: [
-				{
-					id: "43E903470861D697"
-					type: "item"
-					item: "storagedrawers:controller"
-				}
 				{
 					id: "4B3B4116A7F7856A"
 					type: "item"

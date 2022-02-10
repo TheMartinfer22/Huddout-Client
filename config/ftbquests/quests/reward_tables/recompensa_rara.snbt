@@ -1,0 +1,128 @@
+{
+	id: "479BF68961B62758"
+	order_index: 1
+	title: "Recompensa Rara"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:dynamo_stirling" }
+		{ item: "thermal:dynamo_magmatic" }
+		{ item: "thermal:upgrade_augment_1" }
+		{
+			item: {
+				id: "thermal:flux_capacitor"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "thermal:flux_magnet"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "minecraft:end_crystal" }
+		{ item: "minecraft:nautilus_shell" }
+		{
+			item: {
+				id: "ironjetpacks:silver_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "modernlife:chainsaw"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "huddoutressurrections:technology_chest", count: 4 }
+		{ item: "huddoutressurrections:eternity_chest", count: 2 }
+		{ item: "huddoutressurrections:miners_chest", count: 8 }
+		{ item: "huddoutressurrections:miners_key", count: 8 }
+		{ item: "huddoutressurrections:technology_key", count: 4 }
+		{ item: "huddoutressurrections:eternity_key", count: 2 }
+		{ item: "extendedcrafting:advanced_table" }
+		{ item: "refinedstorage:1024k_fluid_storage_part" }
+		{ item: "refinedstorage:raw_basic_processor", count: 8 }
+		{ item: "refinedstorage:raw_improved_processor", count: 8 }
+		{ item: "refinedstorage:raw_advanced_processor", count: 8 }
+		{ item: "refinedstorage:pattern", count: 8 }
+		{ item: "refinedstorage:storage_housing", count: 8 }
+		{ item: "refinedstorage:cable", count: 8 }
+		{ item: "powah:uraninite_block", count: 8 }
+		{ item: "minecraft:saddle" }
+		{
+			item: {
+				id: "minecraft:diamond_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "botania:rune_water", count: 8 }
+		{ item: "botania:rune_fire", count: 8 }
+		{ item: "botania:rune_earth", count: 8 }
+		{ item: "botania:rune_air", count: 8 }
+		{ item: "botania:rune_mana", count: 8 }
+		{ item: "mekanismgenerators:wind_generator" }
+		{ item: "curios:ring" }
+		{ item: "industrialforegoing:biofuel_bucket" }
+		{ item: "minecraft:dirt", count: 64 }
+		{ item: "minecraft:cobblestone", count: 64 }
+		{ item: "mekanism:alloy_infused", count: 8 }
+		{
+			xp: 600
+			type: "xp"
+		}
+		{
+			xp: 700
+			type: "xp"
+		}
+		{
+			xp: 800
+			type: "xp"
+		}
+		{
+			xp: 900
+			type: "xp"
+		}
+		{
+			xp: 1000
+			type: "xp"
+		}
+	]
+}

@@ -1,10 +1,218 @@
 {
 	id: "7513814D77CF5260"
 	group: "6A02CF9EBD79DC0A"
-	order_index: 2
+	order_index: 1
 	filename: "extreme_reactors"
 	title: "Extreme Reactors"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: [
+				"00000000000001A6"
+				"30B1F331F5F473E9"
+				"5EC00CDF180A22DF"
+			]
+			id: "037D7BF04E2D2AE6"
+			tasks: [
+				{
+					id: "3682D40F06254A31"
+					type: "item"
+					item: "bigreactors:basic_reactorcontroller"
+				}
+				{
+					id: "2BAD6CD8ADA9E154"
+					type: "item"
+					item: "bigreactors:basic_reactorfuelrod"
+					count: 12L
+				}
+				{
+					id: "2C21374CF252BD29"
+					type: "item"
+					item: "bigreactors:basic_reactorcontrolrod"
+					count: 4L
+				}
+				{
+					id: "4295484D6CB11C1A"
+					type: "item"
+					item: "bigreactors:basic_reactorcasing"
+					count: 64L
+				}
+				{
+					id: "3E612537FEF5CE46"
+					type: "item"
+					item: "bigreactors:basic_reactorsolidaccessport"
+					count: 2L
+				}
+				{
+					id: "24EDAE782DE006A1"
+					type: "item"
+					item: "bigreactors:basic_reactorpowertapfe_active"
+				}
+			]
+			rewards: [
+				{
+					id: "4A3794F6DBB827CE"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "076DB7B25C06EA42"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: [
+				"00000000000001AC"
+				"30B1F331F5F473E9"
+				"5EC00CDF180A22DF"
+			]
+			id: "398B14C0554AF961"
+			tasks: [{
+				id: "5387836230547599"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcontroller"
+			}]
+			rewards: [
+				{
+					id: "153622D8C08EC7EF"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "117A4363FF4DC93B"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "30B1F331F5F473E9"
+			tasks: [{
+				id: "30535DA8167485E6"
+				type: "item"
+				item: "bigreactors:wrench"
+			}]
+			rewards: [
+				{
+					id: "02B17B1D25060A2A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "05821BFE1FF9D01C"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "5EC00CDF180A22DF"
+			tasks: [{
+				id: "51020896EBDEC9B9"
+				type: "item"
+				item: "mekanism:ingot_uranium"
+				count: 256L
+			}]
+			rewards: [
+				{
+					id: "0C4D7687BF1396F9"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "419A7223DE903928"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["037D7BF04E2D2AE6"]
+			id: "2590293E95D00898"
+			tasks: [{
+				id: "74F28BD40C03F586"
+				type: "item"
+				item: "bigreactors:basic_turbinecontroller"
+			}]
+			rewards: [
+				{
+					id: "33F4EA06C32281B9"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4F4022E2D8311379"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["398B14C0554AF961"]
+			id: "070D78B7CC279C53"
+			tasks: [
+				{
+					id: "067BC1FB621EA19F"
+					type: "item"
+					item: "bigreactors:reinforced_turbinecontroller"
+				}
+				{
+					id: "1425F936DF596E54"
+					type: "item"
+					item: "bigreactors:reinforced_reactorfuelrod"
+					count: 16L
+				}
+				{
+					id: "4028C8D30F31956E"
+					type: "item"
+					item: "bigreactors:reinforced_reactorsolidaccessport"
+					count: 2L
+				}
+				{
+					id: "02532A4046E44B15"
+					type: "item"
+					item: "bigreactors:reinforced_reactorpowertapfe_active"
+				}
+				{
+					id: "3DD970570757A8E6"
+					type: "item"
+					item: "bigreactors:reinforced_reactorcontrolrod"
+					count: 4L
+				}
+				{
+					id: "0B5E6995580D22F2"
+					type: "item"
+					item: "bigreactors:reinforced_reactorcasing"
+					count: 72L
+				}
+			]
+			rewards: [
+				{
+					id: "53E9DA89196AAC3E"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "541E2BC520DE7A98"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+			]
+		}
+	]
 }

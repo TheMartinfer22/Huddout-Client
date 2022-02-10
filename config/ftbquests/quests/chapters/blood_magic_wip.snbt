@@ -1,0 +1,729 @@
+{
+	id: "0000000000000895"
+	group: "4FCBF57EFAF8C3EC"
+	order_index: 3
+	filename: "blood_magic_wip"
+	title: "Blood Magic"
+	icon: "bloodmagic:weakbloodshard"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Blood Magic"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			x: -3.0d
+			y: 1.5d
+			description: [
+				"Bem-vindo à Magia de Sangue; um mod que, como muitos outros na grande tradição da magia, encontra sua fonte na essência dos seres vivos ou mesmo nos poderes demoníacos que animam os mortos."
+				""
+			]
+			optional: true
+			id: "0000000000000896"
+			tasks: [{
+				id: "0000000000000897"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "04592CAFF9CC5FCF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62CF03FC214407F6"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "70662704F270EF82"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "bloodmagic:basemonstersoul"
+				Count: 1b
+				tag: {
+					souls: 5.0d
+				}
+			}
+			x: -3.5d
+			y: 3.0d
+			description: [
+				""
+				"Jogue Soul Snares em mobs até que partículas de poção apareçam ao redor deles, então prossiga com a matança. Com o alvo preso, a Vontade Demoníaca pode ser extraída à medida que a força vital da criatura passa."
+				""
+			]
+			dependencies: ["000000000000089F"]
+			id: "000000000000089B"
+			tasks: [{
+				id: "00000000000008B3"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000089D"
+					type: "item"
+					title: "Demon Will"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+				{
+					id: "528A45642258ABF3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "59199BD3F24A2B70"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			description: [
+				"O Altar de Sangue é a Porta de Entrada para rituais mais poderosos e grandiosos que servem de âncora para o LP, fazendo com que tenha efeito previsível e duradouro na área."
+				""
+			]
+			dependencies: ["0000000000000896"]
+			min_width: 300
+			id: "000000000000089F"
+			tasks: [{
+				id: "00000000000008A0"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [
+				{
+					id: "65A8F5DB780F9B3C"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "5EB2F012C245E8C1"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3E306723C7626F86"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			description: [
+				""
+				"As cinzas são usadas para desenhar um sigilo no chão e, em seguida, um aglutinante e um reagente são combinados dentro dele para criar fichas poderosas que podem ser alimentadas pela Soul Network."
+			]
+			dependencies: ["00000000000008B4"]
+			id: "00000000000008A1"
+			tasks: [{
+				id: "00000000000008A2"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000090B"
+					type: "item"
+					title: "Sigil of the Blood Lamp"
+					item: "bloodmagic:bloodlightsigil"
+				}
+				{
+					id: "52EA4F6D6637A6A9"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4712239F1FABDE76"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Sentient Tools"
+			x: -4.5d
+			y: 6.0d
+			description: [
+				""
+				"À medida que a quantidade de Vontade em uma Gema Tartárica aumenta, também aumenta o poder da ferramenta."
+			]
+			dependencies: ["00000000000008A6"]
+			id: "00000000000008A3"
+			tasks: [{
+				id: "00000000000008A4"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000008A5"
+					type: "item"
+					title: "Sentient Pickaxe"
+					item: {
+						id: "bloodmagic:soulpickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "310F8F538C8B6AD8"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5674127DD0A12D9A"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			description: [
+				"A Vontade Demoníaca não é uma substância estúpida para ser manipulada como água em um balde. É a força animadora que permite que os mortos-vivos se movam, a extensão de alguma força demoníaca há muito trancada. As barreiras entre os mundos não são perfeitas, no entanto, e parte de seu imenso poder vaza."
+				""
+				""
+			]
+			dependencies: ["00000000000008B4"]
+			id: "00000000000008A6"
+			tasks: [{
+				id: "00000000000008A7"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "36C224A653B8B1EA"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "6E942E1DC0D811D7"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3D160DD228E670C8"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			description: [
+				""
+				"Construa uma Hellfire Forge e coloque a Demonic Will no slot da direita. Os outros reagentes contornarão as bordas do círculo, enquanto o item resultante aparecerá no círculo central."
+				""
+			]
+			dependencies: ["000000000000089B"]
+			id: "00000000000008B4"
+			tasks: [{
+				id: "00000000000008B5"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [
+				{
+					id: "0DF965E3753C2575"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "43CD7226E0A9A156"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "708C4C41A2244B2C"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: [
+				""
+				"Felizmente, o Altar de Sangue permite que os itens sejam canalizados, seja via Hopper ou qualquer outro método de transporte de itens. Quando canalizado, até uma pilha completa pode ser transmutada de uma só vez. Obviamente, o custo de LP permanece o mesmo por item, mas o tempo total para transmutar diminui, pois não há pausa entre cada item."
+				""
+				""
+			]
+			dependencies: ["000000000000089F"]
+			min_width: 300
+			id: "00000000000008B6"
+			tasks: [{
+				id: "00000000000008B7"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [
+				{
+					id: "7240E01C78014C92"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "4F2E2ED07B054DA2"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "566A86A9D0014EA1"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "692F7032C97195B5"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			description: [
+				"O Blood Orb é o elo principal de um Sanguimancer com sua Soul Network. Manter um orbe no inventário permitirá que ele fortaleça quaisquer Sigilos pessoais. Da mesma forma, manter um em um Blood Altar permitirá que ele drene o LP do Altar e o transfira para a Soul Network."
+				""
+			]
+			dependencies: ["000000000000089F"]
+			id: "00000000000008BF"
+			tasks: [{
+				id: "00000000000008C0"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [
+				{
+					id: "1DCAFDFFDA8C8FD7"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "7FB85787410E43E0"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5F99E81F4A3A48A4"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Blood Altar MK2"
+			icon: "bloodmagic:altar"
+			x: -0.5d
+			y: 4.5d
+			description: [
+				""
+				"Para atualizar para um Altar de Nível 2, são necessárias 8 Runas de qualquer tipo. O Sanguine Scientiem mostra a estrutura exata necessária. Use as runas de velocidade fornecidas para preencher a estrutura e dar um pequeno chute."
+				""
+			]
+			dependencies: ["000000000000089F"]
+			id: "00000000000008C4"
+			tasks: [{
+				id: "00000000000008C5"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "00000000000008C6"
+					type: "item"
+					title: "Speed Rune"
+					item: "bloodmagic:speedrune"
+					count: 2
+				}
+				{
+					id: "2D24EEB3EDD3D36F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5AB38C0A02708C84"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Blood Altar MK3"
+			icon: "bloodmagic:altar"
+			x: 0.5d
+			y: 5.5d
+			description: [
+				"Aumentar ainda mais o Altar de Sangue exigirá uma viagem ao Nether para coletar um pouco de Glowstone."
+				""
+				"Tecnicamente, a estrutura também aceitará Lanternas do Mar, mas uma viagem ao Nether para outros materiais pode ser útil agora."
+				""
+			]
+			dependencies: ["00000000000008C4"]
+			id: "00000000000008C7"
+			tasks: [
+				{
+					id: "00000000000008C8"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 16L
+				}
+				{
+					id: "00000000000008C9"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000008CB"
+					type: "item"
+					title: "Sea Lantern"
+					item: "minecraft:sea_lantern"
+					count: 4
+				}
+				{
+					id: "00000000000008DA"
+					type: "item"
+					title: "Rune of Sacrifice"
+					item: "bloodmagic:sacrificerune"
+					count: 4
+				}
+				{
+					id: "17BF324163BD425D"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4710A7D91FA7BBC3"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			description: [
+				"Em algum momento, você provavelmente se cansará de se esfaquear."
+				""
+				"A Adaga do Sacrifício é usada para extrair LP de outras entidades. Tenha cuidado, é afiado."
+			]
+			dependencies: ["00000000000008C4"]
+			id: "00000000000008DB"
+			tasks: [{
+				id: "00000000000008DC"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [
+				{
+					id: "6167FFBDE8315520"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "7E4FF8DD733502DB"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3DC223FA12BE1D7C"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Blood Altar MK4"
+			icon: "bloodmagic:altar"
+			x: 1.5d
+			y: 6.5d
+			description: [
+				""
+				"Assim como nos níveis anteriores, verifique o Sanguine Scientiem para obter um guia sobre como construir o altar atualizado e certifique-se de atualizar seu Blood Orb."
+			]
+			dependencies: ["00000000000008C7"]
+			id: "00000000000008E7"
+			tasks: [
+				{
+					id: "00000000000008E8"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+				{
+					id: "000000000000090D"
+					type: "item"
+					item: "bloodmagic:bloodstonebrick"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000008EC"
+					type: "item"
+					title: "Rune of Capacity"
+					item: "bloodmagic:altarcapacityrune"
+					count: 8
+				}
+				{
+					id: "65B1AEC5C2ABA841"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "424D998F0F289A67"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "bloodmagic:alchemicalreactionchamber"
+			x: 2.0d
+			y: 5.5d
+			description: [
+				"A Câmara de Reação Alquímica anda de mãos dadas com a Bancada Alquímica e o Altar de Sangue."
+				""
+			]
+			dependencies: ["00000000000008C7"]
+			id: "00000000000008E9"
+			tasks: [
+				{
+					id: "00000000000008EA"
+					type: "item"
+					item: "bloodmagic:alchemicalreactionchamber"
+				}
+				{
+					id: "00000000000008ED"
+					type: "item"
+					item: {
+						id: "bloodmagic:sanguinereverter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000008EE"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+			]
+			rewards: [
+				{
+					id: "6E19DDB3DEDCE769"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "2523710DFD7A77B6"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "454C639F487F3D9E"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			description: [
+				""
+				"Colocar uma Gema Tartárica em um Cadinho Demoníaco liberará a Vontade, ligando-a ao pedaço local. A quantidade de vontade presente pode ser vista com a ajuda de um medidor de aura de vontade demoníaca."
+				""
+			]
+			dependencies: [
+				"00000000000008A6"
+				"00000000000008A3"
+			]
+			id: "00000000000008EF"
+			tasks: [{
+				id: "00000000000008F0"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+			rewards: [
+				{
+					id: "00000000000008F5"
+					type: "item"
+					title: "Demon Will Gauge"
+					item: "bloodmagic:demonwillgauge"
+				}
+				{
+					id: "0B8681828B61DBFE"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6F91D3E777445F78"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Demon Crystallizer"
+			x: -3.0d
+			y: 8.0d
+			description: [
+				""
+				"Os Cristais da Vontade Demoníaca irão progredir através de múltiplos estágios de crescimento, cada um denotado por um novo pináculo que se forma a partir da base. O primeiro pináculo nunca deve ser quebrado, este crescimento inicial é caro, mas reduz muito a vontade necessária para crescer pináculos adicionais."
+				""
+			]
+			dependencies: ["00000000000008EF"]
+			min_width: 300
+			id: "00000000000008F3"
+			tasks: [{
+				id: "00000000000008F4"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+			rewards: [
+				{
+					id: "3F9C2C843044BADE"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "2DA45A4E9C734216"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1435314289FB64BA"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			description: [
+				"Com as ferramentas disponíveis em uma Mesa de Alquimia adequada, a Rede da Alma pode ser usada para conduzir transmutações mais complicadas, desde a transmutação de carne podre em couro adequado, até o processamento de minério em rendimentos mais altos do que é possível em uma fornalha tradicional."
+				""
+			]
+			dependencies: ["00000000000008BF"]
+			id: "0000000000000909"
+			tasks: [{
+				id: "000000000000090A"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [
+				{
+					id: "6661AB0D8A97E7F5"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "75CA0A2C617DAB18"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6C45827A21AC5172"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "bloodmagic:incensealtar"
+			x: -0.5d
+			y: 2.0d
+			description: [
+				"O Altar de Incenso serve para ajudar a acalmar e centrar um Sanguimante antes de usar a Faca de Sacrifício para auto-sacrifício. Ficar perto do altar fará com que a faca brilhe. Ele pode então ser usado para extrair uma porção maior de saúde instantaneamente, enchendo o Blood Alter com uma quantidade equivalente de LP."
+				""
+			]
+			dependencies: ["000000000000089F"]
+			id: "000000000000090E"
+			tasks: [
+				{
+					id: "000000000000090F"
+					type: "item"
+					item: "bloodmagic:incensealtar"
+				}
+				{
+					id: "0000000000000918"
+					type: "item"
+					item: "bloodmagic:woodbrickpath"
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000919"
+					type: "item"
+					title: "Divination Sigil"
+					item: "bloodmagic:divinationsigil"
+				}
+				{
+					id: "319C2B770F5B587A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "07AAF09C87B88A11"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+	]
+}

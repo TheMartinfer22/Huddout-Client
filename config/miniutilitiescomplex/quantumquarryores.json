@@ -8,6 +8,126 @@
     "biomes": []
   },
   {
+    "name": "minecraft:nether_quartz_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "thermal:copper_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "create:zinc_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "mekanism:tin_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "mekanism:uranium_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "mekanism:fluorite_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "mekanism:osmium_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "mekanism:lead_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "miniutilities:ender_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "powah:uraninite_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "silents_mechanisms:silver_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "silents_mechanisms:nickel_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "silents_mechanisms:platinum_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "thermal:sulfur_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "mekanism:tin_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
     "name": "minecraft:iron_ore",
     "weight": 3,
     "dimensions": [

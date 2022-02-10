@@ -1,0 +1,1327 @@
+{
+	id: "5967132E080A674D"
+	group: "2FD49F470B9B7EB4"
+	order_index: 9
+	filename: "tinkers_construct"
+	title: "Tinkers I"
+	icon: {
+		id: "tconstruct:vein_hammer"
+		Count: 1b
+		tag: {
+			tic_multipliers: {
+				"tconstruct:mining_speed": 0.3f
+				"tconstruct:attack_damage": 1.25f
+				"tconstruct:durability": 5.0f
+			}
+			tic_stats: {
+				"tconstruct:attack_speed": 1.1f
+				"tconstruct:mining_speed": 1.35f
+				"tconstruct:attack_damage": 4.6875f
+				"tconstruct:harvest_level": 4.0f
+				"tconstruct:durability": 2440.0f
+			}
+			tic_broken: 0b
+			tic_modifiers: [
+				{
+					name: "tconstruct:cultivated"
+					level: 1s
+				}
+				{
+					name: "tconstruct:piercing"
+					level: 2s
+				}
+				{
+					name: "tconstruct:momentum"
+					level: 1s
+				}
+				{
+					name: "tconstruct:two_handed"
+					level: 1s
+				}
+			]
+			HideFlags: 3
+			tic_materials: [
+				"tconstruct:hepatizon"
+				"tconstruct:wood"
+				"enigmatica:gaia_spirit"
+				"enigmatica:niotic"
+			]
+			Damage: 0
+			tic_persistent_data: {
+				abilities: 1
+				upgrades: 2
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Time To Tinker!"
+			icon: {
+				id: "tconstruct:vein_hammer"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.3f
+						"tconstruct:attack_damage": 1.25f
+						"tconstruct:durability": 5.0f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.1f
+						"tconstruct:mining_speed": 1.35f
+						"tconstruct:attack_damage": 4.6875f
+						"tconstruct:harvest_level": 4.0f
+						"tconstruct:durability": 2440.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:piercing"
+							level: 2s
+						}
+						{
+							name: "tconstruct:momentum"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:hepatizon"
+						"tconstruct:wood"
+						"enigmatica:gaia_spirit"
+						"enigmatica:niotic"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Tinkers Construct (abreviado como TiC, TiCon ou TCon) é um mod de ferramenta modular que permite que o funileiro crie ferramentas poderosas, reparáveis ​​e atualizáveis."
+				""
+			]
+			id: "47169AB8212BD508"
+			tasks: [{
+				id: "7E574E8726A74BAE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3CB675D49916C945"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Patterns and You"
+			icon: "tconstruct:materials_and_you"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"O primeiro passo no TiC é fazer padrões. Esses padrões serão necessários para criar os blocos de criação necessários para progredir. Eles também podem ser combinados com materiais para fazer as várias peças da ferramenta."
+				""
+			]
+			dependencies: ["47169AB8212BD508"]
+			dependency_requirement: "one_started"
+			id: "29743F1C8CF559A2"
+			tasks: [{
+				id: "0AB9B5ABEF3FE96B"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+			rewards: [{
+				id: "3E7CAF244FF83471"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			title: "Tinkers in the Overworld"
+			icon: "tconstruct:sky_slime_sapling"
+			x: -1.5d
+			y: -1.5d
+			description: ["No mundo superior, o funileiro adiciona algumas ilhas para o funileiro encontrar. As ilhas de lodo do céu podem ser encontradas flutuando no céu. As ilhas de lodo terrestre são encontradas fora das linhas costeiras. Existem até ilhas de argila que parecem ilhas de lodo, mas são ilhas simples de baunilha."]
+			dependencies: ["47169AB8212BD508"]
+			dependency_requirement: "all_started"
+			id: "535EDB063EEB4A69"
+			tasks: [{
+				id: "2F3E5A178D42DA0F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5F1111E375131111"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Tinkers in the Nether"
+			icon: "tconstruct:blood_slime_sapling"
+			x: 0.0d
+			y: -2.0d
+			description: ["O Nether é a próxima parada para o funileiro em termos de encontrar materiais para atualizar suas ferramentas. Minério de cobalto pode ser encontrado no terreno, ilhas de lodo de magma são encontradas em níveis de lava e esqueletos murchos podem soltar algumas guloseimas extras."]
+			dependencies: ["535EDB063EEB4A69"]
+			id: "48DD79D9708932B9"
+			tasks: [{
+				id: "1EDA3F6F447CE811"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4B5F51288DDAA9EC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Tinkers in the End"
+			icon: "tconstruct:ender_slime_sapling"
+			x: 1.5d
+			y: -1.5d
+			description: ["Viajar até o fim desbloqueia recursos adicionais para o funileiro. Desde explodir escamas do dragão até encontrar ilhas com os mais incomuns dos lodos, há ótimos ingredientes para o funileiro encontrar."]
+			dependencies: ["48DD79D9708932B9"]
+			id: "3DB4D65F8A5ECA0B"
+			tasks: [{
+				id: "1FBA34DE510DF134"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6DA7B2228577015A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: [""]
+			dependencies: ["29743F1C8CF559A2"]
+			id: "153D64CF717673FD"
+			tasks: [{
+				id: "700364E7B8371737"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_log"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A2ED27B09E4A225"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "55D23EC1CE784475"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["Before building tools, the tinkerer needs to build the parts that make up those tools. The part builder is the block to do that. With the newer version of TiC comes a streamlined set of parts."]
+			dependencies: ["153D64CF717673FD"]
+			id: "2328B550CF3B401C"
+			tasks: [{
+				id: "5C5C31F396BF4239"
+				type: "item"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E0B79AF590A85C8"
+				type: "command"
+				title: "Common Tinkers Loot"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: [
+				""
+				""
+			]
+			dependencies: ["2328B550CF3B401C"]
+			id: "43EDC38B89D1611F"
+			tasks: [{
+				id: "2C5A3BABB5FE0A39"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "76D29967C3339F7B"
+				type: "random"
+				table_id: 3924578816994886274L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["153D64CF717673FD"]
+			id: "0DE8DA1DF8C47EDD"
+			tasks: [{
+				id: "7C4EF42E1043BA79"
+				type: "item"
+				item: "tconstruct:tinkers_chest"
+			}]
+			rewards: [{
+				id: "13E39F6E279F1D01"
+				type: "random"
+				table_id: 3924578816994886274L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["153D64CF717673FD"]
+			id: "114A1B879EEC619E"
+			tasks: [{
+				id: "2CEEC0080CD73D7C"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+			rewards: [{
+				id: "49518F99B6990EE1"
+				type: "random"
+				table_id: 3924578816994886274L
+			}]
+		}
+		{
+			title: "Tinkers Dagger"
+			icon: {
+				id: "tconstruct:dagger"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.75f
+						"tconstruct:attack_damage": 0.5f
+						"tconstruct:durability": 1.0f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 2.0f
+						"tconstruct:mining_speed": 3.0f
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 97.5f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:padded"
+							level: 1s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 1s
+						}
+						{
+							name: "tconstruct:offhand_attack"
+							level: 1s
+						}
+						{
+							name: "tconstruct:silky_shears"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:duel_wielding": 1b
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["43EDC38B89D1611F"]
+			id: "0A1F2503E161F0D5"
+			tasks: [
+				{
+					id: "025428EE964634F9"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "05925847578DAAA6"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "7327F7B00A53A0AC"
+					type: "item"
+					item: {
+						id: "tconstruct:dagger"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.75f
+								"tconstruct:attack_damage": 0.5f
+								"tconstruct:durability": 1.0f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 2.0f
+								"tconstruct:mining_speed": 3.0f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 97.5f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:padded"
+									level: 1s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 1s
+								}
+								{
+									name: "tconstruct:offhand_attack"
+									level: 1s
+								}
+								{
+									name: "tconstruct:silky_shears"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:duel_wielding": 1b
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5BDF169DA026D240"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			title: "Tinkers Sword"
+			icon: {
+				id: "tconstruct:sword"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.5f
+						"tconstruct:durability": 1.1f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.6f
+						"tconstruct:mining_speed": 2.1f
+						"tconstruct:attack_damage": 4.0f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 128.7f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 2s
+						}
+						{
+							name: "tconstruct:silky_shears"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:stone"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["43EDC38B89D1611F"]
+			id: "692DB41333C3CDDE"
+			tasks: [
+				{
+					id: "25B84BDE5A786C7B"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "5FF280BD1F11A0C8"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "1C7195648F674B23"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "45CA6B5BE9DBF183"
+					type: "item"
+					item: {
+						id: "tconstruct:sword"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.5f
+								"tconstruct:durability": 1.1f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.6f
+								"tconstruct:mining_speed": 2.1f
+								"tconstruct:attack_damage": 4.0f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 128.7f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 2s
+								}
+								{
+									name: "tconstruct:silky_shears"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+								"tconstruct:stone"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2A0956B88CD03A77"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			title: "Tinkers Hand Axe"
+			icon: {
+				id: "tconstruct:hand_axe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 0.9f
+						"tconstruct:mining_speed": 4.0f
+						"tconstruct:attack_damage": 7.0f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 130.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 2s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 1s
+						}
+						{
+							name: "tconstruct:axe_transform_hidden"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 8.0d
+			y: -1.0d
+			dependencies: ["43EDC38B89D1611F"]
+			id: "562A1A67F8D4CEC9"
+			tasks: [
+				{
+					id: "1D92A4C406557314"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "287B6A979DFE8B15"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "196473D02024EA2D"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "4511726CB8D1CD6C"
+					type: "item"
+					item: {
+						id: "tconstruct:hand_axe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:mining_speed": 4.0f
+								"tconstruct:attack_damage": 7.0f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 130.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 2s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 1s
+								}
+								{
+									name: "tconstruct:axe_transform_hidden"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2C35D47F0770C8A7"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			title: "Tinkers Pickaxe"
+			icon: {
+				id: "tconstruct:pickaxe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:mining_speed": 4.0f
+						"tconstruct:attack_damage": 1.0f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 130.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 2s
+						}
+						{
+							name: "tconstruct:piercing"
+							level: 1s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["43EDC38B89D1611F"]
+			id: "33FC71952CA316E2"
+			tasks: [
+				{
+					id: "322F0607B2C62A66"
+					type: "item"
+					title: "Any #tconstruct:parts"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "4F8B2E5E8EAE7CD9"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "6094A6B157AD81E5"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "674FDC458072886E"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:mining_speed": 4.0f
+								"tconstruct:attack_damage": 1.0f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 130.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 2s
+								}
+								{
+									name: "tconstruct:piercing"
+									level: 1s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1717766A176E826A"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			title: "Tinkers Mattock"
+			icon: {
+				id: "tconstruct:mattock"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:secondary_mining": 0.65f
+						"tconstruct:mining_speed": 1.1f
+						"tconstruct:attack_damage": 1.1f
+						"tconstruct:durability": 1.25f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.9f
+						"tconstruct:secondary_mining": 0.65f
+						"tconstruct:attack_damage": 2.75f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 162.5f
+						"tconstruct:mining_speed": 4.4f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:knockback"
+							level: 1s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 2s
+						}
+						{
+							name: "tconstruct:shovel_transform_hidden"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:stone"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 8.0d
+			y: 1.0d
+			description: ["The Mattock is the defacto shovel of Tinkers. Right click on the same blocks a shovel can to make paths in world. As a weapon, the extra heft will add knockback to your attacks."]
+			dependencies: ["43EDC38B89D1611F"]
+			id: "2E1A013A03B71744"
+			tasks: [
+				{
+					id: "43AA6472EE8AB6AB"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "56802289223C9314"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "1A579C8C86013F3B"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "5A248F2C6C8C0332"
+					type: "item"
+					item: {
+						id: "tconstruct:mattock"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:secondary_mining": 0.65f
+								"tconstruct:mining_speed": 1.1f
+								"tconstruct:attack_damage": 1.1f
+								"tconstruct:durability": 1.25f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:secondary_mining": 0.65f
+								"tconstruct:attack_damage": 2.75f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 162.5f
+								"tconstruct:mining_speed": 4.4f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:knockback"
+									level: 1s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 2s
+								}
+								{
+									name: "tconstruct:shovel_transform_hidden"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+								"tconstruct:stone"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4B1AAC40422A07F9"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			title: "Tinkers Kama"
+			icon: {
+				id: "tconstruct:kama"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.75f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.8f
+						"tconstruct:mining_speed": 4.0f
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 130.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 2s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 1s
+						}
+						{
+							name: "tconstruct:shears"
+							level: 1s
+						}
+						{
+							name: "tconstruct:harvest"
+							level: 1s
+						}
+						{
+							name: "tconstruct:hoe_transform_hidden"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["43EDC38B89D1611F"]
+			id: "41E205C314A9B740"
+			tasks: [
+				{
+					id: "5F1E9AD8FBF20D48"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "12C51E27816AD89C"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "7F691442018C5BD5"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "273FBFDB3BAEA882"
+					type: "item"
+					item: {
+						id: "tconstruct:kama"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.75f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.8f
+								"tconstruct:mining_speed": 4.0f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 130.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 2s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 1s
+								}
+								{
+									name: "tconstruct:shears"
+									level: 1s
+								}
+								{
+									name: "tconstruct:harvest"
+									level: 1s
+								}
+								{
+									name: "tconstruct:hoe_transform_hidden"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "340E3AD616E621A9"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			title: "Tinkers Repair Kits"
+			icon: {
+				id: "tconstruct:repair_kit"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:stone"
+				}
+			}
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["43EDC38B89D1611F"]
+			id: "51AB322D09030F9D"
+			tasks: [{
+				id: "5075865B03CC4E82"
+				type: "item"
+				item: {
+					id: "tconstruct:repair_kit"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:stone"
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "127D5D468E6BDB00"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			title: "Skyslime Islands"
+			icon: "tconstruct:sky_congealed_slime"
+			x: -3.0d
+			y: -2.5d
+			description: ["Escalar até essas ilhas é uma tarefa para o funileiro que é recompensado com lodo do céu, o que é ótimo para criar itens que dão habilidades extras de limite do céu."]
+			dependencies: ["535EDB063EEB4A69"]
+			id: "56C19E78027E3478"
+			tasks: [{
+				id: "57D5581D008C3BB1"
+				type: "advancement"
+				advancement: "tconstruct:world/sky_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4256B5F4CAF9FCC7"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			title: "Earth Slime Islands"
+			icon: "tconstruct:earth_congealed_slime"
+			x: -2.0d
+			y: -3.5d
+			description: ["Essas ilhas costeiras são uma ótima fonte de lodo verde e coleta de lodo da terra. Este lodo tem elasticidade extra para lançar o funileiro a longas distâncias."]
+			dependencies: ["535EDB063EEB4A69"]
+			id: "0109D4318847D233"
+			tasks: [{
+				id: "3D6D7E6640CFD7C5"
+				type: "advancement"
+				advancement: "tconstruct:world/earth_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0A9A9FD3AB99C04D"
+				type: "random"
+				table_id: 3924578816994886274L
+			}]
+		}
+		{
+			title: "Blood Islands"
+			icon: "tconstruct:blood_congealed_slime"
+			x: -0.5d
+			y: -3.5d
+			description: ["These blood and ichor covered islands are a great source for magma crème, and the blood slime is a great resource for helping the tinkerer recover from the harsh mobs of the world."]
+			dependencies: ["48DD79D9708932B9"]
+			id: "1B3921C6457D614E"
+			tasks: [{
+				id: "34C9060B1E212855"
+				type: "advancement"
+				advancement: "tconstruct:world/blood_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "350F3CD451A385BB"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			title: "Ender Slime Islands"
+			icon: "tconstruct:ender_congealed_slime"
+			x: 2.0d
+			y: -3.5d
+			description: ["Essas ilhas roxas abrigam o lodo do ender, corrompido pelo vazio e possuindo alguns dos atributos espaciais que os homens do ender possuem."]
+			dependencies: ["3DB4D65F8A5ECA0B"]
+			id: "4FF8B7FECDC15915"
+			tasks: [{
+				id: "3653D52783DBEB70"
+				type: "advancement"
+				advancement: "tconstruct:world/ender_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1E0F36C297EF4976"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			title: "Withering Bones"
+			x: 0.5d
+			y: -3.5d
+			description: ["Essas gotas de esqueletos murchos lembram e transmitem as ferramentas do funileiro cortando quando aplicadas como uma atualização. Quando usado como base, aplica um toque necrótico."]
+			dependencies: ["48DD79D9708932B9"]
+			id: "1490641AFE8E77AB"
+			tasks: [{
+				id: "7C1FCB8F38A3F12E"
+				type: "item"
+				item: "tconstruct:necrotic_bone"
+				count: 3L
+			}]
+			rewards: [{
+				id: "1995119B007A3F4F"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			title: "Blast the Dragon"
+			x: 3.0d
+			y: -2.5d
+			description: ["Essas gotas, quando lançadas do dragão do ender, podem ser combinadas com as ferramentas do funileiro para conceder um espaço de habilidade adicional."]
+			dependencies: ["3DB4D65F8A5ECA0B"]
+			id: "0C1B8EB37B96FCF8"
+			tasks: [{
+				id: "3F12DC8055402C8A"
+				type: "item"
+				item: "tconstruct:dragon_scale"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "1DBF5241D4F72ECD"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "10A9BB6E210386B9"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+	]
+}

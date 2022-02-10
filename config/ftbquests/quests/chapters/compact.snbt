@@ -1,7 +1,7 @@
 {
 	id: "566B04D1686E0913"
 	group: "2FD49F470B9B7EB4"
-	order_index: 6
+	order_index: 5
 	filename: "compact"
 	title: "Compact"
 	default_quest_shape: ""
@@ -10,61 +10,216 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			dependencies: ["1CAC1273E1E4F3AF"]
 			id: "4A9CA941FEF640B9"
 			tasks: [{
 				id: "11EC3D2060A7E3D6"
 				type: "item"
 				item: "compactmachines:machine_tiny"
 			}]
+			rewards: [
+				{
+					id: "098BF1E4BB3D0145"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6BF20A82CC00C19B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: -1.0d
+			dependencies: ["1CAC1273E1E4F3AF"]
 			id: "0D416DC56091103C"
 			tasks: [{
 				id: "131C8028C4A865A7"
 				type: "item"
 				item: "compactmachines:machine_small"
 			}]
+			rewards: [
+				{
+					id: "6810A89F6D9A8840"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "38845F42D16199D3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: -2.0d
+			dependencies: ["1CAC1273E1E4F3AF"]
 			id: "42C179AFA9778C99"
 			tasks: [{
 				id: "5E26FEBAD4BCF250"
 				type: "item"
 				item: "compactmachines:machine_normal"
 			}]
+			rewards: [
+				{
+					id: "2F52D6B8B2E6A4D4"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6E8052B8C4D123BC"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: -3.0d
+			dependencies: ["1CAC1273E1E4F3AF"]
 			id: "6A5BCFBDC31EF438"
 			tasks: [{
 				id: "374BAA60623319E9"
 				type: "item"
 				item: "compactmachines:machine_large"
 			}]
+			rewards: [
+				{
+					id: "05B83E23345A84EA"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "06F39459008898E7"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: -4.0d
+			dependencies: ["1CAC1273E1E4F3AF"]
 			id: "32BF3A17BA47D699"
 			tasks: [{
 				id: "7C298FC0A10AD94B"
 				type: "item"
 				item: "compactmachines:machine_giant"
 			}]
+			rewards: [
+				{
+					id: "4E76EB13114C4C7B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "064012814A35B939"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: -5.0d
+			dependencies: ["1CAC1273E1E4F3AF"]
 			id: "657E3994BB9AD8DB"
 			tasks: [{
 				id: "4918679E69ADC13E"
 				type: "item"
 				item: "compactmachines:machine_maximum"
+			}]
+			rewards: [
+				{
+					id: "22DCC757757418C7"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7E5C3FD31CFB3E72"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			id: "1CAC1273E1E4F3AF"
+			tasks: [{
+				id: "3CB5BF201754EC0C"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [{
+				id: "3ADFF62A5125026D"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: [
+				"4A9CA941FEF640B9"
+				"0D416DC56091103C"
+				"42C179AFA9778C99"
+				"6A5BCFBDC31EF438"
+				"32BF3A17BA47D699"
+				"657E3994BB9AD8DB"
+			]
+			id: "3077311A1143D686"
+			tasks: [{
+				id: "3631882EE78E087C"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:item"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0BFE7CE2C4AA653A"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: [
+				"4A9CA941FEF640B9"
+				"0D416DC56091103C"
+				"42C179AFA9778C99"
+				"6A5BCFBDC31EF438"
+				"32BF3A17BA47D699"
+				"657E3994BB9AD8DB"
+			]
+			id: "2E46CBE861B0BFC6"
+			tasks: [{
+				id: "3047D5789380BF54"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:redstone_in"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "166EAAD96C82D2F5"
+				type: "item"
+				item: "thermal:enderium_coin"
 			}]
 		}
 	]

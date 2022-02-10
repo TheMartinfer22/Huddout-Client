@@ -1,0 +1,591 @@
+{
+	id: "00000000000002AB"
+	group: "2FD49F470B9B7EB4"
+	order_index: 10
+	filename: "storage"
+	title: "Armazenamento Extra"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Armazenamento"
+			icon: "minecraft:chest"
+			x: -0.5d
+			y: -7.5d
+			description: [""]
+			optional: true
+			id: "00000000000003FF"
+			tasks: [{
+				id: "0000000000000400"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "0000000000000CA3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "566BB6399FFF25F4"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Refined Storage"
+			x: -4.5d
+			y: -5.0d
+			subtitle: "Energy Mass Conversion in a Square"
+			description: [
+				""
+				"Prossiga para as missões de Armazenamento Refinado para obter mais ajuda para começar com este mod expansivo."
+			]
+			dependencies: ["000000000000040F"]
+			dependency_requirement: "one_completed"
+			id: "0000000000000403"
+			tasks: [{
+				id: "0000000000000699"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [
+				{
+					id: "009F23289E6D3135"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "6B25631C16B7B857"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Iron Chests"
+			icon: "ironchest:iron_chest"
+			x: -0.5d
+			y: -10.0d
+			dependencies: ["00000000000003FF"]
+			id: "0000000000000405"
+			tasks: [{
+				id: "0E04EFDAA9B1AE78"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [
+				{
+					id: "4FCB6CE4BA68B363"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1EBE3E590C07A99C"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "mekanism:basic_bin"
+			x: 0.5d
+			y: -10.0d
+			subtitle: "I Like Big Bins and I Cannot Lie"
+			dependencies: ["00000000000003FF"]
+			id: "0000000000000407"
+			tasks: [{
+				id: "3635395991201030"
+				type: "item"
+				title: "Bins"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:basic_bin"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_bin"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_bin"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_bin"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "19650DD236EAEECE"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "58ED171B48C8FEEC"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "323DD69DFDC20A7B"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Black Hole Storage"
+			x: 2.0d
+			y: -8.5d
+			subtitle: "Physics Breaking Hoarding"
+			description: [""]
+			dependencies: ["00000000000003FF"]
+			id: "0000000000000409"
+			tasks: [{
+				id: "0000000000000F5B"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "33BDE0DDB5E2AC35"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "7682B621FB81A6F2"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5AAC49F3820A9DFE"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Drawer Controller"
+			icon: "storagedrawers:controller"
+			x: -4.5d
+			y: -7.0d
+			description: [
+				"O Controlador de Gaveta deve estar em contato com as gavetas para 'vê-las'. Obviamente, as gavetas também podem ser encadeadas em uma parede ou linha, com um único controlador de gaveta capaz de se conectar a muitas gavetas."
+				""
+			]
+			dependencies: ["0000000000000966"]
+			id: "000000000000040F"
+			tasks: [{
+				id: "000000000000068C"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [
+				{
+					id: "46EE4692BAA8783F"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "6367AA2AA9C6E08B"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Gold Chests"
+			icon: "ironchest:gold_chest"
+			x: -0.5d
+			y: -11.0d
+			dependencies: ["0000000000000405"]
+			id: "000000000000094F"
+			tasks: [{
+				id: "4A6C692CD4447D0A"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [
+				{
+					id: "4F394D6836DC5B58"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3ADE94E398C190E5"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Diamond Chests"
+			icon: "ironchest:diamond_chest"
+			x: -0.5d
+			y: -12.0d
+			dependencies: ["000000000000094F"]
+			id: "0000000000000951"
+			tasks: [{
+				id: "33676E16A075C164"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [
+				{
+					id: "508DFDAB23C9BC12"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3C3348F60F195E4A"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Drawers"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: -3.0d
+			y: -7.5d
+			description: [
+				""
+				"As gavetas podem ser usadas de forma independente ou colocadas ao lado de um controlador para ligá-las todas juntas. Cada gaveta pode aceitar várias atualizações para expandir sua capacidade e recursos."
+			]
+			dependencies: ["00000000000003FF"]
+			id: "0000000000000966"
+			tasks: [{
+				id: "0000000000000967"
+				type: "item"
+				title: "Storage Drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4B6B249BE51585AF"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "526F9BD4807E588F"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -8.0d
+			dependencies: ["0000000000000966"]
+			id: "0000000000000980"
+			tasks: [{
+				id: "00000000000009A0"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "4E667BDB56802281"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "399DBF3E9642CCB8"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -8.5d
+			dependencies: ["0000000000000966"]
+			id: "0000000000000982"
+			tasks: [{
+				id: "0000000000000983"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+			rewards: [
+				{
+					id: "74FB4EC5A7D3E90A"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "5E18F8235D3D08DB"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			description: ["Excess items will be automatically voided."]
+			dependencies: ["0000000000000966"]
+			id: "0000000000000984"
+			tasks: [{
+				id: "0000000000000985"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000A5A"
+					type: "command"
+					title: "Scavenger's Delight"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+				{
+					id: "04FB1F27B1437CD1"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				tag: {
+					inventorySlots: 27
+					upgradeSlots: 1
+				}
+			}
+			x: 2.0d
+			y: -7.5d
+			description: [
+				"Mochilas sofisticadas é o mod de mochila que você nunca soube que estava perdendo."
+				""
+				"As próprias mochilas podem ser usadas em um slot de curiosidades e acessadas via keybind, bem como colocadas no mundo e interagidas por meio de canos ou funis."
+				""
+			]
+			dependencies: ["00000000000003FF"]
+			id: "0000000000000986"
+			tasks: [{
+				id: "0000000000000998"
+				type: "checkmark"
+				title: "Sophisticated Backpacks"
+			}]
+			rewards: [
+				{
+					id: "0000000000000997"
+					type: "item"
+					title: "Leather"
+					icon: "minecraft:leather"
+					item: "minecraft:leather"
+					random_bonus: 3
+				}
+				{
+					id: "057EB8E691A811F8"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			dependencies: ["0000000000000986"]
+			id: "0000000000000988"
+			tasks: [{
+				id: "0000000000000989"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [
+				{
+					id: "7E971834BFC95079"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "64DA767136F4BDDF"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			dependencies: ["0000000000000988"]
+			id: "000000000000098A"
+			tasks: [{
+				id: "000000000000098B"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [
+				{
+					id: "232ADD1E1C8E974D"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0F70B48DF1A0BBCF"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			dependencies: ["000000000000098A"]
+			id: "000000000000098C"
+			tasks: [{
+				id: "000000000000098D"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [
+				{
+					id: "446D0D773F88ADE5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7D24F6E3B1FDEBB6"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -7.5d
+			dependencies: ["0000000000000986"]
+			id: "000000000000098E"
+			tasks: [{
+				id: "000000000000098F"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+			rewards: [
+				{
+					id: "47D3905F8B6A9081"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "192F85CF10649219"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -7.5d
+			dependencies: ["0000000000000986"]
+			id: "0000000000000990"
+			tasks: [{
+				id: "0000000000000991"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+			rewards: [
+				{
+					id: "03E1B4DDD8F16F78"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3A0280B20CA1D049"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["0000000000000986"]
+			id: "0000000000000992"
+			tasks: [{
+				id: "0000000000000993"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+			rewards: [
+				{
+					id: "73D83679C0C53505"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "565CCDB6D70618B6"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Feeding Upgrade"
+			x: 5.0d
+			y: -7.5d
+			dependencies: ["0000000000000986"]
+			id: "0000000000000994"
+			tasks: [{
+				id: "0000000000000995"
+				type: "item"
+				title: "Feeding Upgrade"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+			rewards: [
+				{
+					id: "18C680EAD2582E7A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "45C4CC0EDFB0A1BA"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			dependencies: ["000000000000098C"]
+			id: "585A22AF9FB84AFD"
+			tasks: [{
+				id: "4F51BBE2671F8947"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [
+				{
+					id: "26818DF231B52FE0"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0DDC10AD1BC007AD"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+	]
+}

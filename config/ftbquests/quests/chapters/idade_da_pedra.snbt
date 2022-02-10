@@ -52,13 +52,6 @@
 			]
 			rewards: [
 				{
-					id: "6C3A8653014743F7"
-					type: "pmmo:levelreward"
-					auto: "invisible"
-					skill: "mining"
-					amount: 2.0d
-				}
-				{
 					id: "77E36E349BF46F99"
 					type: "item"
 					item: {
@@ -68,6 +61,11 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "580966FCB6C30049"
+					type: "random"
+					table_id: 3924578816994886274L
 				}
 			]
 		}
@@ -98,12 +96,9 @@
 					count: 256
 				}
 				{
-					id: "6E8A720620E1DB5F"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "farming"
-					amount: 500.0d
-					ignoreBonuses: false
+					id: "0F663C97F0F346B8"
+					type: "random"
+					table_id: 3924578816994886274L
 				}
 			]
 		}
@@ -118,22 +113,12 @@
 				item: "minecraft:furnace"
 				count: 32L
 			}]
-			rewards: [
-				{
-					id: "48B5B5014BDD0940"
-					type: "item"
-					item: "minecraft:blast_furnace"
-					count: 16
-				}
-				{
-					id: "329BFE033B03CADC"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "smithing"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-			]
+			rewards: [{
+				id: "48B5B5014BDD0940"
+				type: "item"
+				item: "minecraft:blast_furnace"
+				count: 16
+			}]
 		}
 		{
 			x: 4.0d
@@ -153,12 +138,9 @@
 					item: "thermal:machine_furnace"
 				}
 				{
-					id: "5F0209832DD6293B"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "smithing"
-					amount: 400.0d
-					ignoreBonuses: false
+					id: "2F643E0268B3CB4E"
+					type: "random"
+					table_id: 3924578816994886274L
 				}
 			]
 		}
@@ -237,44 +219,9 @@
 					}
 				}
 				{
-					id: "586DCF1C43A51534"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "mining"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "1C6CDEDA247C0D41"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "combat"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "0002F66BA4AC1E90"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "woodcutting"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "44542F1B3B59F502"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "farming"
-					amount: 200.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "4DD49DC60BD51301"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "excavation"
-					amount: 200.0d
-					ignoreBonuses: false
+					id: "4BA7FF64640C188A"
+					type: "random"
+					table_id: 3924578816994886274L
 				}
 			]
 		}

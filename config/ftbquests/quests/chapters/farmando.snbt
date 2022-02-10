@@ -1,7 +1,7 @@
 {
 	id: "448F273CA4CB419D"
 	group: "2FD49F470B9B7EB4"
-	order_index: 3
+	order_index: 2
 	filename: "farmando"
 	title: "Farmando"
 	default_quest_shape: ""
@@ -15,7 +15,20 @@
 				id: "1A3624F69538E5D6"
 				type: "item"
 				item: "minecraft:sugar_cane"
+				count: 256L
 			}]
+			rewards: [
+				{
+					id: "4882F6F71EAB8F29"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "78C5550EE11C930C"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -25,7 +38,20 @@
 				id: "6E0A50813B40D06F"
 				type: "item"
 				item: "minecraft:carrot"
+				count: 256L
 			}]
+			rewards: [
+				{
+					id: "12C6BAACDF867E99"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "064FF90088FEA1CB"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -35,7 +61,20 @@
 				id: "16828F7530E42DAE"
 				type: "item"
 				item: "minecraft:potato"
+				count: 256L
 			}]
+			rewards: [
+				{
+					id: "1F35F3CCA0D3031E"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "2AB9D57D4BC5BFDF"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -45,7 +84,20 @@
 				id: "5B4984099CB2F136"
 				type: "item"
 				item: "minecraft:wheat"
+				count: 256L
 			}]
+			rewards: [
+				{
+					id: "0C8CB63B922495E9"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "1F585E5D6A50FD32"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -55,7 +107,20 @@
 				id: "30EE29022080E66D"
 				type: "item"
 				item: "minecraft:apple"
+				count: 256L
 			}]
+			rewards: [
+				{
+					id: "43763AE478ECF239"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "4C42386FCD6DE608"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -65,7 +130,20 @@
 				id: "7A93A0715E6CE70A"
 				type: "item"
 				item: "minecraft:beetroot"
+				count: 256L
 			}]
+			rewards: [
+				{
+					id: "468728C1E8B3BC76"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "2F3A1967832175B2"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -75,7 +153,20 @@
 				id: "0A4F049718EEE5B9"
 				type: "item"
 				item: "minecraft:sweet_berries"
+				count: 256L
 			}]
+			rewards: [
+				{
+					id: "2CA43DBA27203F38"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "508D01E585F038ED"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -85,6 +176,43 @@
 				id: "75446AD02E1DEB30"
 				type: "item"
 				item: "minecraft:melon_slice"
+				count: 256L
+			}]
+			rewards: [
+				{
+					id: "21DBDD58ADA1D02D"
+					type: "choice"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "41609D23E3E01B8B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"4C164B89CD8054F9"
+				"5F713E22EFD1300B"
+				"4C38DCDD42C1353E"
+				"306C7383318F978E"
+				"4FB5C5A38A8F6244"
+				"4D62C09069D44967"
+				"07FDB4F9C07B35DD"
+				"2B3FF3708750BA37"
+			]
+			id: "437E7CDEC01B6C54"
+			tasks: [{
+				id: "5AAE359E525DC609"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2CD5A8C3ED9CD38F"
+				type: "random"
+				table_id: 1638175304755896590L
 			}]
 		}
 	]

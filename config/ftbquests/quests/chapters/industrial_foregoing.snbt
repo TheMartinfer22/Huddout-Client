@@ -1,10 +1,1286 @@
 {
-	id: "172EC0E70F78E758"
+	id: "0000000000000003"
 	group: "4FCBF57EFAF8C3EC"
-	order_index: 2
+	order_index: 4
 	filename: "industrial_foregoing"
 	title: "Industrial Foregoing"
+	icon: "industrialforegoing:latex_processing_unit"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Industrial Foregoing"
+			icon: "industrialforegoing:plastic"
+			x: 1.5d
+			y: -9.75d
+			description: [""]
+			size: 1.5d
+			optional: true
+			id: "000000000000004A"
+			tasks: [{
+				id: "452B662F54BEAD8D"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "234EA77258AE837C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "63727AE711541D73"
+					type: "item"
+					title: "Iron Ingot"
+					item: "minecraft:iron_ingot"
+					count: 6
+					random_bonus: 4
+				}
+				{
+					id: "213ED19C6CD02AB5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "361FD685C1EAE7E6"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			description: ["O Fluid Extractor, surpreendentemente, extrai fluido. Coloque um de frente para um bloco de tora e ele quebrará lentamente o toro enquanto produz látex. A energia é opcional, mas acelera o processo por um fator de 2,5. As toras de acácia dão o melhor rendimento."]
+			dependencies: ["000000000000004A"]
+			id: "000000000000004B"
+			tasks: [{
+				id: "000000000000004C"
+				type: "item"
+				title: "Fluid Extractor"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:fluid_extractor"
+								Count: 1b
+							}
+							{
+								id: "thermal:device_tree_extractor"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000628"
+					type: "item"
+					title: "Acacia Log"
+					item: "minecraft:acacia_log"
+					count: 32
+				}
+				{
+					id: "0000000000000CAB"
+					type: "item"
+					title: "Acacia Sapling"
+					item: "minecraft:acacia_sapling"
+					count: 8
+				}
+				{
+					id: "6A420AF387D6853F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3D38836EE2367260"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			description: ["A Unidade de Processamento de Látex utiliza látex, água e energia como insumos para produzir Tiny Dry Rubber. Isso pode ser transformado em Borracha Seca, que por sua vez é fundida em Plástico, um recurso crítico."]
+			dependencies: ["000000000000004B"]
+			id: "000000000000004F"
+			tasks: [{
+				id: "0000000000000050"
+				type: "item"
+				title: "Latex Processing Unit"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:latex_processing_unit"
+								Count: 1b
+							}
+							{
+								id: "thermal:machine_refinery"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4D7BA750F8499420"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "5246A53DC713AD2A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6A1CA0DA67972ACE"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			shape: "pentagon"
+			dependencies: ["0000000000000057"]
+			id: "0000000000000051"
+			tasks: [{
+				id: "0000000000000052"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [
+				{
+					id: "176C236117F1E917"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "080D30BE20F9D111"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4011DBC5139328D2"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			description: ["The Mob Slaughter Factory kills mobs and animals in its area of effect. Entities slain in this way do not drop anything, but are converted to Liquid Meat and Pink Slime, liquids that can be piped out of the block."]
+			dependencies: ["000000000000004A"]
+			id: "0000000000000053"
+			tasks: [{
+				id: "0000000000000054"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [
+				{
+					id: "0000000000000626"
+					type: "item"
+					title: "Meat Feeder"
+					item: "industrialforegoing:meat_feeder"
+				}
+				{
+					id: "2519799A99AE9358"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "005A023573897CFB"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: [
+				"000000000000004C"
+				"000000000000004F"
+			]
+			id: "0000000000000057"
+			tasks: [{
+				id: "000000000000006B"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [
+				{
+					id: "02EBC2BD8CD69069"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "25EE7275DC99FB6F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7F1E0C31A690D9E4"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: [
+				"0000000000000050"
+				"0000000000000051"
+				"0000000000000053"
+			]
+			id: "0000000000000078"
+			tasks: [{
+				id: "0000000000000079"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [
+				{
+					id: "02E6ED801107C861"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "5A119C0D1F458DFC"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "41155194D0E7F5B1"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["0000000000000078"]
+			id: "000000000000007A"
+			tasks: [{
+				id: "000000000000007B"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [
+				{
+					id: "303F6A1E0C767DEF"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5D0687C187BCBA7E"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0A2698386EB57C73"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["000000000000007A"]
+			id: "000000000000007C"
+			tasks: [
+				{
+					id: "000000000000007D"
+					type: "item"
+					item: "industrialforegoing:enchantment_factory"
+				}
+				{
+					id: "0000000000000F0E"
+					type: "item"
+					item: "industrialforegoing:enchantment_applicator"
+				}
+				{
+					id: "0000000000000F0F"
+					type: "item"
+					item: "industrialforegoing:enchantment_extractor"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000F3B"
+					type: "item"
+					title: "Common Black Hole Tank"
+					item: {
+						id: "industrialforegoing:common_black_hole_tank"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								filter: {
+									Type: "WHITELIST"
+									Pointer: 0
+									Filter: { }
+								}
+								tank: {
+									FluidName: "industrialforegoing:essence"
+									FacingModes: {
+										TOP: "ENABLED"
+										LEFT: "ENABLED"
+										FRONT: "ENABLED"
+										BACK: "ENABLED"
+										RIGHT: "ENABLED"
+										BOTTOM: "ENABLED"
+									}
+									Amount: 16000
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "181B15F3165DCBCE"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "719D5B77005E26C2"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["0000000000000078"]
+			id: "000000000000007E"
+			tasks: [{
+				id: "000000000000007F"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+			rewards: [
+				{
+					id: "6EECB95C2F884C4B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5F5450A6D65526BE"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6D031A6E2C249B3F"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["O Biorreator pode processar até nove tipos diferentes de itens à base de plantas ao mesmo tempo para fazer Biocombustível; quanto mais slots forem preenchidos, maior será a eficiência. O biocombustível pode ser usado para gerar energia com o Gerador de Biocombustível ou para executar ferramentas Infinity."]
+			dependencies: ["000000000000004F"]
+			id: "0000000000000080"
+			tasks: [{
+				id: "0000000000000081"
+				type: "item"
+				item: "industrialforegoing:bioreactor"
+			}]
+			rewards: [
+				{
+					id: "000000000000062C"
+					type: "item"
+					title: "Beetroot"
+					item: "minecraft:beetroot"
+					count: 8
+				}
+				{
+					id: "000000000000062D"
+					type: "item"
+					title: "Carrot"
+					item: "minecraft:carrot"
+					count: 8
+				}
+				{
+					id: "000000000000062E"
+					type: "item"
+					title: "Potato"
+					item: "minecraft:potato"
+					count: 8
+				}
+				{
+					id: "6CA10B67256ACF14"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4D9125784B39397B"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["0000000000000051"]
+			id: "0000000000000086"
+			tasks: [{
+				id: "0000000000000087"
+				type: "item"
+				item: "industrialforegoing:plant_fertilizer"
+			}]
+			rewards: [
+				{
+					id: "0000000000000634"
+					type: "item"
+					title: "Fertilizer"
+					item: "industrialforegoing:fertilizer"
+					count: 16
+				}
+				{
+					id: "3578D8186877E3BE"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "32150BF19B4671B4"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "octagon"
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EDC"
+			tasks: [{
+				id: "0000000000000EDD"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+			rewards: [
+				{
+					id: "0000000000000EE0"
+					type: "item"
+					title: "Ether Gas Bucket"
+					item: "industrialforegoing:ether_gas_bucket"
+				}
+				{
+					id: "3797739F89F6FFC1"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "3AF70DF3E32E6115"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6B9B880F61C3181B"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000EE1"
+			tasks: [{
+				id: "0000000000000EE2"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+			rewards: [
+				{
+					id: "681E1118B6555E77"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3B22682664C65219"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			shape: "gear"
+			description: ["Quando todos os 16 geradores miceliais estiverem funcionando ativamente, o Reator Mycelial será ativado e fará 25M RF/t."]
+			dependencies: [
+				"0000000000000EE1"
+				"0000000000000EE5"
+				"0000000000000EE7"
+				"0000000000000EE9"
+				"0000000000000EEB"
+				"0000000000000EEF"
+				"0000000000000EED"
+				"0000000000000EFB"
+				"0000000000000F03"
+				"0000000000000EF1"
+				"0000000000000EF3"
+				"0000000000000EF7"
+				"0000000000000EF5"
+				"0000000000000EF9"
+				"0000000000000EFD"
+				"0000000000000F01"
+				"0000000000000EDC"
+			]
+			id: "0000000000000EE3"
+			tasks: [{
+				id: "0000000000000EE4"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+			rewards: [
+				{
+					id: "7B9C4BAFF6146115"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "563747A0895A60F5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4E02C5113EFEFB71"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EE5"
+			tasks: [{
+				id: "0000000000000EE6"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+			rewards: [
+				{
+					id: "40A09147A0BC7A3D"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0CCBB4BF8B71AC26"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000EE7"
+			tasks: [{
+				id: "0000000000000EE8"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+			rewards: [
+				{
+					id: "00CD2E5C6CF87FCE"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "71AF14A30122F7A6"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EE9"
+			tasks: [{
+				id: "0000000000000EEA"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+			rewards: [
+				{
+					id: "297966666E8DD26B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "52C3E18025254B6E"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EEB"
+			tasks: [{
+				id: "0000000000000EEC"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+			rewards: [
+				{
+					id: "4D4F2F22FE76A7CA"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "37211524EDFC419C"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EED"
+			tasks: [{
+				id: "0000000000000EEE"
+				type: "item"
+				item: "industrialforegoing:mycelial_ender"
+			}]
+			rewards: [
+				{
+					id: "4DCB2120E564D8A3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1C2C49685E5ED009"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EEF"
+			tasks: [{
+				id: "0000000000000EF0"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+			rewards: [
+				{
+					id: "64004AB73EA19446"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "35E8AEC1BE5CE0BE"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000EF1"
+			tasks: [{
+				id: "0000000000000EF2"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+			rewards: [
+				{
+					id: "4CE36E4163DE24EA"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3EC4BAB8DE9723F3"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000EF3"
+			tasks: [{
+				id: "0000000000000EF4"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+			rewards: [
+				{
+					id: "3EB1C801D36B4CE9"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "06B0A49A89F0B39F"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EF5"
+			tasks: [{
+				id: "0000000000000EF6"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+			rewards: [
+				{
+					id: "214F12556C5EF27A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "32D8C1399C05D4AE"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000EF7"
+			tasks: [{
+				id: "0000000000000EF8"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+			rewards: [
+				{
+					id: "38DB431B8B68DEB4"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "2866B0661619FF9F"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000EF9"
+			tasks: [{
+				id: "0000000000000EFA"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+			rewards: [
+				{
+					id: "5FBF7B8DE41715D6"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5EEA556836B2071A"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EFB"
+			tasks: [{
+				id: "0000000000000EFC"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+			rewards: [
+				{
+					id: "270994345F42EDCF"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "03399B87DC56A39E"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			description: ["Will produce power using fireworks depending of the firework type and shapes."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EFD"
+			tasks: [{
+				id: "0000000000000EFE"
+				type: "item"
+				item: "industrialforegoing:mycelial_rocket"
+			}]
+			rewards: [
+				{
+					id: "5B62F2166C1C3FE1"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "2BF6F40444A8740B"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000F01"
+			tasks: [{
+				id: "0000000000000F02"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+			rewards: [
+				{
+					id: "55F9A84DC13BD0EC"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "05C1E5610C29524B"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000F03"
+			tasks: [{
+				id: "0000000000000F04"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
+			rewards: [
+				{
+					id: "08D0726B83B55C5A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4AD7688B04448B74"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["000000000000004A"]
+			id: "0000000000000F10"
+			tasks: [{
+				id: "0000000000000F11"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F2B"
+					type: "xp"
+					xp: 16
+				}
+				{
+					id: "0C93A0561759EE22"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "68AD8442514C7F3A"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			id: "0000000000000F12"
+			tasks: [{
+				id: "0000000000000F13"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F2C"
+					type: "xp"
+					xp: 32
+				}
+				{
+					id: "23F84B89B12A4DC1"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "2C284934379D2250"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000F14"
+			tasks: [{
+				id: "0000000000000F15"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F2D"
+					type: "xp"
+					xp: 64
+				}
+				{
+					id: "2165F455088446B8"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "35CF31E702BCA049"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000F16"
+			tasks: [{
+				id: "0000000000000F17"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F2E"
+					type: "xp"
+					xp: 128
+				}
+				{
+					id: "1B6FF8805E35C9E2"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1BCD5ADB1FEE4850"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000F18"
+			tasks: [{
+				id: "0000000000000F19"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F2F"
+					type: "xp"
+					xp: 256
+				}
+				{
+					id: "2C9DA4FA17B46C6E"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "79531C4959C1ECD5"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["000000000000004A"]
+			id: "0000000000000F1A"
+			tasks: [{
+				id: "0000000000000F1B"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F31"
+					type: "xp"
+					xp: 16
+				}
+				{
+					id: "16EBBDFBB7E11E1B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1E2E75CF89858716"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			id: "0000000000000F1C"
+			tasks: [{
+				id: "0000000000000F1D"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F32"
+					type: "xp"
+					xp: 32
+				}
+				{
+					id: "542BEEFAB5C85054"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "221385396F099D6E"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000F1E"
+			tasks: [{
+				id: "0000000000000F1F"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F33"
+					type: "xp"
+					xp: 64
+				}
+				{
+					id: "1930621DD74C7058"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0C830CD1D69DE5A4"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000F20"
+			tasks: [{
+				id: "0000000000000F21"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F34"
+					type: "xp"
+					xp: 128
+				}
+				{
+					id: "04CA9F13D785A07C"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "32E46B0E0746FE6F"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000F22"
+			tasks: [{
+				id: "0000000000000F23"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F35"
+					type: "xp"
+					xp: 256
+				}
+				{
+					id: "1C87E7C90B6873E0"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5D4AEC029ABF011C"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -4.0d
+			description: ["Este bloco armazenará até 16 unidades ou tanques de buracos negros e tornará seu conteúdo acessível externamente."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000F24"
+			tasks: [{
+				id: "0000000000000F25"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F30"
+					type: "xp"
+					xp: 512
+				}
+				{
+					id: "2323224EF288CCF0"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6066B40CB5DBD800"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["000000000000007A"]
+			id: "73E9574B069570BD"
+			tasks: [{
+				id: "27D665ECBDA02E5A"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+			rewards: [
+				{
+					id: "24B8F1EFDCF5A2D9"
+					type: "item"
+					title: "Mob Imprisonment Tool"
+					item: "industrialforegoing:mob_imprisonment_tool"
+				}
+				{
+					id: "26B94AD332EC99D6"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0936C1F8A57C7BDD"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+	]
 }

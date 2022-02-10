@@ -1,0 +1,847 @@
+{
+	id: "0000000000000E7F"
+	group: "2FD49F470B9B7EB4"
+	order_index: 8
+	filename: "eidolon_wip"
+	title: "Eidolon"
+	icon: "eidolon:unholy_symbol"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Bem Vindo ao Eidolon"
+			x: 1.5d
+			y: 0.5d
+			shape: "circle"
+			description: [
+				"Eidolon é um mod de magia negra focado em orações, alquimia, sacrifícios e travessuras mágicas!"
+				""
+				""
+				""
+				""
+				""
+				""
+			]
+			dependencies: ["1188DA3AC0F2DB91"]
+			size: 1.5d
+			id: "0000000000000E80"
+			tasks: [{
+				id: "0000000000000E81"
+				type: "checkmark"
+				icon: "eidolon:codex"
+			}]
+			rewards: [{
+				id: "5855578CE2117C3E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Altar Basico"
+			icon: "eidolon:wooden_altar"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "Apenas uma oração casual para o Lorde das Trevas"
+			description: [
+				""
+				"Um Altar de Madeira é o mais básico que você pode criar, então tudo bem por enquanto. Você também precisará de uma Efígie, então faça uma de palha por enquanto e coloque-a em cima do altar."
+				""
+				"Orar para a Efígie agora aumentará seu favor com o Lorde das Trevas, e se você fizer isso o suficiente, ele pode até decidir revelar algum novo conhecimento para você…"
+				""
+				"Tenha cuidado, porém: qualquer oração só pode ser realizada uma vez por dia, quaisquer tentativas duplicadas falharão. Você saberá se uma oração funcionou porque os olhos da Efígie se iluminarão e você ouvirá um som de tempestade."
+				""
+			]
+			dependencies: [
+				"0000000000000E85"
+				"1188DA3AC0F2DB91"
+			]
+			min_width: 300
+			id: "0000000000000E83"
+			tasks: [
+				{
+					id: "0000000000000E84"
+					type: "item"
+					item: "eidolon:wooden_altar"
+				}
+				{
+					id: "0000000000000E96"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000ECE"
+					type: "item"
+					title: "Candle"
+					item: "eidolon:candle"
+					count: 2
+				}
+				{
+					id: "0000000000000ECF"
+					type: "item"
+					title: "Zombie Head"
+					item: "minecraft:zombie_head"
+				}
+			]
+		}
+		{
+			title: "Sinais e cantos"
+			x: 1.5d
+			y: 2.0d
+			subtitle: "Isso vai ser assustador..."
+			description: [
+				"Os cantos são uma mecânica importante no Eidolon, que permitirá que você progrida na Teurgia e desbloqueie os itens e ferramentas mais poderosos do mod."
+				""
+				"Para executar os cantos, você precisará aprender os sinais e, em seguida, combiná-los com seu Ars Ecclesia para compor a sequência correta para o canto desejado."
+				""
+				""
+				""
+				""
+			]
+			dependencies: [
+				"0000000000000E80"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000E85"
+			tasks: [{
+				id: "0000000000000E86"
+				type: "checkmark"
+				title: "Chants"
+				icon: {
+					id: "eidolon:warlock_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "404376A3A44AE4B8"
+				type: "item"
+				item: "thermal:enderium_coin"
+				count: 8
+			}]
+		}
+		{
+			title: "Rituals"
+			icon: "eidolon:brazier"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "Está aceso família!"
+			description: [
+				""
+				"Para começar, coloque um Braseiro no centro de sua configuração e, em seguida, envolva-o com várias Mãos de Pedra. Você precisará então seguir a receita do livro e colocar os itens no meio e nas mãos."
+				""
+			]
+			dependencies: [
+				"0000000000000E80"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000E87"
+			tasks: [
+				{
+					id: "0000000000000E88"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "0000000000000E89"
+					type: "item"
+					item: "eidolon:stone_hand"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000EC6"
+					type: "item"
+					title: "Stone Hand"
+					item: "eidolon:stone_hand"
+					count: 2
+				}
+				{
+					id: "0000000000000EC7"
+					type: "item"
+					title: "Enchanted Ash"
+					item: "eidolon:enchanted_ash"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			subtitle: "Focos Assustadores"
+			description: [
+				"Alguns rituais, como os de invocação de mob, requerem um receptáculo de item mais avançado, identificado por uma textura diferente na receita do Ritual."
+				""
+				""
+			]
+			dependencies: [
+				"0000000000000E87"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000E8A"
+			tasks: [{
+				id: "0000000000000E8B"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+			rewards: [{
+				id: "0000000000000EC9"
+				type: "item"
+				title: "Potion of Harming"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:harming"
+					}
+				}
+			}]
+		}
+		{
+			title: "Pewter"
+			icon: "eidolon:pewter_ingot"
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Let's go fight Brock!"
+			description: [
+				"Um dos primeiros recursos básicos que você precisará para muitos itens no mod é Pewter, uma liga de ferro e chumbo."
+				""
+				"Você pode criá-lo na maioria das máquinas de liga, ou também simplesmente combinando os dois lingotes e fundindo a mistura que você obtém ao fazê-lo. Estoque um monte, você vai precisar!"
+			]
+			dependencies: [
+				"0000000000000E80"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000E8E"
+			tasks: [
+				{
+					id: "0000000000000E8F"
+					type: "item"
+					item: "eidolon:pewter_ingot"
+					count: 16L
+				}
+				{
+					id: "0000000000000EBB"
+					type: "item"
+					item: "eidolon:pewter_inlay"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000EBC"
+					type: "item"
+					title: "Pewter Blend"
+					item: "eidolon:pewter_blend"
+					count: 8
+				}
+				{
+					id: "79084695D1366E8B"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "Não seria um mod mágico sem um desses!"
+			description: [
+				"Muitos ingredientes do Eidolon são feitos no Crisol, então você precisa se familiarizar com ele. Crie um, encha-o com água, coloque-o acima de uma fonte de calor, como lava ou um bloco de magma, e espere a água ferver."
+				""
+				"Você notará que as receitas do Crisol vêm em diferentes etapas que você precisa seguir. Jogue todos os itens de uma etapa no cadinho, espere a água mudar de cor e, em seguida, solte rapidamente todos os itens para a próxima etapa, até que todas as etapas sejam concluídas."
+				""
+				"Se você for muito lento, a água evaporará e você perderá os itens que deixou cair até agora, então esteja preparado!"
+				""
+				"Algumas receitas também exigem que você mexa o Crisol: você pode fazer isso clicando com o botão direito do mouse no Crisol quando for a hora certa."
+			]
+			dependencies: [
+				"0000000000000E8E"
+				"1188DA3AC0F2DB91"
+			]
+			min_width: 300
+			id: "0000000000000E90"
+			tasks: [{
+				id: "0000000000000E91"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [
+				{
+					id: "0000000000000EBE"
+					type: "item"
+					title: "Redstone Dust"
+					item: "minecraft:redstone"
+					count: 2
+				}
+				{
+					id: "0000000000000EBF"
+					type: "item"
+					title: "Soul Shard"
+					item: "eidolon:soul_shard"
+				}
+				{
+					id: "0000000000000EC0"
+					type: "item"
+					title: "Gold Ingot"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "0000000000000EC1"
+					type: "item"
+					title: "Magma Block"
+					item: "minecraft:magma_block"
+				}
+			]
+		}
+		{
+			title: "Crystallization Ritual"
+			x: 4.0d
+			y: 3.0d
+			subtitle: "Turn them into shards!"
+			description: [
+				"O primeiro ritual que você vai querer realizar é o Ritual de Cristalização. Ele vai matar Undead mobs nas proximidades e transformá-los em Soul Shards, que são necessários para muitos itens e receitas em todo o mod."
+				""
+				"Envolva-os em um grupo de mobs e você terá uma grande gaiola que pode ser usada para iniciar seus sacrifícios!"
+				""
+			]
+			dependencies: [
+				"0000000000000E87"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000E92"
+			tasks: [{
+				id: "0000000000000E93"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "1BC2B7D12824A5AB"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "6650CE7772B9511C"
+					type: "item"
+					item: "thermal:enderium_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			subtitle: "Achei que fosse verde!"
+			description: [
+				""
+				"É bastante simples: funciona exatamente como uma bancada de trabalho normal (e pode ser usada como uma), mas tem quatro slots adicionais que você precisará usar para certas receitas mágicas."
+			]
+			dependencies: [
+				"0000000000000E8E"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000E94"
+			tasks: [{
+				id: "0000000000000E95"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [{
+				id: "04241A285AE2581E"
+				type: "random"
+				table_id: 3924578816994886274L
+			}]
+		}
+		{
+			title: "Altar Upgrades: Lighting"
+			x: 2.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "Não, não Relâmpago Marquinhos"
+			description: [
+				"Você pode colocar mais coisas em seu Altar para torná-lo mais poderoso. Existem duas estatísticas que você pode aumentar:"
+				""
+				"Por exemplo, se você colocar uma tocha e um castiçal em seu altar, o bônus será de apenas +2 de poder. Itens de diferentes categorias, no entanto, são empilhados conforme o esperado."
+				""
+				"Confira a lista completa de atualizações viáveis ​​em seu Ars Ecclesia: para a categoria de iluminação, o melhor que você pode usar é um castiçal (ou uma vela)."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000E83"
+				"1188DA3AC0F2DB91"
+			]
+			optional: true
+			min_width: 300
+			id: "0000000000000E97"
+			tasks: [{
+				id: "0000000000000E98"
+				type: "item"
+				item: "eidolon:candlestick"
+			}]
+			rewards: [{
+				id: "0000000000000ED0"
+				type: "item"
+				title: "Basic Amulet"
+				item: "eidolon:basic_amulet"
+			}]
+		}
+		{
+			title: "Altar Upgrades: Skulls"
+			x: 3.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "Todo bom mod mágico precisa de alguns crânios!"
+			description: [
+				"Você pode colocar mais coisas em seu Altar para torná-lo mais poderoso. Existem duas estatísticas que você pode aumentar:"
+				""
+				"Por exemplo, se você colocar uma tocha e um castiçal em seu altar, o bônus será de apenas +2 de poder. Itens de diferentes categorias, no entanto, são empilhados conforme o esperado."
+				"Confira a lista completa de atualizações viáveis ​​em seu Ars Ecclesia: para a categoria de caveiras, o melhor que você pode usar é um Wither Skeleton Skull."
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000E83"
+				"1188DA3AC0F2DB91"
+			]
+			optional: true
+			min_width: 300
+			id: "0000000000000E99"
+			tasks: [{
+				id: "0000000000000E9A"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [
+				{
+					id: "0000000000000ED1"
+					type: "item"
+					title: "Potion of Wither"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:wither"
+						}
+					}
+				}
+				{
+					id: "1C2F6C0B99FEABEF"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Altar Upgrades: Herbs"
+			x: 3.0d
+			y: 4.5d
+			shape: "diamond"
+			subtitle: "Puns 'n' roses"
+			description: [
+				""
+				"O poder tornará suas orações mais poderosas (e, portanto, levará menos tempo e menos orações para que o Senhor lhe revele novos conhecimentos)."
+				""
+				"Por exemplo, se você colocar uma tocha e um castiçal em seu altar, o bônus será de apenas +2 de poder. Itens de diferentes categorias, no entanto, são empilhados conforme o esperado."
+				""
+				"Confira a lista completa de atualizações viáveis ​​em seu Ars Ecclesia: para a categoria de ervas, o melhor que você pode usar é uma rosa murcha em um vaso de flores."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000E83"
+				"1188DA3AC0F2DB91"
+			]
+			optional: true
+			min_width: 300
+			id: "0000000000000E9B"
+			tasks: [{
+				id: "0000000000000E9C"
+				type: "item"
+				item: "minecraft:wither_rose"
+			}]
+			rewards: [{
+				id: "5F6CA5F56F29D9E4"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 3
+			}]
+		}
+		{
+			title: "Sacrificios"
+			x: 1.5d
+			y: 4.5d
+			subtitle: "Sangue para o Deus do Sangue"
+			description: [
+				"Depois de algum tempo e com bastante oração, o Lorde das Trevas revelará um novo sinal para você: o Sinal de Sangue."
+				""
+				""
+				"Crie um Cálice e coloque-o em cima do altar, então atraia uma criatura viva próxima e mate-a. O Cálice se encherá de sangue e você poderá realizar o Sacrifício."
+				""
+			]
+			dependencies: [
+				"0000000000000E83"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000E9D"
+			tasks: [{
+				id: "0000000000000E9E"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+			rewards: [{
+				id: "0000000000000ED4"
+				type: "item"
+				title: "Fresh Sacrifice Meat"
+				item: "minecraft:pig_spawn_egg"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			shape: "hexagon"
+			subtitle: "Não é um logotipo de banda de metal?"
+			description: [
+				""
+				"Solte um Pewter Inlay no chão e execute o canto para criar um Unholy Symbol."
+				""
+				"Esta relíquia será necessária para criar os itens mais avançados do mod, mas você só precisará de um, pois não será usado durante a criação."
+			]
+			dependencies: [
+				"0000000000000E9D"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000E9F"
+			tasks: [{
+				id: "0000000000000EA0"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [{
+				id: "0000000000000ED5"
+				type: "item"
+				title: "Warped Sprouts"
+				item: "eidolon:warped_sprouts"
+				count: 8
+			}]
+		}
+		{
+			title: "Altar de Pedra"
+			icon: "eidolon:stone_altar"
+			x: 1.5d
+			y: 6.5d
+			subtitle: "Rolling Stone Altars"
+			description: [
+				"Os cânticos mais poderosos que você desbloquear só podem ser executados em um altar atualizado feito de pedra, com uma Estátua Anciã no topo."
+				""
+			]
+			dependencies: [
+				"0000000000000E9F"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000EA1"
+			tasks: [
+				{
+					id: "0000000000000EA2"
+					type: "item"
+					item: "eidolon:stone_altar"
+				}
+				{
+					id: "0000000000000EA3"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+			]
+			rewards: [{
+				id: "3581650046F496AE"
+				type: "item"
+				item: "thermal:enderium_coin"
+				count: 8
+			}]
+		}
+		{
+			title: "Alchemy Practice!"
+			icon: "eidolon:arcane_gold_ingot"
+			x: -1.5d
+			y: 4.0d
+			subtitle: "Tente não queimar o lugar, sim?"
+			description: [
+				""
+				"O Ouro Arcano acabou de infundir o ouro normal com um fragmento de alma, você pode dar uma olhada na missão “Rituais” primeiro, se ainda não o fez."
+				""
+				"A Lesser Soul Gem também vem de um Soul Shard, mas é uma forma atualizada do último. Você precisará dele para receitas um pouco mais avançadas."
+				""
+			]
+			dependencies: [
+				"0000000000000E90"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000EAA"
+			tasks: [
+				{
+					id: "0000000000000EAB"
+					type: "item"
+					item: "eidolon:arcane_gold_ingot"
+					count: 16L
+				}
+				{
+					id: "0000000000000EAC"
+					type: "item"
+					item: "eidolon:lesser_soul_gem"
+					count: 8L
+				}
+				{
+					id: "0000000000000EC3"
+					type: "item"
+					item: "eidolon:shadow_gem"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000EC4"
+					type: "item"
+					title: "Soul Shard"
+					item: "eidolon:soul_shard"
+					count: 16
+				}
+				{
+					id: "7A23D91784941D4D"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Sanguine Items"
+			icon: "eidolon:sanguine_amulet"
+			x: 5.0d
+			y: 4.5d
+			subtitle: "No, not the Blood Magic book!"
+			description: [
+				"Itens Sanguíneos são as ferramentas mais poderosas que você pode fazer através de Rituais (por enquanto)."
+				""
+				"A Sword of Sapping causará dano de murchar e curará você por qualquer dano infligido por murchar."
+				""
+				""
+				""
+			]
+			dependencies: [
+				"0000000000000E8A"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000EAD"
+			tasks: [
+				{
+					id: "0000000000000EAE"
+					type: "item"
+					item: "eidolon:sanguine_amulet"
+				}
+				{
+					id: "0000000000000EBA"
+					type: "item"
+					item: {
+						id: "eidolon:sapping_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000ECA"
+					type: "item"
+					title: "Zombie Heart"
+					item: "eidolon:zombie_heart"
+					count: 8
+				}
+				{
+					id: "0000000000000ECB"
+					type: "item"
+					title: "Tattered Cloth"
+					item: "eidolon:tattered_cloth"
+					count: 8
+				}
+				{
+					id: "0000000000000ECC"
+					type: "item"
+					title: "Wraith Heart"
+					item: "eidolon:wraith_heart"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Wands Galore"
+			x: -2.5d
+			y: 5.5d
+			subtitle: "Basta olhar para esses efeitos de partículas!"
+			description: [
+				""
+				"A Soulfire Wand causará dano mágico aos seus inimigos, enquanto a Bonechill Wand negará a capacidade de qualquer inimigo de regenerar a saúde. Experimente os dois!"
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000EAA"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000EAF"
+			tasks: [
+				{
+					id: "0000000000000EB0"
+					type: "item"
+					item: {
+						id: "eidolon:soulfire_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000EB1"
+					type: "item"
+					item: {
+						id: "eidolon:bonechill_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000ED8"
+				type: "item"
+				title: "Wicked Weave"
+				item: "eidolon:wicked_weave"
+				count: 3
+			}]
+		}
+		{
+			title: "Picareta da Inversão"
+			x: -1.5d
+			y: 5.5d
+			subtitle: "Isso é confuso..."
+			description: [
+				"A Picareta da Inversão é uma ferramenta divertida que você pode usar durante a mineração. Como o nome indica, é o oposto de uma picareta normal."
+				""
+				"Ele irá minerar mais rápido quanto mais difícil for o bloco e diminuirá a velocidade para os blocos mais macios. Experimente em alguma obsidiana!"
+				""
+			]
+			dependencies: [
+				"0000000000000EAA"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000EB2"
+			tasks: [{
+				id: "0000000000000EB3"
+				type: "item"
+				item: {
+					id: "eidolon:reversal_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000ED6"
+				type: "item"
+				title: "Obsidian"
+				item: "minecraft:obsidian"
+				count: 16
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			subtitle: "Encantamento Controlado"
+			description: [
+				"O Soul Enchanter é uma maneira diferente e peculiar de encantar seus itens: ele só pode fazer encantamentos de nível básico 1 e usará Soul Shards, mas você poderá encantar um item já encantado e impulsioná-lo ainda mais."
+				""
+				"Se um item já tiver um encantamento, ele também poderá ser atualizado para um nível mais alto desse encantamento, permitindo ainda mais controle."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000EAA"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000EB4"
+			tasks: [{
+				id: "0000000000000EB5"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [{
+				id: "0000000000000EDA"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			subtitle: "É quebradiço..."
+			description: ["A Mão de Vidro é o melhor item de canhão de vidro para todos os aventureiros: ela dobrará sua força, mas aumentará qualquer dano que você receber em 5 vezes. Você está pronto para o desafio?"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000EAA"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000EB6"
+			tasks: [{
+				id: "0000000000000EB7"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+			rewards: [{
+				id: "0000000000000EDB"
+				type: "item"
+				title: "Music Disc"
+				item: "eidolon:music_disc_parousia"
+			}]
+		}
+		{
+			title: "Foice do Ceifador"
+			x: -0.5d
+			y: 5.5d
+			subtitle: "Experimente também o machado de clivagem"
+			description: [
+				"A foice do Ceifador não é apenas uma arma poderosa, mas matar mobs mortos-vivos com ela também lhe dará Soul Shards, embora um pouco menos do que você obteria realizando um Ritual de Cristalização."
+				""
+				"Ainda pode ser uma boa maneira de estocar alguns fragmentos para criar todos os outros itens do mod."
+			]
+			dependencies: [
+				"0000000000000E9F"
+				"0000000000000EAC"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000EB8"
+			tasks: [{
+				id: "0000000000000EB9"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000ED9"
+				type: "xp"
+				xp: 500
+			}]
+		}
+	]
+}

@@ -1,0 +1,1005 @@
+{
+	id: "00000000000003A1"
+	group: "4FCBF57EFAF8C3EC"
+	order_index: 1
+	filename: "thermal_series"
+	title: "Thermal Series"
+	icon: "thermal:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 0.5d
+			description: [""]
+			dependencies: ["0000000000000D1F"]
+			optional: true
+			id: "00000000000003A2"
+			tasks: [{
+				id: "6F8140DE19FABFDA"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+			rewards: [
+				{
+					id: "2A502376CBB65646"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4FA12D66CAA62549"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4E1ADCEB474D7671"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "thermal:dynamo_stirling"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Power, From the Top"
+			description: [""]
+			dependencies: ["00000000000003A2"]
+			id: "00000000000004A3"
+			tasks: [
+				{
+					id: "00000000000004A4"
+					type: "item"
+					item: "thermal:dynamo_stirling"
+				}
+				{
+					id: "00000000000004B8"
+					type: "item"
+					title: "Any Coal"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:coals"
+						}
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000004EC"
+					type: "item"
+					title: "Energy Cable (Basic)"
+					item: "mekanism:basic_universal_cable"
+					count: 8
+				}
+				{
+					id: "000000000000063A"
+					type: "item"
+					title: "Energy Cell (Basic)"
+					item: "powah:energy_cell_basic"
+				}
+				{
+					id: "6B8984A63EE9962D"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "290B14E5DCAD9EBA"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			subtitle: "Trickle-Down Economics"
+			description: [
+				"Embora nada seja gratuito, a fonte de energia nem sempre é imediatamente óbvia. O Extrator Arbóreo utiliza uma combinação de gravidade e ação capilar da própria árvore para coletar os fluidos disponíveis na árvore."
+				""
+				"Este é um processo não destrutivo, mas é necessária uma árvore viva. Fornecer alguma farinha de ossos ou outro fertilizante pode ajudar a repor as reservas da árvore mais rapidamente, aumentando assim a produção."
+				""
+			]
+			dependencies: ["00000000000004A3"]
+			id: "00000000000004A5"
+			tasks: [{
+				id: "00000000000004A6"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [
+				{
+					id: "00000000000004BA"
+					type: "item"
+					title: "Jungle Sapling"
+					auto: "disabled"
+					item: "minecraft:jungle_sapling"
+					count: 4
+				}
+				{
+					id: "0000000000000F87"
+					type: "item"
+					title: "Acacia Sapling"
+					item: "minecraft:acacia_sapling"
+					count: 4
+				}
+				{
+					id: "5F76B37F22BE77C2"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "2F80F439D3243B2F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "47E5BA179A3D79B8"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "thermal:machine_refinery"
+			x: -1.5d
+			y: 3.5d
+			subtitle: "Not Your Ordinary Moonshine"
+			description: [""]
+			dependencies: ["00000000000004BB"]
+			id: "00000000000004A7"
+			tasks: [
+				{
+					id: "00000000000004A8"
+					type: "item"
+					item: "thermal:machine_refinery"
+				}
+				{
+					id: "00000000000004C1"
+					type: "item"
+					item: "thermal:tree_oil_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000639"
+					type: "item"
+					title: "Basic Mechanical Pipe"
+					item: "mekanism:basic_mechanical_pipe"
+					count: 8
+				}
+				{
+					id: "7C1E189DD8BBC52D"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6E2259BC5FB46DE5"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			subtitle: "Between a Rock and a Hard Place"
+			description: [""]
+			dependencies: ["00000000000004C2"]
+			id: "00000000000004AB"
+			tasks: [{
+				id: "00000000000004AC"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [
+				{
+					id: "64AF5B0FB801410E"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "1D36A5D4FE85F0A1"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "74AB99BEFA44539F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1B433818A1DD8B70"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			subtitle: "Support the Resistance!"
+			dependencies: ["00000000000004AB"]
+			id: "00000000000004AF"
+			tasks: [{
+				id: "00000000000004B0"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [
+				{
+					id: "21211F0453E662AD"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "591605883D7AE056"
+					type: "item"
+					item: "thermal:invar_ingot"
+					count: 16
+				}
+				{
+					id: "6786BE05C6017D1F"
+					type: "item"
+					item: "silents_mechanisms:bronze_ingot"
+					count: 16
+				}
+				{
+					id: "3863C5FD5DE2E168"
+					type: "item"
+					item: "thermal:constantan_ingot"
+					count: 16
+				}
+				{
+					id: "1AF60D03D380642E"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "29BDC1123E38B5CC"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			subtitle: "A Sticky Mess"
+			description: [
+				""
+				"A resina pode ser extraída de muitas árvores diferentes e com um pouco de trabalho pode se tornar uma excelente fonte de combustível."
+			]
+			dependencies: ["00000000000004A5"]
+			id: "00000000000004BB"
+			tasks: [{
+				id: "00000000000004BC"
+				type: "item"
+				item: "thermal:resin_bucket"
+			}]
+			rewards: [
+				{
+					id: "00000000000004ED"
+					type: "item"
+					title: "Sweet Berries"
+					item: "minecraft:sweet_berries"
+					count: 16
+				}
+				{
+					id: "409409600577D5AF"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "035EE86808969928"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "010A2E1F72F821F3"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			subtitle: "ICE, ICE, Baby"
+			description: [""]
+			dependencies: ["00000000000004A7"]
+			id: "00000000000004BF"
+			tasks: [{
+				id: "00000000000004C0"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [
+				{
+					id: "144B4A97EECFDD8F"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "4A42948B5562D6A3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "516130B65C16AE15"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6E6494C6CB35F6A6"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			subtitle: "Capissen 38 Mark II"
+			description: [
+				"Uma fornalha simples, como uma fornalha de queima de carvão padrão, mas mais rápida e eficiente."
+				""
+			]
+			dependencies: ["00000000000003A2"]
+			id: "00000000000004C2"
+			tasks: [{
+				id: "00000000000004C3"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [
+				{
+					id: "1E32BEF5AA8D1D9E"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "1CCABE0B7A7D60C5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6F6DDAA520F186C2"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4F517FB01F6C6C9F"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			subtitle: "Bop It, Pull It, Twist It"
+			dependencies: ["00000000000004AF"]
+			id: "00000000000004C4"
+			tasks: [{
+				id: "00000000000004C5"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [
+				{
+					id: "06644EC1A44AC1EE"
+					type: "item"
+					item: "thermal:iron_plate"
+					count: 8
+				}
+				{
+					id: "75B0B5A6EAF2A65B"
+					type: "item"
+					item: "thermal:gold_plate"
+					count: 8
+				}
+				{
+					id: "7F1AE14B5B8A61CB"
+					type: "item"
+					item: "thermal:invar_plate"
+					count: 8
+				}
+				{
+					id: "19C0EF050ACFA492"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "21DFC3B475B60AC8"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			subtitle: "Between the Wasteland and Sky..."
+			dependencies: ["00000000000004AF"]
+			id: "00000000000004C6"
+			tasks: [{
+				id: "00000000000004C7"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [
+				{
+					id: "70D52E6A3E189C19"
+					type: "item"
+					item: "minecraft:bone_block"
+					count: 256
+				}
+				{
+					id: "162EE712E5B6613C"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5F507954328FF116"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "12686B6FC1DC9DF6"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "4A4208DFBE4A3115"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			subtitle: "Insert Tab A Into Slot B"
+			dependencies: ["00000000000004AF"]
+			id: "00000000000004C8"
+			tasks: [{
+				id: "00000000000004C9"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [
+				{
+					id: "4928385EA69C2745"
+					type: "item"
+					item: "refinedstorage:crafter"
+					count: 4
+				}
+				{
+					id: "3CCCBE761D7C08C6"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0189AA40BDD8E7A2"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3E71371A2431DE26"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "39ECB3756E558935"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "RF Capacity and Transfer Augments"
+			x: 3.0d
+			y: 2.5d
+			description: [""]
+			dependencies: ["00000000000003A2"]
+			id: "00000000000004E2"
+			tasks: [{
+				id: "0000000000000F56"
+				type: "item"
+				title: "RF Capacity/Upgrade Augments"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "thermal:rf_coil_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:rf_coil_storage_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:rf_coil_xfer_augment"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "37A2BEED09CEE7B7"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "77F9F3CE730AC41B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7C0347D170431BAB"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Integral Components"
+			x: 2.0d
+			y: 3.0d
+			description: [""]
+			dependencies: ["00000000000003A2"]
+			id: "00000000000004E6"
+			tasks: [{
+				id: "0000000000000F8D"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [
+				{
+					id: "1EC8571BF9DC60BB"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "2ACA1AF2ECEB3FF4"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7B4DF7DB7900CDC6"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Dynamo Augments"
+			x: 1.0d
+			y: 2.5d
+			description: [""]
+			dependencies: ["00000000000003A2"]
+			id: "0000000000000F52"
+			tasks: [{
+				id: "0000000000000F59"
+				type: "item"
+				title: "Dynamo Augments"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "thermal:dynamo_output_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:dynamo_fuel_augment"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "062DB2D316E0D10E"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "34570CED6CABA1FE"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "470B61FC257B130B"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			subtitle: "That's Mistress Nature To You"
+			description: [
+				""
+				"Toque em uma árvore da selva e comece a extrair látex bruto. Não há limites rígidos aqui."
+			]
+			dependencies: ["00000000000004A5"]
+			id: "0000000000000F67"
+			tasks: [{
+				id: "0000000000000F68"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+			rewards: [
+				{
+					id: "5B1FDC6E1998A58A"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "52D26453626F3CC5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "78E64081463860BF"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			subtitle: "Vulcanizing Bond"
+			dependencies: ["0000000000000F67"]
+			id: "0000000000000F69"
+			tasks: [{
+				id: "0000000000000F6A"
+				type: "item"
+				item: "thermal:cured_rubber"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "1501F0CEA11F64A7"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "1947E19E10B11A11"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6330ED060CA14095"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			subtitle: "Up Against a Wall"
+			hide_dependency_lines: false
+			dependencies: ["00000000000004AF"]
+			id: "0000000000000F78"
+			tasks: [{
+				id: "0000000000000F79"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "5832B6FC71FBE886"
+					type: "item"
+					item: "thermal:press_unpacking_die"
+				}
+				{
+					id: "2BE765DA76F184A2"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "2F12D8F4C429B6B3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1CCC1E04E416C9A3"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			subtitle: "Can't Help But Feeling a Bit Sloshed"
+			dependencies: ["0000000000000F69"]
+			id: "0000000000000F83"
+			tasks: [{
+				id: "0000000000000F84"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000F9C"
+					type: "item"
+					title: "Expanded Tank Construction"
+					item: "thermal:fluid_tank_augment"
+				}
+				{
+					id: "64E88DFBB04BEFD5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "46A7A709F97F9828"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			subtitle: "Feeling Energetic and Quite Positive"
+			dependencies: ["0000000000000F69"]
+			id: "0000000000000F85"
+			tasks: [{
+				id: "0000000000000F86"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000F88"
+					type: "item"
+					title: "Holding IV"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "cofh_core:holding"
+							}]
+						}
+					}
+				}
+				{
+					id: "7BAF83BF6594DA84"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6B0E04128AA820F1"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [""]
+			dependencies: ["00000000000003A2"]
+			id: "0000000000000F90"
+			tasks: [{
+				id: "0000000000000F91"
+				type: "item"
+				item: "thermal:machine_output_augment"
+			}]
+			rewards: [
+				{
+					id: "4B78FC3E303725D5"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "01B649F57A57A4D1"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3EA6BE7BDC98629B"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["00000000000003A2"]
+			id: "0000000000000F9D"
+			tasks: [{
+				id: "0000000000000F9E"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+			rewards: [
+				{
+					id: "0548C0944FBAEC6F"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "0EF51CD428E4B5E6"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3F35024879E2DE08"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			subtitle: "Sick of Tea? That's like being sick of breathing. "
+			dependencies: ["00000000000003A2"]
+			id: "3D23E5D7FA0F0A3E"
+			tasks: [{
+				id: "6EC90AFC954E42C8"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+			rewards: [
+				{
+					id: "2B2422F88A1B2192"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "6628D3D373CEB45B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5F155248D0FF0DEF"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			subtitle: "Flameo, Hotman!"
+			dependencies: ["00000000000003A2"]
+			id: "724E414250F20D9C"
+			tasks: [{
+				id: "2395D1B3DDEB3FB6"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			rewards: [
+				{
+					id: "1D4C68922BCCAEAB"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 64
+				}
+				{
+					id: "674EBCF961599613"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "0EDDC71C60BEA106"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1772E1BC0DE7A37B"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			subtitle: "I laugh at gravity all the time. Hahaha, gravity!"
+			dependencies: ["00000000000003A2"]
+			id: "505A3C679D3EDD3B"
+			tasks: [{
+				id: "66FA40C40EA10DE7"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+			rewards: [
+				{
+					id: "08C490C90BB5199E"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "45682FC95D63582F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "049F48DDA44007A3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3B388ED969023CB7"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			subtitle: "Why is it that every time you play with magic water, I get soaked?"
+			dependencies: ["00000000000003A2"]
+			id: "47B80FE2B94D5548"
+			tasks: [{
+				id: "7DFFBA48694F1143"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [
+				{
+					id: "65CA7491A72F53B9"
+					type: "item"
+					item: "powah:dry_ice"
+					count: 32
+				}
+				{
+					id: "569F3C683BDFA086"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1063DCE43F3FBA21"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+	]
+}

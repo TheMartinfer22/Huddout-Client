@@ -3,7 +3,7 @@
 
 	[common.crafting]
 		#Enables crafting for Chainsaw
-		enableChainsaw = false
+		enableChainsaw = true
 		#Enables crafting for Flashlight
 		enableFlashlight = true
 		#Enables crafting for Bicycle

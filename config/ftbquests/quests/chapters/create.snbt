@@ -1,10 +1,1351 @@
 {
-	id: "32EDA66FF9A0B1C0"
-	group: "4FCBF57EFAF8C3EC"
-	order_index: 5
+	id: "0000000000000C3F"
+	group: "2FD49F470B9B7EB4"
+	order_index: 6
 	filename: "create"
 	title: "Create"
+	icon: "create:cogwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Create"
+			icon: "create:wrench"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "O Inicio de Tudo"
+			optional: true
+			id: "0000000000000C40"
+			tasks: [{
+				id: "0000000000000C41"
+				type: "checkmark"
+				title: "Create"
+			}]
+			rewards: [
+				{
+					id: "0000000000000CB9"
+					type: "item"
+					title: "Wrench"
+					item: "create:wrench"
+				}
+				{
+					id: "68F1586A61351DEB"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7907D1A7DAF26FA0"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Rotational Force"
+			icon: "create:goggles"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Alguma montagem necessária"
+			description: [
+				""
+				"Primeiro, existem os Geradores e os Consumidores. Naturalmente, os Geradores farão as coisas girarem, enquanto os Consumidores operam com a Rotação fornecida. Mas nem todos os Geradores e Consumidores são iguais."
+				""
+				"Quanto mais rápido um consumidor estiver operando, maior será seu impacto e mais SU ele usará."
+				""
+				"Para ter uma ideia de quantos SU estão sendo gerados ou consumidos, use um par de óculos do Engineer enquanto olha para um bloco."
+				""
+			]
+			dependencies: ["0000000000000C40"]
+			min_width: 300
+			id: "0000000000000CBA"
+			tasks: [{
+				id: "0000000000000D67"
+				type: "checkmark"
+				title: "Rotational Force"
+			}]
+			rewards: [
+				{
+					id: "0000000000000D66"
+					type: "item"
+					title: "Engineer's Goggles"
+					item: "create:goggles"
+				}
+				{
+					id: "62DC52F187057042"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "69F5F8CD681464A4"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Windmill"
+			icon: "create:white_sail"
+			x: 4.0d
+			y: 3.0d
+			subtitle: "Batteries Not Included"
+			description: [
+				"Talvez a primeira engenhoca de várias partes a ser feita seja o Moinho de Vento. Este é um gerador High SU capaz de operar em altas RPMs. Gerar mais SU e maior velocidade é meramente uma função de adicionar mais velas ou blocos de lã à estrutura."
+				""
+				"Por onde começar? Coloque o rolamento do moinho de vento. O lado verde de aparência pegajosa é onde o resto da estrutura será construído. O poder sairá do lado oposto. Observe que eles podem ser construídos em qualquer orientação."
+				""
+				"Em seguida, prenda o chassi radial no lado adesivo do rolamento. O chassi radial aqui atua como o eixo para o moinho de vento e as pás se estenderão a partir dele."
+				"The Chassis can be made sticky by Right-Clicking with a Slime Ball (does not consume the slime) and most any decorative block may be attached out to the connection limit of the Windmill. "
+				""
+				"Para visualizar o raio de conexão atual do chassi, segure sua chave e olhe para o chassi. Os blocos destacados farão parte da estrutura. O raio pode ser ajustado com a roda de rolagem."
+				""
+				"Observe que a cola só é necessária para conectar blocos que não são capturados por um chassi, por exemplo, se os blocos se estenderem na frente do moinho de vento. A cola não é necessária se as velas estiverem presas diretamente ao chassi, mas então, onde está a graça disso? Faça bonito!"
+			]
+			dependencies: ["0000000000000CBA"]
+			min_width: 250
+			id: "0000000000000CBD"
+			tasks: [
+				{
+					id: "0000000000000CBE"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "0000000000000CBF"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+				{
+					id: "0000000000000CC1"
+					type: "item"
+					item: "create:white_sail"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000CC0"
+					type: "item"
+					title: "Super Glue"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36E37B9A26D4106A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "38FE1A9F053897AB"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			subtitle: "Like A Record, Baby"
+			description: [
+				"The Water Wheel, while considerably simpler to set up than a Windmill, also produces far fewer SU and operates at a much lower speed. "
+				""
+				"It is useful for applications where small size is more important than speed. For instance, when making a fancy door to your base. "
+				""
+				"To get it going, simply allow water to flow past it. Max speed is achieved by having flowing water on five sides of it. "
+			]
+			dependencies: ["0000000000000CBA"]
+			id: "0000000000000CC2"
+			tasks: [{
+				id: "0000000000000CC3"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [
+				{
+					id: "00CA362EFD1D79F5"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "6F40726E8563220C"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6125B9667CEA9CE1"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "create:propeller"
+			x: 5.0d
+			y: 3.5d
+			subtitle: "Renewable Energy? I'm a Big Fan"
+			description: [
+				"Para usá-lo para gerar Força Rotacional, ele deve estar voltado para baixo por cima de algum bloco quente, como blocos de lava ou magma. Esteja atento para não queimar o local."
+				"Para usar o ventilador para criar, ele deve ser configurado para soprar através de Lava, Água ou Fogo. Itens jogados na corrente de ar do outro lado serão Fundidos, Lavados ou Defumados, respectivamente."
+				""
+				"Para fazer uso eficiente de uma configuração de ventilador e correia, faça-o soprar ao longo do comprimento da correia. Velocidades de rotação mais rápidas significam que o fluxo de ar sopra mais longe. Isso também permite que o ventilador processe várias pilhas de uma só vez."
+			]
+			dependencies: [
+				"0000000000000CBD"
+				"0000000000000CFC"
+			]
+			id: "0000000000000CC4"
+			tasks: [{
+				id: "0000000000000CC5"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [
+				{
+					id: "0000000000000CCA"
+					type: "item"
+					title: "Analog Lever"
+					item: "create:analog_lever"
+				}
+				{
+					id: "0000000000000D73"
+					type: "item"
+					title: "Magma Block"
+					item: "minecraft:magma_block"
+					count: 4
+				}
+				{
+					id: "5D70A5CF365CE8F6"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3FDFCAD48E8CBDE0"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Shaft"
+			x: 1.5d
+			y: 2.0d
+			subtitle: "Cala a boca"
+			description: [
+				"Fazer um belo moinho de vento provavelmente não é a única razão pela qual você está aqui. Muito provavelmente, você gostaria que essa coisa realmente fizesse algo útil, mas está lá em cima e estamos aqui embaixo…"
+				""
+			]
+			dependencies: ["0000000000000CBA"]
+			id: "0000000000000CCC"
+			tasks: [{
+				id: "0000000000000CCD"
+				type: "item"
+				item: "create:shaft"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "0000000000000D80"
+					type: "item"
+					title: "Kelp"
+					item: "minecraft:kelp"
+					count: 16
+				}
+				{
+					id: "1613F99B11C22AC9"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "120B7B2EFF5266B3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "2392466DE1B58913"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Andesite Casings"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "That Was Below the Belt"
+			description: [
+				""
+				"Clique com o botão direito em um Revestimento em seu eixo para convertê-lo em um bloco completo. Perfeito para aqueles momentos em que o eixo está passando por paredes ou pisos."
+				""
+			]
+			dependencies: ["0000000000000CCC"]
+			id: "0000000000000CCE"
+			tasks: [{
+				id: "0000000000000CCF"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0000000000000D78"
+					type: "command"
+					title: "Rare Create Loot Box"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+					player_command: false
+				}
+				{
+					id: "1C45BB54ACAE8B2E"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "039CA7A9EA3C57AC"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			subtitle: "Let's Try a Change in Tack"
+			description: [
+				"Um pouco mais caro do que um par de engrenagens, as caixas de engrenagens servem ao mesmo propósito que as engrenagens perpendiculares, para alterar a direção de uma linha de eixo."
+				""
+			]
+			dependencies: ["0000000000000CD6"]
+			id: "0000000000000CD4"
+			tasks: [{
+				id: "0000000000000CD5"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [
+				{
+					id: "73D91B0064D12CC1"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "0BB6C84527767D63"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5080242F528AF9EF"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0335DCB0230585E3"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Cogwheels"
+			x: 2.5d
+			y: 3.0d
+			subtitle: "Spacely's Sprockets"
+			description: [
+				""
+				"Por exemplo, suponha que seu poder está girando uma pequena roda dentada. Conectar os dentes aos dentes de uma roda dentada grande fará com que o eixo da roda dentada maior gire na metade da velocidade do eixo de acionamento."
+				""
+				"Da mesma forma, uma grande roda dentada que está interligada com os dentes de uma pequena roda dentada fará com que o eixo dessa roda dentada gire com o dobro da velocidade."
+				""
+				""
+			]
+			dependencies: ["0000000000000CCC"]
+			id: "0000000000000CD6"
+			tasks: [
+				{
+					id: "0000000000000CD7"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 4L
+				}
+				{
+					id: "48C68E5C0B154689"
+					type: "item"
+					item: "create:cogwheel"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000D81"
+					type: "command"
+					title: "Rare Create Loot Box"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+					player_command: false
+				}
+				{
+					id: "11FBD62B3538C280"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "66240ADD236E064C"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			subtitle: "You Know What Really Grinds My Gears?"
+			description: [
+				""
+				"A Mó da Create é uma excelente maneira inicial de esticar seus minérios um pouco mais. Certifique-se de lavar as peças de Minério Triturado resultantes para aumentar ainda mais o rendimento!"
+			]
+			dependencies: ["0000000000000D04"]
+			id: "0000000000000CFC"
+			tasks: [{
+				id: "0000000000000CFD"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [
+				{
+					id: "1A8FC7A383051FBF"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "02310B07D5710674"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1AA35D867BD02554"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "67F7EA4FE15EA9D0"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Crushing Wheels"
+			x: 3.5d
+			y: 7.5d
+			subtitle: "It's Crunch Time"
+			description: [
+				"As rodas de esmagamento são o irmão mais velho da pedra de moer que você usou até agora. Em geral, eles fazem um trabalho melhor, permitindo que você obtenha mais por seus insumos do que na Mó."
+				""
+				"A configuração de um par de rodas de esmagamento exigirá um pouco de pensamento inteligente, pois ambas as rodas devem ser giradas em direções opostas, com os topos girando em direção ao ponto onde as duas rodas se encontram."
+				""
+				"Coloque as rodas com uma folga de bloco único entre elas. Os itens podem ser colocados no topo ou inseridos de maneira mais controlada, afunilando-os no espaço do \"bloco\" onde as duas rodas se encontram."
+			]
+			dependencies: ["0000000000000D1A"]
+			id: "0000000000000CFE"
+			tasks: [{
+				id: "0000000000000CFF"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "116F34604F5A68C8"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "2390A5F8A578FC5E"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "12965E4B1110ADA4"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "660A453FC0931918"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "create:brass_hand"
+			x: 8.0d
+			y: 5.0d
+			subtitle: "Getting Down to Brass Tacks"
+			description: [
+				"Um Deployer, embora útil para muitas coisas, é o principal meio de automatizar o quartzo rosa polido."
+				""
+				"O item retido pode ser inserido no Deployer por Belt and Funnel, Hopper ou praticamente qualquer outro método de transporte de item. Quando energizado, ele tentará continuamente 'usar' o item retido em qualquer entidade na frente dele, seja item ou mob."
+				""
+			]
+			dependencies: ["0000000000000D02"]
+			id: "0000000000000D00"
+			tasks: [
+				{
+					id: "0000000000000D01"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "0000000000000D21"
+					type: "item"
+					item: {
+						id: "create:sand_paper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "441994894E510CBB"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "0E780DCF88B39B5B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "22D0B9A1177DBF1D"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			subtitle: "Ohm the Humanity"
+			description: [
+				"Os tubos de elétrons são usados ​​para criar as máquinas mais avançadas do Create e representam um desafio de automação na forma de Quartzo Rosa Polido."
+				""
+				"O quartzo rosa é polido com lixa. No início, isso será feito manualmente, segurando um pedaço de lixa em uma mão e Quartzo Rosa na outra. Segure o botão direito para moê-lo para um acabamento brilhante."
+				""
+			]
+			dependencies: ["0000000000000D04"]
+			id: "0000000000000D02"
+			tasks: [{
+				id: "0000000000000D03"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [
+				{
+					id: "0EB1E78E5873900D"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "4505AE6A6EC67563"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "08C256D8A67447F9"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "create:whisk"
+			x: 7.0d
+			y: 2.0d
+			subtitle: "Apenas uma coisinha que eu preparei"
+			description: ["Com alguma energia básica e logística em nossos cintos, é hora de sujar as mãos e começar a trabalhar."]
+			dependencies: ["0000000000000C40"]
+			id: "0000000000000D04"
+			tasks: [{
+				id: "0000000000000D05"
+				type: "checkmark"
+				title: "Crafting"
+			}]
+			rewards: [
+				{
+					id: "42347EC617C1FC59"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "402D23F386F340C8"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4AAAD28C25FD7E85"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			subtitle: "Boil 'em, Mash 'em, Stick 'em in a Stew"
+			description: [
+				"A prensa mecânica é uma ótima maneira de transformar seus lingotes em placas para trabalhos mais avançados. Também compactará seus materiais quando combinado com uma bacia, fazendo lingotes de pepitas."
+				""
+				"Para chapas, a prensa pode ser instalada sobre uma esteira, depósito ou qualquer outro bloco."
+				""
+			]
+			dependencies: ["0000000000000CFC"]
+			id: "0000000000000D06"
+			tasks: [{
+				id: "0000000000000D07"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "69D308FBFFFCE598"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "791D2328E601DA65"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "174F0A1848C85AC0"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4B4B7AA19FB8CAB4"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "create:mechanical_mixer"
+			x: 6.0d
+			y: 6.5d
+			subtitle: "There's Been a Mix-Up, Officer"
+			description: [
+				"O misturador mecânico ajuda a misturar sólidos e líquidos em formas mais úteis, desde preparar poções, fazer chá ou fazer ligas avançadas, o misturador faz tudo. É necessária uma bacia abaixo do misturador."
+				""
+			]
+			dependencies: ["0000000000000D06"]
+			id: "0000000000000D08"
+			tasks: [
+				{
+					id: "0000000000000D09"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "0000000000000D0A"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "3B0898DEA9DA5004"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "1FFBCFA50ACE4924"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5A9D7F7AC30A6AF1"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			subtitle: "Dat Ash Tho"
+			description: [
+				"Quando altas temperaturas são necessárias, não há nada como o calor escaldante do Nether. Por que não trazê-lo para casa com você também?"
+				""
+				"Blaze Burners são criados clicando com o botão direito em um queimador vazio em um Blaze (consome o mob) ou em um Blaze Spawner (não consome o spawner). Eles vão queimar quente, mas não para sempre."
+				""
+			]
+			dependencies: ["0000000000000D08"]
+			id: "0000000000000D0B"
+			tasks: [{
+				id: "0000000000000D0C"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [
+				{
+					id: "1F86FDDE8F651C2F"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "7BEFB9F31A571C84"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "03226D31F8A1088E"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 8.5d
+			subtitle: "Forbidden Snacks"
+			description: ["Fazer Blaze Cake realmente testará suas habilidades, pois combina muitas mecânicas diferentes. Até onde você pode levar sua automação?"]
+			dependencies: ["0000000000000D0B"]
+			id: "0000000000000D0D"
+			tasks: [{
+				id: "0000000000000D0E"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [
+				{
+					id: "5DCA2ACB70C07E0E"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "3E6C342FB02B88A1"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7F82CC703BC3B0B6"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "create:mechanical_crafter"
+			x: 5.0d
+			y: 5.0d
+			description: [
+				"Para aqueles momentos em que uma simples grade 3x3 simplesmente não é boa o suficiente, existe o Mechanical Crafter. Ou, Crafters, para ser mais preciso. Esses blocos interligados se conectam para formar uma grande interface de criação. Cada bloco aceitando um único item para o ofício."
+				""
+				"Tome nota ao colocar os próprios artesãos, pois haverá uma seta apontando para o bloco que foi clicado para colocá-lo. Esta seta indica o caminho que os itens percorrerão enquanto os artesãos trabalham e todas as setas devem se conectar a um único artesão."
+				""
+				""
+			]
+			dependencies: ["0000000000000D02"]
+			min_width: 250
+			id: "0000000000000D1A"
+			tasks: [
+				{
+					id: "0000000000000D1B"
+					type: "item"
+					item: "create:mechanical_crafter"
+				}
+				{
+					id: "0000000000000D1C"
+					type: "item"
+					item: "create:crafter_slot_cover"
+				}
+			]
+			rewards: [
+				{
+					id: "4B4E60D098335293"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "4EF9C5D6FC4398F5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7B9623FA2C052E80"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "041E92E013C8DA54"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Desafio do Quartzo Rosa Polido"
+			icon: "create:polished_rose_quartz"
+			x: 8.0d
+			y: 6.5d
+			shape: "octagon"
+			description: [
+				"Todas as peças estão lá. Você pode colocá-los juntos? Crie uma fábrica de Quartzo Rosa Polido totalmente automática. A única entrada externa permitida é o próprio quartzo e redstone."
+				""
+				"Faça areia esmagando pedregulhos de um gerador de pedregulhos. Cultive e colha cana-de-açúcar para automatizar a produção de papel. Junte-os e alimente o seu Deployer com a lixa para polir o Quartzo Rosa."
+				""
+			]
+			dependencies: ["0000000000000D00"]
+			id: "0000000000000D1F"
+			tasks: [{
+				id: "0000000000000D20"
+				type: "checkmark"
+				title: "Challenge: Rose Quartz Automation"
+			}]
+			rewards: [
+				{
+					id: "36BA7C951A969BCA"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "4E64C24165864532"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0F35E4AD4E1D481D"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Modular Contraptions"
+			icon: {
+				id: "create:minecart_contraption"
+				Count: 1b
+				tag: {
+					Contraption: {
+						Blocks: [
+							{
+								Pos: {
+									X: 0
+									Y: 0
+									Z: 0
+								}
+								Block: {
+									Properties: {
+										axis: "z"
+									}
+									Name: "create:minecart_anchor"
+								}
+							}
+							{
+								Pos: {
+									X: 0
+									Y: 1
+									Z: 0
+								}
+								Block: {
+									Name: "minecraft:spruce_planks"
+								}
+							}
+						]
+						BoundsFront: [
+							0.0f
+							0.0f
+							0.0f
+							1.0f
+							2.0f
+							1.0f
+						]
+						SubContraptions: [ ]
+						Actors: [ ]
+						Seats: [ ]
+						Type: "mounted"
+						Anchor: {
+							X: 108
+							Y: 84
+							Z: -93
+						}
+						Superglue: [ ]
+						Storage: [ ]
+						Passengers: [ ]
+						RotationMode: "ROTATE"
+						FluidStorage: [ ]
+						Stalled: 0b
+					}
+					display: { }
+				}
+			}
+			x: 9.5d
+			y: 0.0d
+			description: [
+				"As engenhocas modulares são estruturas multibloco construa você mesmo com possibilidades quase infinitas."
+				""
+				""
+			]
+			dependencies: ["0000000000000C40"]
+			id: "0000000000000D2B"
+			tasks: [{
+				id: "0000000000000D2C"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "0000000000000D65"
+					type: "item"
+					title: "Minecart"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "56B8D252963D54FB"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "23B24EFDC4650C74"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			icon: "create:mechanical_piston"
+			x: 9.5d
+			y: 1.5d
+			subtitle: "Engineering Outreach Program"
+			description: [
+				"Quando se trata de mover engenhocas, os pistões mecânicos podem ser um ótimo começo."
+				""
+				"Como um exemplo simples de onde se pode usá-los, imagine um longo campo de plantações. Um pistão mecânico pode ser usado para empurrar uma engenhoca de colheita para frente e para trás no campo periodicamente para colher as colheitas."
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D2D"
+			tasks: [{
+				id: "0000000000000D2E"
+				type: "item"
+				item: "create:mechanical_piston"
+			}]
+			rewards: [
+				{
+					id: "0000000000000D8C"
+					type: "item"
+					title: "Piston Extension Pole"
+					item: "create:piston_extension_pole"
+					count: 8
+				}
+				{
+					id: "1A18768598500099"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "2356F1D9E754CB4D"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			subtitle: "Putting the Cart Before the Horse"
+			description: [
+				"Montadores de Carrinhos são usados ​​para construir uma engenhoca destinada a montar um carrinho de mina."
+				""
+				"A engenhoca deve ser construída em cima do Montador. Uma vez preparado, dar ao montador um sinal Redstone converterá todos os blocos conectados em uma entidade."
+				""
+				""
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D2F"
+			tasks: [{
+				id: "0000000000000D30"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [
+				{
+					id: "1063BA0A092D1C25"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "346DF1B478D6DA35"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "455CAFC7CBE740E5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "089D0A3782916FCF"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 5.0d
+			subtitle: "Getting Out of an Unbearable Situation"
+			description: [
+				"Semelhante aos rolamentos do moinho de vento, os rolamentos mecânicos podem ser usados ​​para construir engenhocas rotativas."
+				""
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D31"
+			tasks: [{
+				id: "0000000000000D32"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+			rewards: [
+				{
+					id: "34B273F11CB75E0E"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "1BDA027E596D12E8"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "602945F47B6674B5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "00A6242302B357CF"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			title: "Chassis"
+			x: 12.0d
+			y: 4.0d
+			description: [
+				"Os blocos do chassi servem para formar uma base para criações maiores."
+				""
+				"Os chassis lineares se conectam entre si ao longo da borda mais escura e serão automaticamente tratados como uma peça \"inteira\" à qual outras partes podem ser coladas."
+				""
+			]
+			dependencies: [
+				"0000000000000D2D"
+				"0000000000000D2F"
+				"0000000000000D31"
+				"0000000000000D45"
+			]
+			dependency_requirement: "one_completed"
+			min_width: 300
+			id: "0000000000000D33"
+			tasks: [
+				{
+					id: "0000000000000D34"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+				{
+					id: "0000000000000D35"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+			]
+			rewards: [
+				{
+					id: "0069AB4949E084F4"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "73CF1F0EBCD51485"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "4835BB892B82D19D"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "01B96686A0553798"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			subtitle: "Outstanding In Its Field"
+			description: ["Uma colheitadeira inteligente que colhe suavemente apenas colheitas maduras."]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D3A"
+			tasks: [{
+				id: "0000000000000D3B"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [
+				{
+					id: "0D5BE2811FD2260D"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6CF83F5D842E14A0"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "35BC53F9F1CE656A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "747A3059DFD84392"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 3.0d
+			subtitle: "Nothing to See Here, Just a Boring Machine"
+			description: ["Móvel ou estacionária, a broca mecânica serve como um aparato de mineração capaz."]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D3C"
+			tasks: [{
+				id: "0000000000000D3D"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [
+				{
+					id: "3C6F6E1A25833A55"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "27145331C5EABED2"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "774E504D0E546278"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7CFFF58A19D60168"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 6.5d
+			subtitle: "A Groundbreaking Innovation"
+			description: [
+				""
+				"O Arado Mecânico é útil para mais do que uma simples manutenção de fazenda, no entanto, e pode ser um ótimo complemento para uma máquina de carrinho de mina em movimento para puxar trilhos extras atrás dele."
+			]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D3E"
+			tasks: [{
+				id: "0000000000000D3F"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+			rewards: [
+				{
+					id: "71848920FA7CD17A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3A5C18A1EB331FF8"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "175CE63EC5AA1B98"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "231B9543A4E25D77"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 5.0d
+			subtitle: "Cutting Edge Technology"
+			description: [
+				"De cortar árvores a esculpir pedra, esta serra já viu de tudo."
+				""
+				"Quando estacionário e motorizado, pode servir tanto para cortar toras em tábuas quanto para qualquer receita de cortador de pedra. As receitas do Stonecutter darão uma saída aleatória, a menos que um filtro seja definido na própria serra."
+				""
+			]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D40"
+			tasks: [{
+				id: "0000000000000D41"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [
+				{
+					id: "6B61869E57670262"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "797DD879654E412F"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "37FE8B32B427F9DD"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "2F1E485AF93EC849"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			subtitle: "It Has It's Ups and Downs"
+			description: [
+				"Precisa de um elevador?"
+				""
+				"Construa o seu próprio com uma polia de corda anexando sua própria plataforma."
+				""
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D45"
+			tasks: [{
+				id: "0000000000000D46"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [
+				{
+					id: "7CFC2D9079950B73"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "50831B2769968CD9"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "6C85BA0E76CB2DD8"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "606F11B4A6C08DD2"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			subtitle: "Time to Switch Things Up"
+			description: [
+				""
+				"A aplicação de um sinal Redstone ao bloco fará com que o lado de saída comece a girar na direção oposta em relação ao lado da unidade."
+			]
+			dependencies: ["0000000000000CD6"]
+			id: "0000000000000D4B"
+			tasks: [{
+				id: "0000000000000D4C"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [
+				{
+					id: "3692F743F6053B0D"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+				{
+					id: "56CABCD9544B48BB"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "68BE662961AA31B7"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "227FDEAA3E24644A"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 8.5d
+			subtitle: "Hello Brew-TEA-Full!"
+			description: [
+				"Stayed out too late par-tea-ing like it's 1773? Need a little more tranquili-tea in your life?"
+				""
+				"Try some Builder's Tea! It doesn't take oolong to prepare."
+			]
+			dependencies: ["0000000000000D0B"]
+			id: "0000000000000D52"
+			tasks: [{
+				id: "0000000000000D53"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+			rewards: [
+				{
+					id: "175640284BAEDAFD"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "64FDDE1F5486416B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1878BA99AB762902"
+					type: "random"
+					table_id: 3924578816994886274L
+				}
+			]
+		}
+	]
 }

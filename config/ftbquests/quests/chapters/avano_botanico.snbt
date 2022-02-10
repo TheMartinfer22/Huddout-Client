@@ -1,0 +1,208 @@
+{
+	id: "294E41F5A5FAE418"
+	group: "4FCBF57EFAF8C3EC"
+	order_index: 6
+	filename: "avano_botanico"
+	title: "Avanço Botanico"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["1894EC268A88BA6B"]
+			id: "70513C7173FFE9E6"
+			tasks: [{
+				id: "1B7541345459B606"
+				type: "item"
+				item: "botanicalmachinery:mechanical_mana_pool"
+			}]
+			rewards: [
+				{
+					id: "6B82E6422AD939B3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "24EC26822A3F0E23"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "028CE229E5394C7B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "39AB35E80C4F8964"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "795044FBEB3EC0C6"
+			tasks: [{
+				id: "423D0A1FF61D55CE"
+				type: "item"
+				item: "botanicalmachinery:mechanical_apothecary"
+			}]
+			rewards: [
+				{
+					id: "6C1955861EE23353"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7F9C909AB02C8872"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "24883DF90206A730"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7E8FA682776A419B"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["795044FBEB3EC0C6"]
+			id: "1894EC268A88BA6B"
+			tasks: [{
+				id: "1DA4F35BBCC6B829"
+				type: "item"
+				item: "botanicalmachinery:mechanical_daisy"
+			}]
+			rewards: [
+				{
+					id: "790E7E2C6DB1C2D8"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1DE7A600FE19CE2F"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "4CA8C35DAA25CA43"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "03DCA179F0AB94AB"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["7E3D856C304CABDC"]
+			id: "563BB122E47FB7D5"
+			tasks: [{
+				id: "2C516AA5DC602AE2"
+				type: "item"
+				item: "botanicalmachinery:industrial_agglomeration_factory"
+			}]
+			rewards: [
+				{
+					id: "64A0E24185A5695F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "39D2488CEF9310EE"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "67515329C9ECA3F0"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "28329C74BDC2A459"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["563BB122E47FB7D5"]
+			id: "303000C7AB34D50D"
+			tasks: [{
+				id: "61F2AB3C0F182C19"
+				type: "item"
+				item: "botanicalmachinery:alfheim_market"
+			}]
+			rewards: [
+				{
+					id: "796D3991876C2A97"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "32BBC0F5F2A4005F"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "6BAF56E21DA139EC"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "106E40D51655FD57"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["70513C7173FFE9E6"]
+			id: "7E3D856C304CABDC"
+			tasks: [{
+				id: "3521472148260358"
+				type: "item"
+				item: "botanicalmachinery:mechanical_runic_altar"
+			}]
+			rewards: [
+				{
+					id: "20CB2423AF6EFB4E"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4FD41CDA05885C11"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "1BCE0417A6F650B7"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5E2B0D88EF828AD2"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+	]
+}

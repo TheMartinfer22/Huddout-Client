@@ -1,0 +1,530 @@
+{
+	id: "0000000000000240"
+	group: "4FCBF57EFAF8C3EC"
+	order_index: 5
+	filename: "refined_storage"
+	title: "Refined Storage"
+	icon: "refinedstorage:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Processors"
+			icon: "refinedstorage:advanced_processor"
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["0000000000000699"]
+			id: "0000000000000252"
+			tasks: [
+				{
+					id: "0000000000000253"
+					type: "item"
+					item: "refinedstorage:basic_processor"
+					count: 8L
+				}
+				{
+					id: "0000000000000254"
+					type: "item"
+					item: "refinedstorage:improved_processor"
+					count: 8L
+				}
+				{
+					id: "0000000000000255"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "00000000000005AF"
+				type: "item"
+				title: "Quartz Enriched Iron"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 16
+			}]
+		}
+		{
+			icon: "refinedstorage:controller"
+			x: 0.5d
+			y: 3.5d
+			shape: "rsquare"
+			description: [""]
+			dependencies: ["0000000000000252"]
+			id: "0000000000000256"
+			tasks: [
+				{
+					id: "0000000000000257"
+					type: "item"
+					item: "refinedstorage:controller"
+				}
+				{
+					id: "0000000000000287"
+					type: "item"
+					item: "refinedstorage:cable"
+				}
+			]
+			rewards: [{
+				id: "00000000000005B0"
+				type: "item"
+				title: "Cable"
+				item: "refinedstorage:cable"
+				count: 16
+			}]
+		}
+		{
+			title: "Disks and Drives"
+			icon: "refinedstorage:64k_storage_disk"
+			x: 0.5d
+			y: 5.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000256"]
+			size: 1.5d
+			id: "0000000000000258"
+			tasks: [
+				{
+					id: "0000000000000259"
+					type: "item"
+					item: "refinedstorage:disk_drive"
+				}
+				{
+					id: "0000000000000286"
+					type: "item"
+					title: "Storage Disk"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "refinedstorage:1k_storage_disk"
+									Count: 1b
+								}
+								{
+									id: "refinedstorage:4k_storage_disk"
+									Count: 1b
+								}
+								{
+									id: "refinedstorage:16k_storage_disk"
+									Count: 1b
+								}
+								{
+									id: "refinedstorage:64k_storage_disk"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "00000000000005BD"
+				type: "item"
+				title: "Storage Housing"
+				item: "refinedstorage:storage_housing"
+				count: 2
+			}]
+		}
+		{
+			title: "Fluid Storage Disks"
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["0000000000000268"]
+			id: "000000000000025D"
+			tasks: [{
+				id: "000000000000025E"
+				type: "item"
+				title: "Fluid Storage Disk"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "refinedstorage:64k_fluid_storage_disk"
+								Count: 1b
+							}
+							{
+								id: "refinedstorage:256k_fluid_storage_disk"
+								Count: 1b
+							}
+							{
+								id: "refinedstorage:1024k_fluid_storage_disk"
+								Count: 1b
+							}
+							{
+								id: "refinedstorage:4096k_fluid_storage_disk"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000005BB"
+				type: "item"
+				title: "256k Fluid Storage Part"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+		}
+		{
+			title: "Importing and Exporting"
+			icon: "refinedstorage:exporter"
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["0000000000000258"]
+			id: "000000000000025F"
+			tasks: [
+				{
+					id: "0000000000000260"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "0000000000000261"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+			]
+			rewards: [{
+				id: "3F14C2C92915E6A7"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["0000000000000258"]
+			id: "0000000000000262"
+			tasks: [{
+				id: "0000000000000263"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+			rewards: [{
+				id: "00000000000005BF"
+				type: "item"
+				title: "Advanced Bin"
+				item: "mekanism:advanced_bin"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			shape: "rsquare"
+			dependencies: ["0000000000000258"]
+			id: "0000000000000264"
+			tasks: [{
+				id: "0000000000000265"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+			rewards: [{
+				id: "00000000000005BE"
+				type: "item"
+				title: "Cable"
+				item: "refinedstorage:cable"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			description: [""]
+			dependencies: ["0000000000000264"]
+			id: "0000000000000266"
+			tasks: [{
+				id: "0000000000000267"
+				type: "item"
+				item: "refinedstorage:storage_monitor"
+			}]
+			rewards: [{
+				id: "00000000000005C0"
+				type: "item"
+				title: "Storage Housing"
+				item: "refinedstorage:storage_housing"
+				count: 4
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			dependencies: ["0000000000000264"]
+			id: "0000000000000268"
+			tasks: [{
+				id: "0000000000000269"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+			rewards: [{
+				id: "00000000000005C2"
+				type: "item"
+				title: "256k Fluid Storage Part"
+				item: "refinedstorage:256k_fluid_storage_part"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			description: [""]
+			dependencies: ["0000000000000264"]
+			id: "000000000000026A"
+			tasks: [{
+				id: "000000000000026B"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "617CF7850162024A"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			title: "Wireless Grid Access"
+			icon: "refinedstorage:wireless_grid"
+			x: 5.0d
+			y: 6.5d
+			description: [""]
+			dependencies: ["000000000000026A"]
+			id: "000000000000026C"
+			tasks: [
+				{
+					id: "000000000000026D"
+					type: "item"
+					item: "refinedstorageaddons:wireless_crafting_grid"
+				}
+				{
+					id: "000000000000029A"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+			]
+			rewards: [{
+				id: "60CD3CE71012CC55"
+				type: "item"
+				item: "extrastorage:storagepart_256k"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			dependencies: ["000000000000026C"]
+			id: "000000000000026E"
+			tasks: [{
+				id: "000000000000026F"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000005C4"
+				type: "item"
+				title: "Ender Pearl"
+				item: "minecraft:ender_pearl"
+				count: 4
+			}]
+		}
+		{
+			title: "Patterns"
+			icon: "refinedstorage:pattern"
+			x: 2.0d
+			y: 6.5d
+			description: [""]
+			dependencies: ["0000000000000264"]
+			id: "0000000000000270"
+			tasks: [
+				{
+					id: "0000000000000271"
+					type: "item"
+					item: "refinedstorage:pattern_grid"
+				}
+				{
+					id: "0000000000000297"
+					type: "item"
+					item: "refinedstorage:pattern"
+				}
+			]
+			rewards: [{
+				id: "31FBAF0A3E99F455"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			shape: "rsquare"
+			description: [""]
+			dependencies: ["0000000000000270"]
+			size: 1.25d
+			min_width: 300
+			id: "0000000000000272"
+			tasks: [{
+				id: "0000000000000273"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+			rewards: [{
+				id: "3000A0A197352942"
+				type: "random"
+				table_id: 3924578816994886274L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["0000000000000258"]
+			id: "0000000000000274"
+			tasks: [{
+				id: "0000000000000275"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000005B5"
+				type: "item"
+				title: "Speed Upgrade"
+				item: "refinedstorage:speed_upgrade"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["0000000000000274"]
+			id: "0000000000000276"
+			tasks: [{
+				id: "0000000000000277"
+				type: "item"
+				item: "refinedstorage:stack_upgrade"
+			}]
+			rewards: [{
+				id: "3C00C546C7A6F4E9"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			description: [""]
+			dependencies: ["0000000000000272"]
+			id: "0000000000000278"
+			tasks: [{
+				id: "0000000000000279"
+				type: "item"
+				item: "refinedstorage:crafting_monitor"
+			}]
+			rewards: [{
+				id: "3A386C03603C81EE"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			description: [""]
+			dependencies: ["000000000000025F"]
+			id: "0000000000000298"
+			tasks: [{
+				id: "0000000000000299"
+				type: "item"
+				item: "refinedstorage:interface"
+			}]
+			rewards: [{
+				id: "00000000000005B9"
+				type: "item"
+				title: "Interface"
+				item: "refinedstorage:interface"
+			}]
+		}
+		{
+			title: "Long-Range Networking"
+			icon: "refinedstorage:network_transmitter"
+			x: 0.5d
+			y: 6.5d
+			description: [
+				""
+				""
+			]
+			dependencies: ["0000000000000258"]
+			id: "000000000000029B"
+			tasks: [
+				{
+					id: "000000000000029C"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "000000000000029D"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+				{
+					id: "000000000000029E"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+			]
+			rewards: [{
+				id: "5673AB77A507A89E"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.5d
+			description: [""]
+			dependencies: ["0000000000000272"]
+			id: "0000000000000F42"
+			tasks: [{
+				id: "0000000000000F43"
+				type: "item"
+				item: "extrastorage:iron_crafter"
+			}]
+			rewards: [{
+				id: "289EBD5B3C32F0C3"
+				type: "random"
+				table_id: 3924578816994886274L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000F42"]
+			id: "0000000000000F44"
+			tasks: [{
+				id: "0000000000000F45"
+				type: "item"
+				item: "extrastorage:netherite_crafter"
+			}]
+			rewards: [{
+				id: "07316C0351E45F5F"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			description: [""]
+			dependencies: ["0000000000000272"]
+			id: "0000000000000F46"
+			tasks: [{
+				id: "0000000000000F47"
+				type: "item"
+				item: "refinedstorage:crafter_manager"
+			}]
+			rewards: [{
+				id: "0000000000000F4E"
+				type: "item"
+				title: "Crafter"
+				item: "refinedstorage:crafter"
+			}]
+		}
+	]
+}

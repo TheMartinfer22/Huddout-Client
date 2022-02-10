@@ -1,15 +1,15 @@
 {
 	id: "6935745C1E573C56"
 	group: "2FD49F470B9B7EB4"
-	order_index: 5
+	order_index: 4
 	filename: "matando_mobs_2"
 	title: "Matando mobs 2"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -1.5d
+			y: -1.5d
 			dependencies: ["5FEA7CA20AEEF883"]
 			id: "0BD4F3F8ED820127"
 			tasks: [{
@@ -18,14 +18,18 @@
 				entity: "minecraft:enderman"
 				value: 16L
 			}]
-			rewards: [{
-				id: "2C91E93FFB760F7E"
-				type: "pmmo:xpreward"
-				auto: "invisible"
-				skill: "combat"
-				amount: 450.0d
-				ignoreBonuses: false
-			}]
+			rewards: [
+				{
+					id: "2C91E93FFB760F7E"
+					type: "custom"
+					auto: "invisible"
+				}
+				{
+					id: "1BCBF12D2B5F42F7"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -38,14 +42,18 @@
 				entity: "minecraft:blaze"
 				value: 32L
 			}]
-			rewards: [{
-				id: "17A4BE9461C904DF"
-				type: "pmmo:xpreward"
-				auto: "invisible"
-				skill: "combat"
-				amount: 450.0d
-				ignoreBonuses: false
-			}]
+			rewards: [
+				{
+					id: "17A4BE9461C904DF"
+					type: "custom"
+					auto: "invisible"
+				}
+				{
+					id: "3E69E7F83D21912C"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -58,14 +66,18 @@
 				entity: "minecraft:wither_skeleton"
 				value: 32L
 			}]
-			rewards: [{
-				id: "7ECA77604DBA507A"
-				type: "pmmo:xpreward"
-				auto: "invisible"
-				skill: "combat"
-				amount: 450.0d
-				ignoreBonuses: false
-			}]
+			rewards: [
+				{
+					id: "7ECA77604DBA507A"
+					type: "custom"
+					auto: "invisible"
+				}
+				{
+					id: "155FC3A800118F36"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -78,14 +90,18 @@
 				entity: "minecraft:piglin_brute"
 				value: 32L
 			}]
-			rewards: [{
-				id: "003E9F285CF82A98"
-				type: "pmmo:xpreward"
-				auto: "invisible"
-				skill: "combat"
-				amount: 450.0d
-				ignoreBonuses: false
-			}]
+			rewards: [
+				{
+					id: "003E9F285CF82A98"
+					type: "custom"
+					auto: "invisible"
+				}
+				{
+					id: "70C6D4604717BAED"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -98,14 +114,41 @@
 				entity: "minecraft:zombified_piglin"
 				value: 32L
 			}]
-			rewards: [{
-				id: "331EAE706ADAFF12"
-				type: "pmmo:xpreward"
-				auto: "invisible"
-				skill: "combat"
-				amount: 450.0d
-				ignoreBonuses: false
+			rewards: [
+				{
+					id: "331EAE706ADAFF12"
+					type: "custom"
+					auto: "invisible"
+				}
+				{
+					id: "58B7284CF45EDA59"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			title: "Fim dos Mobs"
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["30B312EEEBB397A6"]
+			id: "0E00C63B969EB93F"
+			tasks: [{
+				id: "78BEB51024162CF2"
+				type: "checkmark"
 			}]
+			rewards: [
+				{
+					id: "23C29DFED81E13CA"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "3F85D727E5F3F053"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
 		}
 	]
 }

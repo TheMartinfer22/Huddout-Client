@@ -1,0 +1,109 @@
+{
+	id: "16BBF7C29FCAE10E"
+	order_index: 2
+	title: "Recompensa Épica"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:netherite_block", count: 4 }
+		{ item: "minecraft:diamond_block", count: 8 }
+		{ item: "minecraft:emerald_block", count: 8 }
+		{ item: "minecraft:end_crystal" }
+		{ item: "minecraft:totem_of_undying" }
+		{
+			item: {
+				id: "minecraft:trident"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:heart_of_the_sea" }
+		{ item: "extendedcrafting:elite_table" }
+		{ item: "powah:reactor_blazing", count: 36 }
+		{
+			item: {
+				id: "ironjetpacks:steel_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{ item: "xreliquary:emperor_chalice" }
+		{
+			item: {
+				id: "xreliquary:harvest_rod"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							filter: {
+								id: "minecraft:bone_meal"
+								Count: 1b
+							}
+							amount: 0
+						}]
+					}
+				}
+			}
+		}
+		{ item: "xreliquary:glowing_bread" }
+		{ item: "ironfurnaces:netherite_furnace" }
+		{ item: "envirotech:kyronite_void_miner_ccu" }
+		{ item: "envirotech:pladium_void_miner_ccu" }
+		{ item: "refinedstorage:64k_storage_part" }
+		{ item: "extrastorage:diamond_crafter" }
+		{ item: "extrastorage:storagepart_16384k_fluid" }
+		{ item: "silentgear:glittery_dust", count: 32 }
+		{ item: "silentgear:tyrian_steel_block", count: 4 }
+		{ item: "silentgear:azure_electrum_block", count: 4 }
+		{ item: "conjuring:conjurer" }
+		{ item: "botania:terrasteel_ingot", count: 8 }
+		{
+			item: {
+				id: "botania:mana_tablet"
+				Count: 1b
+				tag: {
+					mana: 500000
+				}
+			}
+		}
+		{ item: "bigreactors:reinforced_turbinecontroller" }
+		{ item: "powah:reactor_spirited", count: 36 }
+		{ item: "industrialforegoing:machine_frame_supreme" }
+		{ item: "industrialforegoing:machine_frame_advanced" }
+		{ item: "compactmachines:machine_maximum" }
+		{ item: "miniutilities:the_final_opinium_core", count: 4 }
+		{
+			item: {
+				id: "cyclic:charm_antidote"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mekanism:pellet_polonium", count: 8 }
+		{ item: "artifacts:universal_attractor" }
+		{
+			item: {
+				id: "create:extendo_grip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+		}
+		{ item: "thermal:upgrade_augment_3" }
+	]
+}

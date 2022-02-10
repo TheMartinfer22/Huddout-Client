@@ -1,10 +1,69 @@
 {
 	id: "495B596C027AD46B"
 	group: "6A02CF9EBD79DC0A"
-	order_index: 1
+	order_index: 0
 	filename: "woot"
 	title: "Woot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"0E00C63B969EB93F"
+				"360EF9A32B36181B"
+			]
+			id: "1CC266ECBBF34DB1"
+			tasks: [{
+				id: "45248381AB235A34"
+				type: "item"
+				item: "woot:infuser"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["0E00C63B969EB93F"]
+			id: "71340A7651C2F264"
+			tasks: [{
+				id: "781461248E2FCBC3"
+				type: "item"
+				item: "woot:si_dust"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["71340A7651C2F264"]
+			id: "12700FC621816EF5"
+			tasks: [{
+				id: "7A836A853D882E60"
+				type: "item"
+				item: "woot:hammer"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["12700FC621816EF5"]
+			id: "360EF9A32B36181B"
+			tasks: [{
+				id: "36A93A2F8B8087B4"
+				type: "item"
+				item: "woot:si_plate"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["1CC266ECBBF34DB1"]
+			id: "735B8AD8BB506625"
+			tasks: [{
+				id: "0974A91DB99ABB6B"
+				type: "item"
+				item: "woot:squeezer"
+			}]
+		}
+	]
 }

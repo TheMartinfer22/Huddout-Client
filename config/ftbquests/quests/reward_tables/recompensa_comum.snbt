@@ -1,0 +1,163 @@
+{
+	id: "3676E7A40800C282"
+	order_index: 0
+	title: "Recompensa Comum"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:gold_ore", count: 8 }
+		{ item: "minecraft:iron_ore", count: 8 }
+		{ item: "minecraft:coal_ore", count: 8 }
+		{ item: "minecraft:lapis_ore", count: 8 }
+		{ item: "minecraft:diamond_ore", count: 8 }
+		{ item: "minecraft:redstone_ore", count: 8 }
+		{ item: "minecraft:emerald_ore", count: 8 }
+		{ item: "minecraft:nether_quartz_ore", count: 8 }
+		{ item: "minecraft:ancient_debris", count: 4 }
+		{ item: "minecraft:enchanting_table" }
+		{ item: "minecraft:hay_block", count: 16 }
+		{ item: "minecraft:melon", count: 16 }
+		{ item: "minecraft:pumpkin", count: 16 }
+		{ item: "minecraft:glowstone", count: 16 }
+		{ item: "smallships:oak_dhow" }
+		{ item: "smallships:oak_cog" }
+		{ item: "minecraft:arrow", count: 8 }
+		{ item: "minecraft:torch", count: 8 }
+		{ item: "minecraft:chorus_flower", count: 8 }
+		{ item: "minecraft:beacon" }
+		{ item: "minecraft:apple", count: 16 }
+		{ item: "minecraft:carrot", count: 16 }
+		{ item: "minecraft:potato" }
+		{ item: "minecraft:sweet_berries", count: 16 }
+		{ item: "minecraft:experience_bottle", count: 8 }
+		{ item: "minecraft:pumpkin_pie", count: 8 }
+		{
+			item: {
+				id: "minecraft:trident"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:fire_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:feather_falling"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:blast_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:thorns"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:luck_of_the_sea"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			xp: 100
+			type: "xp"
+		}
+		{
+			xp: 200
+			type: "xp"
+		}
+		{
+			xp: 300
+			type: "xp"
+		}
+		{
+			xp: 400
+			type: "xp"
+		}
+		{
+			xp: 500
+			type: "xp"
+		}
+		{ item: "envirocore:litherite_crystal", count: 8 }
+		{ item: "botania:manasteel_ingot", count: 8 }
+		{ item: "botania:mana_pearl", count: 8 }
+		{ item: "botania:mana_diamond", count: 8 }
+	]
+}

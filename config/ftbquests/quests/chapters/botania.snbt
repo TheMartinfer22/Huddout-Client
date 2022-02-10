@@ -1,0 +1,1154 @@
+{
+	id: "0000000000000500"
+	group: "2FD49F470B9B7EB4"
+	order_index: 7
+	filename: "botania"
+	title: "Botania"
+	icon: "botania:mana_pylon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Botania"
+			x: 4.5d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				""
+				"Botânia é um mod expansivo e, portanto, nem tudo será abordado aqui. Consulte a Lexica Botania com frequência para obter informações detalhadas e dicas interessantes."
+				""
+			]
+			dependencies: ["1188DA3AC0F2DB91"]
+			optional: true
+			id: "0000000000000501"
+			tasks: [{
+				id: "0000000000000502"
+				type: "checkmark"
+				icon: "botania:lexicon"
+			}]
+			rewards: [{
+				id: "0000000000000504"
+				type: "item"
+				title: "Pestle and Mortar"
+				item: "botania:pestle_and_mortar"
+			}]
+		}
+		{
+			title: "Mystical Flowers"
+			icon: "botania:magenta_mystical_flower"
+			x: 4.5d
+			y: 3.0d
+			subtitle: "Unaturally Vibrant"
+			description: [
+				""
+				"Também é possível fazer com que essas flores cresçam colocando as pétalas no chão e aplicando farinha de ossos. Tenha cuidado ao colher as variantes altas, pois elas são muito menos saudáveis ​​do que suas contrapartes menores."
+			]
+			dependencies: [
+				"0000000000000501"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000505"
+			tasks: [{
+				id: "0000000000000507"
+				type: "item"
+				title: "Any botania:mystical_flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "0000000000000508"
+					type: "item"
+					title: "Flower Pouch"
+					item: "botania:flower_bag"
+				}
+				{
+					id: "000000000000050D"
+					type: "item"
+					title: "Shears"
+					item: {
+						id: "minecraft:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Miracle Grow"
+			description: ["Tendo problemas para encontrar algumas cores de Mystical Flower? Um pouco de Fertilizante Floral pode brotá-los em pouco tempo."]
+			dependencies: [
+				"0000000000000505"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000509"
+			tasks: [{
+				id: "000000000000050A"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [
+				{
+					id: "00000000000005E6"
+					type: "item"
+					title: "Floral Fertilizer"
+					item: "botania:fertilizer"
+					count: 16
+				}
+				{
+					id: "5F341B07F75BAC45"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			title: "Petal Apothecary"
+			icon: "botania:apothecary_default"
+			x: 4.5d
+			y: 4.5d
+			subtitle: "Maybe it's Nanites?"
+			description: ["Algo estranho ocorre quando Pétalas Místicas são combinadas com certos reagentes e uma semente. Eles parecem se desdobrar e reformar espontaneamente, sequestrando a semente e fazendo uma construção inteiramente nova."]
+			dependencies: [
+				"0000000000000505"
+				"1188DA3AC0F2DB91"
+			]
+			id: "000000000000050B"
+			tasks: [
+				{
+					id: "000000000000050C"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "000000000000050E"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+			]
+			rewards: [{
+				id: "1E3AF7F3FCAE9973"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			title: "Livingwood \\\\& Livingrock"
+			x: 4.5d
+			y: 6.0d
+			subtitle: "Breathing New Life"
+			description: ["A Pure Daisy parece extrair alguma essência da própria terra, infundindo-a em certos materiais próximos. Talvez essa essência possa ser explorada mais diretamente?"]
+			dependencies: [
+				"000000000000050B"
+				"1188DA3AC0F2DB91"
+			]
+			id: "000000000000050F"
+			tasks: [
+				{
+					id: "000000000000051D"
+					type: "item"
+					item: "botania:livingwood"
+					count: 16L
+				}
+				{
+					id: "000000000000051E"
+					type: "item"
+					item: "botania:livingrock"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "38A4CE9CE2006710"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 9.0d
+			dependencies: [
+				"0000000000000501"
+				"0000000000000521"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000513"
+			tasks: [{
+				id: "0000000000000514"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "78E9864B42AF87CD"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			title: "The Portal to Alfheim"
+			icon: "botania:natura_pylon"
+			x: 12.5d
+			y: 7.5d
+			subtitle: "Weasel Town"
+			description: [
+				"Oh Alfheim, nosso parceiro comercial mais misterioso. Abra esses portões para que eu possa desvendar seus segredos e explorar suas riquezas."
+				""
+				""
+			]
+			dependencies: [
+				"0000000000000517"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000515"
+			tasks: [
+				{
+					id: "0000000000000516"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "000000000000057A"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "000000000000057B"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 2L
+				}
+				{
+					id: "000000000000057C"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "000000000000057D"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "7A787701EFC038CA"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "401AB6941168A391"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			icon: "botania:terra_plate"
+			x: 10.5d
+			y: 7.5d
+			description: [
+				""
+				"Ao colocar um lingote de Manasteel, um Mana Diamond e, finalmente, uma Mana Pearl, algo estranho acontece. A Pérola parece distorcer a mana ao seu redor e atraí-la ao longo das linhas de conduíte feitas pela Centelha. Mais uma vez, causando reagrupamento espontâneo dos materiais presentes para formar uma nova substância."
+			]
+			dependencies: [
+				"0000000000000559"
+				"000000000000052D"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000517"
+			tasks: [
+				{
+					id: "0000000000000518"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "000000000000056F"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+				{
+					id: "0000000000000570"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "0000000000000599"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "6BD0DB23EBFCE157"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "377F1E1F29494132"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 7.5d
+			subtitle: "Not as Shallow as it Seems"
+			description: [
+				"Livingrock forma um excelente receptáculo de mana, mantendo-o seguro e pronto para uso a qualquer momento."
+				""
+			]
+			dependencies: [
+				"000000000000050F"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000519"
+			tasks: [{
+				id: "000000000000051A"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "4EA706ACCFF8A043"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.5d
+			subtitle: "Point and Shoot"
+			description: [
+				""
+				"Os Espalhadores de Mana podem ser ligados diretamente à Flora Geradora para transmitir Mana da flor para uma Reserva de Mana para armazenamento. Eles também podem ser encadeados ligando um espalhador a outro e serão automaticamente retirados de uma Reserva de Mana adjacente."
+				""
+			]
+			dependencies: [
+				"000000000000050F"
+				"1188DA3AC0F2DB91"
+			]
+			id: "000000000000051B"
+			tasks: [{
+				id: "000000000000051C"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "4AA66E5E94E5FA59"
+				type: "random"
+				table_id: 3924578816994886274L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			description: [
+				"Livingwood parece ter uma afinidade por canalizar essa misteriosa essência da terra. Crie uma Varinha da Floresta para direcioná-la com mais precisão."
+				""
+			]
+			dependencies: [
+				"000000000000050F"
+				"1188DA3AC0F2DB91"
+			]
+			id: "000000000000051F"
+			tasks: [{
+				id: "0000000000000520"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "03F0E7522015FF9E"
+				type: "random"
+				table_id: 5159988867993315160L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			subtitle: "It Was Always Burnin' Since the World Was Turnin'"
+			description: [
+				"É um tropo comum em Fantasia que assim que o Homem encontra alguma nova fonte de poder, é imediatamente explorado em detrimento da Terra. Agora você também pode fazer parte dessa tradição histórica!"
+				""
+				""
+			]
+			dependencies: [
+				"0000000000000519"
+				"000000000000051B"
+				"000000000000051F"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000521"
+			tasks: [{
+				id: "0000000000000522"
+				type: "item"
+				title: "Endoflame"
+				icon: "botania:endoflame"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:endoflame"
+								Count: 1b
+							}
+							{
+								id: "botania:gourmaryllis"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000523"
+					type: "item"
+					title: "Open Crate"
+					item: "botania:open_crate"
+				}
+				{
+					id: "00000000000005E8"
+					type: "item"
+					title: "Manaseer Monacle"
+					item: {
+						id: "botania:monocle"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "52A3EBA41203A085"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			title: "Guardian of Gaia"
+			icon: "botania:life_essence"
+			x: 13.5d
+			y: 1.5d
+			subtitle: "How to Lose Friends and Alienate People"
+			description: [
+				"A Terra sangra. Pode-se até ouvi-la chorar se não fossem os sons das maquinações que drenam a vida dela."
+				""
+			]
+			dependencies: [
+				"0000000000000528"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000524"
+			tasks: [{
+				id: "0000000000000527"
+				type: "item"
+				item: "botania:life_essence"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "5D02A3F04A9A1A0E"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "162CF5CD40B3FC81"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			title: "Gaia Arena"
+			icon: "botania:gaia_pylon"
+			x: 11.5d
+			y: 1.5d
+			subtitle: "Preparing the Final Coup"
+			description: [
+				"É lógico que a terra tem mais segredos ainda a serem revelados. Talvez uma armadilha possa ser formada por meio desses materiais alienígenas?"
+				""
+				"A Lexica Botânia mostrará a estrutura exata necessária para a construção da arena."
+			]
+			dependencies: [
+				"0000000000000501"
+				"000000000000057F"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000528"
+			tasks: [
+				{
+					id: "0000000000000529"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "000000000000052C"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+			]
+			rewards: [
+				{
+					id: "694502D34E92A76A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1C32147623BD434F"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			title: "Dice of Fate"
+			icon: "botania:dice"
+			x: 14.5d
+			y: 2.5d
+			subtitle: "Twist the Blade"
+			description: [
+				""
+				"Use um Gaia Spirit Ingot no lugar de Terrasteel na Gaia Arena para convocar a segunda encarnação do Guardião de Gaia."
+			]
+			dependencies: [
+				"0000000000000524"
+				"1188DA3AC0F2DB91"
+			]
+			id: "000000000000052A"
+			tasks: [{
+				id: "000000000000052B"
+				type: "item"
+				item: "botania:dice"
+			}]
+			rewards: [
+				{
+					id: "1D205E8B1D99CDA4"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "512A9ACB71451C00"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			title: "Elemental Runes"
+			x: 8.5d
+			y: 10.5d
+			subtitle: "Like a Punch Card"
+			description: [
+				""
+				"Agora temos um método útil para passar novas instruções para o Petal Apothecary sem sobrecarregar as pétalas sensíveis ou passar conjuntos de instruções mais refinados para o próprio Altar. Estes quase certamente podem ser usados ​​em ferramentas portáteis também."
+			]
+			dependencies: [
+				"0000000000000513"
+				"1188DA3AC0F2DB91"
+			]
+			id: "000000000000052D"
+			tasks: [
+				{
+					id: "000000000000052E"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "000000000000052F"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "0000000000000530"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "0000000000000531"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "0000000000000532"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			rewards: [
+				{
+					id: "49E76982E45E0659"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "4CAD5B86D96B42CC"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 9.5d
+			subtitle: "Condensado Enderman"
+			dependencies: [
+				"0000000000000521"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000533"
+			tasks: [{
+				id: "0000000000000534"
+				type: "item"
+				item: "botania:mana_pearl"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0680599EE3428E62"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.5d
+			subtitle: "Superradiant Scattering"
+			description: ["As facetas desta gema parecem amplificar as energias contidas nela. Sem dúvida, esse material serviria bem como foco para uma maior exploração."]
+			dependencies: [
+				"0000000000000521"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000535"
+			tasks: [{
+				id: "0000000000000536"
+				type: "item"
+				item: "botania:mana_diamond"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4630398DBEA3BBBD"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.5d
+			subtitle: "Everlasting"
+			description: ["Quando exposto mesmo que brevemente a uma reserva de mana, o ferro se transforma em uma espécie de acumulador de mana, armazenando mais mana para uso posterior e até mesmo reorganizando-se espontaneamente após eventos de impacto rápidos e fortes. Embora isso pareça um material óbvio para usar em uma ferramenta ou armadura, talvez outros usos mais delicados também possam ser encontrados."]
+			dependencies: [
+				"0000000000000521"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000537"
+			tasks: [{
+				id: "0000000000000538"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 16L
+			}]
+			rewards: [{
+				id: "5B3192EDE042EA09"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.5d
+			subtitle: "Is It... Squirming?"
+			description: ["Um pedaço de barbante comum parece uma má escolha para a natureza selvagem da mana. Parece que mal está se segurando."]
+			dependencies: [
+				"0000000000000521"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000539"
+			tasks: [{
+				id: "000000000000053A"
+				type: "item"
+				item: "botania:mana_string"
+			}]
+			rewards: [{
+				id: "1397991C53BCE4C6"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.5d
+			subtitle: "Crystal Binding Compound"
+			description: ["Parece que quase qualquer pó, quando banhado em mana condensado, torna-se um poderoso agente de ligação. Isso deve ser útil"]
+			dependencies: [
+				"0000000000000521"
+				"1188DA3AC0F2DB91"
+			]
+			id: "000000000000053B"
+			tasks: [{
+				id: "000000000000053C"
+				type: "item"
+				item: "botania:mana_powder"
+				count: 16L
+			}]
+			rewards: [{
+				id: "09C76FD2B9B08D45"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.5d
+			subtitle: "All Around the World"
+			description: [
+				"A Band of Mana combina vários dos materiais que descobrimos até agora em um objeto útil; um que pode atuar como uma reserva de mana portátil. Fazer um abrirá novas possibilidades, pois a exploração de mana acabou de se tornar pessoal."
+				""
+			]
+			dependencies: [
+				"0000000000000538"
+				"1188DA3AC0F2DB91"
+			]
+			id: "000000000000053D"
+			tasks: [{
+				id: "000000000000053F"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "264ECD6259936745"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "527BABCBE2ABDE5F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 11.5d
+			subtitle: "Care for a Kombucha?"
+			description: [
+				"Em um processo semelhante à remontagem espontânea do Altar Rúnico, um suporte de cerveja tradicional pode ser aprimorado para recriar potables potentes com a adição de uma Runa de Mana."
+				""
+			]
+			dependencies: [
+				"000000000000052D"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000540"
+			tasks: [{
+				id: "0000000000000541"
+				type: "item"
+				item: "botania:brewery"
+			}]
+			rewards: [
+				{
+					id: "00000000000005DB"
+					type: "item"
+					title: "Managlass Vial"
+					item: "botania:vial"
+					count: 8
+				}
+				{
+					id: "6A1A0D5B8DE567E8"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 9.0d
+			description: ["Por razões ainda desconhecidas, glóbulos de mana impuro aparecem brevemente após o término de uma vida. A Rosa Arcana é capaz de absorver e purificar esses glóbulos para uso posterior."]
+			dependencies: [
+				"000000000000052D"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000542"
+			tasks: [{
+				id: "0000000000000543"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [
+				{
+					id: "4BE841DB42C61A07"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "1A2FB9919092CC6E"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 12.0d
+			subtitle: "Life uh... Finds a Way"
+			description: [
+				""
+				"O Polidisíaco aborda esse problema levando as feras a pelo menos se alimentarem."
+			]
+			dependencies: [
+				"000000000000052D"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000550"
+			tasks: [{
+				id: "0000000000000558"
+				type: "item"
+				item: "botania:pollidisiac"
+			}]
+			rewards: [
+				{
+					id: "43554C4985080EFA"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "37ABB309D25F9504"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 9.5d
+			subtitle: "Forbidden Jello"
+			description: [
+				""
+				"O Narslimmus absorverá e processará todo o Slime, quebrando sua estrutura integral e liberando muito mais mana do que poderia ser obtido por métodos mais primitivos."
+			]
+			dependencies: [
+				"000000000000052D"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000552"
+			tasks: [{
+				id: "0000000000000553"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [
+				{
+					id: "6D2081B500D2ACA4"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "231B4876EFE4058F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 11.5d
+			subtitle: "Clear Sight"
+			description: ["A mana infundida neste vidro fornece uma fonte de luz brilhante. Perscrutar através dele revela um mundo oculto para você."]
+			dependencies: [
+				"0000000000000521"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000554"
+			tasks: [{
+				id: "0000000000000555"
+				type: "item"
+				item: "botania:mana_glass"
+				count: 16L
+			}]
+			rewards: [{
+				id: "1E2F5ACBC211FB33"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			title: "Sparks"
+			x: 7.0d
+			y: 1.5d
+			subtitle: "Taking the Gloves Off"
+			description: [
+				"Embora o invólucro Livingwood dos Mana Spreaders pareça torná-los muito eficientes na canalização de longa distância, eles nem sempre são o método mais rápido. Ao remover o invólucro, pode ser formada uma faísca que não possui a direcionalidade de um espalhador, mas compensa com o volume de cisalhamento que pode suportar."
+				""
+			]
+			dependencies: [
+				"0000000000000501"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000559"
+			tasks: [{
+				id: "000000000000055A"
+				type: "item"
+				item: "botania:spark"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "5C63BC5AE5A6F638"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "1EA9E4ED207C111D"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 6.0d
+			subtitle: "Pink is the New Black"
+			description: [
+				""
+				"Explore as novas ferramentas e itens que agora podem ser obtidos com o Elementium."
+			]
+			dependencies: [
+				"0000000000000515"
+				"1188DA3AC0F2DB91"
+			]
+			id: "000000000000057F"
+			tasks: [{
+				id: "0000000000000580"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "7ECF9E4ED6656470"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "33D191306F4A88E3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 9.0d
+			subtitle: "Crystaline Scales"
+			description: [
+				""
+				"Explore as novas ferramentas e itens que agora podem ser obtidos com Pedra do Dragão."
+			]
+			dependencies: [
+				"0000000000000515"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000581"
+			tasks: [{
+				id: "0000000000000582"
+				type: "item"
+				item: "botania:dragonstone"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "285EAE22BDAA68D0"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "15726C3B7A6595B0"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 7.5d
+			subtitle: "Unfit for Aerial Use"
+			description: [
+				""
+				"Explore as novas ferramentas e itens que agora podem ser obtidos com o Pixie Dust."
+			]
+			dependencies: [
+				"0000000000000515"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000583"
+			tasks: [{
+				id: "0000000000000584"
+				type: "item"
+				item: "botania:pixie_dust"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "555E60CBC19F3976"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "333CD61BBAF62D11"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			title: "Spark Augments"
+			x: 15.5d
+			y: 7.5d
+			subtitle: "Ebb and Flow"
+			description: ["Aprimoramentos de Centelhas são a peça que faltava para uma manipulação mais direta da mana sobre os conduítes da Centelha, permitindo especificar quando e para onde a mana viaja."]
+			dependencies: [
+				"0000000000000583"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000585"
+			tasks: [
+				{
+					id: "0000000000000586"
+					type: "item"
+					item: "botania:spark_upgrade_recessive"
+				}
+				{
+					id: "000000000000058B"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+			]
+			rewards: [{
+				id: "000000000000058F"
+				type: "item"
+				title: "Spark Tinkerer"
+				item: "botania:spark_changer"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 6.0d
+			description: [
+				"Embora os Espalhadores de Mana básicos tenham sido suficientes até este ponto, ficou claro que com materiais mais avançados, melhores resultados poderiam ser obtidos."
+				""
+			]
+			dependencies: [
+				"000000000000057F"
+				"1188DA3AC0F2DB91"
+			]
+			id: "0000000000000589"
+			tasks: [{
+				id: "000000000000058A"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [
+				{
+					id: "7C8DB171C9C83421"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "527FA824A4402426"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+		{
+			title: "Corporea Networks"
+			icon: "botania:corporea_spark_master"
+			x: 15.5d
+			y: 9.0d
+			description: [
+				"Parece que a capacidade de Mana de manipular itens é ilimitada, convertendo livremente matéria em energia e de volta para puxá-los através da rede Spark."
+				""
+			]
+			dependencies: [
+				"0000000000000581"
+				"1188DA3AC0F2DB91"
+			]
+			id: "000000000000058C"
+			tasks: [
+				{
+					id: "000000000000058D"
+					type: "item"
+					item: "botania:corporea_index"
+				}
+				{
+					id: "000000000000058E"
+					type: "item"
+					item: "botania:corporea_spark_master"
+				}
+			]
+			rewards: [{
+				id: "0000000000000590"
+				type: "item"
+				title: "Corporea Spark"
+				item: "botania:corporea_spark"
+				count: 8
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			subtitle: "Open Veins"
+			description: ["A iteração final do Mana Spreader, infundido com a própria essência de Gaia para maximizar o rendimento."]
+			dependencies: [
+				"0000000000000524"
+				"1188DA3AC0F2DB91"
+			]
+			id: "00000000000005A4"
+			tasks: [{
+				id: "00000000000005A5"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+			rewards: [
+				{
+					id: "321FD0F6962F0A89"
+					type: "random"
+					table_id: 1638175304755896590L
+				}
+				{
+					id: "24A8FA606FF4CC75"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+		}
+	]
+}

@@ -3,19 +3,32 @@
 	group: "4FCBF57EFAF8C3EC"
 	order_index: 0
 	filename: "mekanism"
-	title: "Mekanism"
+	title: "Mekanism I"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 0.0d
 			y: 0.0d
+			dependencies: ["568033C5722FC4F4"]
 			id: "6E26D34C1CEE48F5"
 			tasks: [{
 				id: "679E5F7AA0EEEDC6"
 				type: "item"
 				item: "mekanism:steel_casing"
 			}]
+			rewards: [
+				{
+					id: "7DC2A5DF3D7DA137"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "04DBA12D86AA9B5D"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -26,36 +39,1326 @@
 				type: "item"
 				item: "mekanism:metallurgic_infuser"
 			}]
+			rewards: [
+				{
+					id: "33D80D704188AD0F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "07828B3AB087696C"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: 0.0d
+			dependencies: ["6E26D34C1CEE48F5"]
 			id: "5148E5425FF759C2"
 			tasks: [{
 				id: "08E23D5927900AA9"
 				type: "item"
 				item: "mekanism:enrichment_chamber"
 			}]
+			rewards: [
+				{
+					id: "6B34C2228E962CC5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0DB5D7EAC7A81562"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: 0.0d
+			dependencies: ["5148E5425FF759C2"]
 			id: "1EF8DF6074E43206"
 			tasks: [{
 				id: "681153F71D224A41"
 				type: "item"
 				item: "mekanism:crusher"
 			}]
+			rewards: [
+				{
+					id: "128322EBFDD0410A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "323699ED6F3A726A"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 0.0d
+			dependencies: ["1EF8DF6074E43206"]
 			id: "64BEBD5D57309C39"
 			tasks: [{
 				id: "6A38B1F23DD9D30F"
 				type: "item"
 				item: "mekanism:energized_smelter"
 			}]
+			rewards: [
+				{
+					id: "4767D3B684547DEA"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "72203BC6D8238070"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["34FAA6A58B70CBB5"]
+			id: "77C43FB94D0601C4"
+			tasks: [{
+				id: "0B6C825FE6A836AD"
+				type: "item"
+				item: "mekanism:advanced_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "1477828C8E9442D0"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "14480BF12AC7144A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "28C185D1159789B6"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+				{
+					id: "5091A094DD5C85FA"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["77C43FB94D0601C4"]
+			id: "02D098C58B30BECB"
+			tasks: [{
+				id: "3FA576AF6DE7910F"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+			rewards: [
+				{
+					id: "59F840BD9A4D6F35"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "215D65C5A8C050D5"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["77C43FB94D0601C4"]
+			id: "5A5FB9EC6448466E"
+			tasks: [{
+				id: "7A4C248115539844"
+				type: "item"
+				item: "mekanism:elite_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "17B79FA566684E50"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "41572BFE69BFA55E"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["5A5FB9EC6448466E"]
+			id: "7879AE786FC43C80"
+			tasks: [{
+				id: "580C1B26B01457DF"
+				type: "item"
+				item: "mekanism:ultimate_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "05A071F37AD896E5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1B0293C994C33F49"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["5148E5425FF759C2"]
+			id: "34FAA6A58B70CBB5"
+			tasks: [{
+				id: "519E20F651D2595C"
+				type: "item"
+				item: "mekanism:basic_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "1C0587AD4DA83FB2"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "48A7F719E6A33368"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["1EF8DF6074E43206"]
+			id: "0B4DC29686A57AED"
+			tasks: [{
+				id: "3D2D6E5ECFE7EF9E"
+				type: "item"
+				item: "mekanism:basic_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "3B318E83807E04CC"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0DAD961D89A2E7A3"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["0B4DC29686A57AED"]
+			id: "6B87EEEE28DF74C0"
+			tasks: [{
+				id: "038E7F492A24FAF2"
+				type: "item"
+				item: "mekanism:advanced_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "3B71EF8CA928FBFA"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4AFC65DD276A4175"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["6B87EEEE28DF74C0"]
+			id: "1D54C2063E715533"
+			tasks: [{
+				id: "33D91E1717C9D2C3"
+				type: "item"
+				item: "mekanism:elite_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "6B5F7D6A3260E9C3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "48C57FBECC85A2F0"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["1D54C2063E715533"]
+			id: "59ECD36D0B0877BD"
+			tasks: [{
+				id: "53DD0467C2D661AE"
+				type: "item"
+				item: "mekanism:ultimate_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "3075584D0C29E5DF"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7E99B1ADA8461329"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["64BEBD5D57309C39"]
+			id: "5109797497C4932C"
+			tasks: [{
+				id: "2B0F7F10B1BA00B5"
+				type: "item"
+				item: "mekanism:basic_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "5113F244A66C86BD"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3B6B58B7830C2FA9"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["5109797497C4932C"]
+			id: "180DA04B079FF4FD"
+			tasks: [{
+				id: "1EA46B1DCFE95939"
+				type: "item"
+				item: "mekanism:advanced_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "21A3A9942AAEA042"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "450FC1CF21AD362F"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["180DA04B079FF4FD"]
+			id: "186FBEAC48417122"
+			tasks: [{
+				id: "07914FCCB24C1DD0"
+				type: "item"
+				item: "mekanism:elite_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "20502717BA9FA807"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0C2798255D9A08C1"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["186FBEAC48417122"]
+			id: "45743D6823F777C7"
+			tasks: [{
+				id: "2A52254C30CAE92D"
+				type: "item"
+				item: "mekanism:ultimate_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "228612C37EC1E365"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3A59CD2D9A3E8F00"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["02D098C58B30BECB"]
+			id: "6733B71A983F45FC"
+			tasks: [{
+				id: "4053C4F89355603D"
+				type: "item"
+				item: "mekanism:basic_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "5D1AA76681A63B05"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "365B8F3409010510"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			dependencies: ["6733B71A983F45FC"]
+			id: "1E6CC48FDC8402CF"
+			tasks: [{
+				id: "247699B42D35A6CC"
+				type: "item"
+				item: "mekanism:advanced_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "4A4A6B81E9A69CB2"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "17D658D1D9B75534"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["1E6CC48FDC8402CF"]
+			id: "772E8DECCF7E4F8C"
+			tasks: [{
+				id: "798DBBC43AB637AF"
+				type: "item"
+				item: "mekanism:elite_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "728E820C14574B68"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "384C575E876809F5"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			dependencies: ["772E8DECCF7E4F8C"]
+			id: "1BACCD8AC743E522"
+			tasks: [{
+				id: "0D808077D0BEAAE1"
+				type: "item"
+				item: "mekanism:ultimate_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "10F86B4BE2260D43"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1032D910FC123099"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["568033C5722FC4F4"]
+			id: "43C4AC30519A36B0"
+			tasks: [{
+				id: "27824C2378B44794"
+				type: "item"
+				item: "mekanism:alloy_infused"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "246203E33CC6A0D3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "30921CAF156CAE6E"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["43C4AC30519A36B0"]
+			id: "7360F968D99BAB5F"
+			tasks: [{
+				id: "7B1DA9E2E157C047"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "3F2DDDFDA54E42B5"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4F6C3ED205649681"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["7360F968D99BAB5F"]
+			id: "1EA7DF141F643F8C"
+			tasks: [{
+				id: "6DC080CE6544536B"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "6CFCDAF8A817E476"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "5C65EE01BFFC82F2"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["02D098C58B30BECB"]
+			id: "58F269FD2780CEB8"
+			tasks: [{
+				id: "281D81A428526AD6"
+				type: "item"
+				item: "mekanism:clump_iron"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "5D4C752FA5E15349"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6C92883B71CA881A"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["02D098C58B30BECB"]
+			id: "06029684C649C036"
+			tasks: [{
+				id: "300D8AD6A17C5B1E"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+			rewards: [
+				{
+					id: "413AA1F46F10872D"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "687522B0689BCC7A"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["06029684C649C036"]
+			id: "4E722F5001868D6D"
+			tasks: [{
+				id: "64048F37543CD1EF"
+				type: "item"
+				item: "mekanism:basic_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "76A75415FDE2C49F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "0C20B8676D9E97CC"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			dependencies: ["4E722F5001868D6D"]
+			id: "3D26B7A7EC099458"
+			tasks: [{
+				id: "5314B857BC1527B7"
+				type: "item"
+				item: "mekanism:advanced_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "0AE6B03723EA7DB2"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "36B3ABC59659D1B2"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			dependencies: ["3D26B7A7EC099458"]
+			id: "1856A976B0411773"
+			tasks: [{
+				id: "15EE6A305A4E562E"
+				type: "item"
+				item: "mekanism:elite_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "11C37C001145554E"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6E1CD35D2598D437"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			dependencies: ["1856A976B0411773"]
+			id: "7B93488DCE03EEF5"
+			tasks: [{
+				id: "289F8186BD4107B2"
+				type: "item"
+				item: "mekanism:ultimate_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "179619BF0B856C76"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6995ADBB6F9D9986"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["06029684C649C036"]
+			id: "5D2EC74536B4A2FD"
+			tasks: [{
+				id: "3D198A89CDDFBEE6"
+				type: "item"
+				item: "mekanism:shard_iron"
+			}]
+			rewards: [
+				{
+					id: "75A6834502259FED"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "2BE352E33643C8FF"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["06029684C649C036"]
+			id: "50C126D355C49889"
+			tasks: [{
+				id: "0B8B6B5F347EA3C6"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+			rewards: [
+				{
+					id: "67183B2661FCF815"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "109C475FD9955E4A"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["50C126D355C49889"]
+			id: "33B601D05A74A1BD"
+			tasks: [{
+				id: "7BA2A5CC959260CA"
+				type: "item"
+				item: "mekanism:crystal_iron"
+			}]
+			rewards: [
+				{
+					id: "29F0CFB83E4BEE98"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "74AD467742C75699"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["5148E5425FF759C2"]
+			id: "0D89151FD89C59A1"
+			tasks: [{
+				id: "28AB6961CB3D8379"
+				type: "item"
+				item: "mekanism:enriched_carbon"
+			}]
+			rewards: [
+				{
+					id: "7119675253C29DF9"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "715CAA971D486728"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["5148E5425FF759C2"]
+			id: "6C35BBEDF11D0327"
+			tasks: [{
+				id: "50C317F14095B831"
+				type: "item"
+				item: "mekanism:enriched_redstone"
+			}]
+			rewards: [
+				{
+					id: "29D8180FBDD33FDF"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6A20111659E62EB1"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["5148E5425FF759C2"]
+			id: "1B24CD73E94C572F"
+			tasks: [{
+				id: "1BA3BEB2CE47EB5C"
+				type: "item"
+				item: "mekanism:enriched_diamond"
+			}]
+			rewards: [
+				{
+					id: "27908FF6718BD281"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "066D142E0FFA76E5"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["5148E5425FF759C2"]
+			id: "5544AB0E7F3E0B20"
+			tasks: [{
+				id: "15DFE8ACD34CEA7E"
+				type: "item"
+				item: "mekanism:enriched_refined_obsidian"
+			}]
+			rewards: [
+				{
+					id: "1A513846926C9857"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "60356CAF20F7F75C"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["5148E5425FF759C2"]
+			id: "3397705A93A77640"
+			tasks: [{
+				id: "685B61D342D9BC89"
+				type: "item"
+				item: "mekanism:enriched_gold"
+			}]
+			rewards: [
+				{
+					id: "40EED71824E875E6"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "2102D6563B3D63EC"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["5148E5425FF759C2"]
+			id: "604C0EBC1EF1F374"
+			tasks: [{
+				id: "791F1CD4D602B358"
+				type: "item"
+				item: "mekanism:enriched_tin"
+			}]
+			rewards: [
+				{
+					id: "76D4F0D4E4E56355"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "15C051E57325C1B4"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["02D098C58B30BECB"]
+			id: "1412332BB12B173D"
+			tasks: [{
+				id: "01516E2784292A68"
+				type: "item"
+				item: "mekanism:clump_gold"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "310824D7B3217D4F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "2B2DD88259804074"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["02D098C58B30BECB"]
+			id: "6653A7E0000AC2A0"
+			tasks: [{
+				id: "52ADCFA4363CB700"
+				type: "item"
+				item: "mekanism:clump_osmium"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "73A4E4BA440B955A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "79C5008AB8E4B074"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["02D098C58B30BECB"]
+			id: "7BCAB9DF564A845A"
+			tasks: [{
+				id: "305C296402DDA49F"
+				type: "item"
+				item: "mekanism:clump_copper"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "2065DCDFB0CDA092"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "2BF34151C09E625A"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["02D098C58B30BECB"]
+			id: "6100BE82B3184CF8"
+			tasks: [{
+				id: "4E71455084A16CFE"
+				type: "item"
+				item: "mekanism:clump_tin"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "36DE328E659B8E4B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "32093DDF4123FE88"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			dependencies: ["02D098C58B30BECB"]
+			id: "301E6569589286B2"
+			tasks: [{
+				id: "38D5EE54E3A15768"
+				type: "item"
+				item: "mekanism:clump_uranium"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "2092105671C06735"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "57B903DC8F0C9E1E"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["06029684C649C036"]
+			id: "4FB555B3D01C18FF"
+			tasks: [{
+				id: "2B8D58DED3673878"
+				type: "item"
+				item: "mekanism:shard_gold"
+			}]
+			rewards: [
+				{
+					id: "6CFBADF976C2B91B"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "3424A03D331CFA74"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["06029684C649C036"]
+			id: "32859C6F6FE6CF22"
+			tasks: [{
+				id: "31124BCDDF3FD284"
+				type: "item"
+				item: "mekanism:shard_osmium"
+			}]
+			rewards: [
+				{
+					id: "65B04374A81E3B9F"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "24E13FF4FBE39005"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["06029684C649C036"]
+			id: "7E0CE7C1591C8FC4"
+			tasks: [{
+				id: "5C9475BD31D91509"
+				type: "item"
+				item: "mekanism:shard_copper"
+			}]
+			rewards: [
+				{
+					id: "142FC7108813B5F6"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "4DAC38D30F38DA4F"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["06029684C649C036"]
+			id: "6DA62635E5251450"
+			tasks: [{
+				id: "6060F1AF484BB6D7"
+				type: "item"
+				item: "mekanism:shard_tin"
+			}]
+			rewards: [
+				{
+					id: "2F503103D8AF7F4D"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1B2767E6DF71945F"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["06029684C649C036"]
+			id: "68207A3AA2C9A541"
+			tasks: [{
+				id: "5D96CDE4DAA70760"
+				type: "item"
+				item: "mekanism:shard_uranium"
+			}]
+			rewards: [
+				{
+					id: "1DF7F489F80C84D0"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "53C7D4A1E1D04D21"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["50C126D355C49889"]
+			id: "0EF15A4F72153D74"
+			tasks: [{
+				id: "5C52F58B5BF0F804"
+				type: "item"
+				item: "mekanism:crystal_gold"
+			}]
+			rewards: [
+				{
+					id: "6A9F901D3A64337A"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6B606C1198FEE7A1"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["50C126D355C49889"]
+			id: "45756929AF45E9B3"
+			tasks: [{
+				id: "4BC6A54C80FF6161"
+				type: "item"
+				item: "mekanism:crystal_osmium"
+			}]
+			rewards: [
+				{
+					id: "1AFDE2D1405FE710"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "09B0F79347138CC1"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["50C126D355C49889"]
+			id: "060B6535D1A4EB92"
+			tasks: [{
+				id: "3F676F0BF7FAE0CC"
+				type: "item"
+				item: "mekanism:crystal_copper"
+			}]
+			rewards: [
+				{
+					id: "525C8FBC83C2FAB9"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "333B2716CD37607A"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["50C126D355C49889"]
+			id: "4FDD15E189414029"
+			tasks: [{
+				id: "0DB3E7FE5F69D0F4"
+				type: "item"
+				item: "mekanism:crystal_tin"
+			}]
+			rewards: [
+				{
+					id: "38DBBB42B8D08B9C"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6673A4FC878A2EA9"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			dependencies: ["50C126D355C49889"]
+			id: "631F99C76336B9CA"
+			tasks: [{
+				id: "7FB1BEA22095DF1B"
+				type: "item"
+				item: "mekanism:crystal_uranium"
+			}]
+			rewards: [
+				{
+					id: "2D5B561B4CADD0DB"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1707A22DC96A0DDE"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["02D098C58B30BECB"]
+			id: "36162A3547BDBDFB"
+			tasks: [{
+				id: "771706F5E229EFDD"
+				type: "item"
+				item: "mekanism:clump_lead"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "4E1AC7E8D50836FD"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "1DCD5C5B72CABBD5"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			dependencies: ["06029684C649C036"]
+			id: "57906F5440200B17"
+			tasks: [{
+				id: "5D6F632B89C60E2C"
+				type: "item"
+				item: "mekanism:shard_lead"
+			}]
+			rewards: [
+				{
+					id: "2187DB9D2219D604"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "7EC85E50B4725A36"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			dependencies: ["50C126D355C49889"]
+			id: "7C651D66DA4A3186"
+			tasks: [{
+				id: "02DB402FCA9F072F"
+				type: "item"
+				item: "mekanism:crystal_lead"
+			}]
+			rewards: [
+				{
+					id: "0CC8867629D40BB3"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+				{
+					id: "6A80481C763B324F"
+					type: "random"
+					table_id: 5159988867993315160L
+				}
+			]
 		}
 	]
 }
