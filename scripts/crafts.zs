@@ -323,3 +323,9 @@ craftingTable.removeRecipe(<item:envirotech:nanorite_void_miner_ccu>);
 craftingTable.removeRecipe(<item:envirotech:xerothium_void_miner_ccu>);
 
 craftingTable.removeRecipe(<item:industrialforegoing:infinity_backpack>);
+
+// banneds
+craftingTable.removeRecipe(<item:chunkloaders:single_chunk_loader>);
+craftingTable.removeRecipe(<item:chunkloaders:basic_chunk_loader>);
+craftingTable.removeRecipe(<item:chunkloaders:advanced_chunk_loader>);
+craftingTable.removeRecipe(<item:chunkloaders:ultimate_chunk_loader>);
