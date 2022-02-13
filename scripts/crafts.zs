@@ -325,6 +325,10 @@ craftingTable.removeRecipe(<item:envirotech:xerothium_void_miner_ccu>);
 craftingTable.removeRecipe(<item:industrialforegoing:infinity_backpack>);
 
 // banneds
+
+//botania grief banned lapula
+craftingTable.removeRecipe(<item:lapula:laputa_shard>);
+
 craftingTable.removeRecipe(<item:chunkloaders:single_chunk_loader>);
 craftingTable.removeRecipe(<item:chunkloaders:basic_chunk_loader>);
 craftingTable.removeRecipe(<item:chunkloaders:advanced_chunk_loader>);
