@@ -3,7 +3,6 @@ import crafttweaker.api.CraftingTableManager;
 import crafttweaker.api.item.IItemStack;
 
 <recipetype:create:milling>.addRecipe("leaddust", [<item:mekanism:dust_lead>, <item:mekanism:dust_lead> % 100], <item:create:crushed_lead_ore>);
-<recipetype:create:milling>.addRecipe("golddust", [<item:mekanism:dust_gold>, <item:mekanism:dust_gold> % 100], <item:create:crushed_gold_ore>);
 <recipetype:create:milling>.addRecipe("irondust", [<item:mekanism:dust_iron>, <item:mekanism:dust_iron> % 100], <item:create:crushed_iron_ore>);
 <recipetype:create:milling>.addRecipe("copperdust", [<item:mekanism:dust_copper>, <item:mekanism:dust_copper> % 100], <item:create:crushed_copper_ore>);
 <recipetype:create:milling>.addRecipe("zincdust", [<item:silents_mechanisms:zinc_dust>, <item:silents_mechanisms:zinc_dust> % 100], <item:create:crushed_zinc_ore>);
@@ -21,8 +20,6 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:thermal:crucible>.addRecipe("rose_quartz_fluid", <fluid:jaopca:molten.rose_quartz> *100, <item:create:rose_quartz>, 500);
 
 <recipetype:thermal:bottler>.addRecipe("polished_rose_quartz1", <item:create:polished_rose_quartz>, <item:create:andesite_alloy>, <fluid:jaopca:molten.rose_quartz> *100, 500);
-
-<recipetype:thermal:press>.addRecipe("pinkslime", [<item:industrialforegoing:pink_slime_ingot> % 100], <fluid:industrialforegoing:pink_slime>, [<item:tconstruct:rose_gold_ingot>], 500);
 
 craftingTable.removeRecipe(<item:industrialforegoing:dryrubber>);
 <recipetype:thermal:bottler>.addRecipe("dryrubber", <item:industrialforegoing:dryrubber>, <item:industrialforegoing:tinydryrubber>, <fluid:thermal:latex> *100, 500);
@@ -50,7 +47,7 @@ mods.extendedcrafting.TableCrafting.addShaped("e7db15db-34ca-484c-8835-76156b72b
 	[<item:powah:ender_core>, <item:minecraft:netherite_shovel>, <item:extendedcrafting:redstone_catalyst>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:redstone_catalyst>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:redstone_catalyst>, <item:minecraft:netherite_shovel>, <item:powah:ender_core>], 
 	[<item:powah:ender_core>, <item:miniutilities:diamond_opinium_core>, <item:extendedcrafting:redstone_catalyst>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:redstone_catalyst>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:redstone_catalyst>, <item:miniutilities:diamond_opinium_core>, <item:powah:ender_core>], 
 	[<item:powah:ender_core>, <item:miniutilities:diamond_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:netherite_pickaxe>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:diamond_opinium_core>, <item:powah:ender_core>], 
-	[<item:powah:ender_core>, <item:miniutilities:diamond_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:netherite_pickaxe>, <item:mekanism:digital_miner>, <item:minecraft:netherite_pickaxe>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:diamond_opinium_core>, <item:powah:ender_core>], 
+	[<item:powah:ender_core>, <item:miniutilities:diamond_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:netherite_pickaxe>, <item:miniutilities:mechanical_miner>, <item:minecraft:netherite_pickaxe>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:diamond_opinium_core>, <item:powah:ender_core>], 
 	[<item:powah:ender_core>, <item:miniutilities:diamond_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:netherite_pickaxe>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:diamond_opinium_core>, <item:powah:ender_core>], 
 	[<item:powah:ender_core>, <item:miniutilities:diamond_opinium_core>, <item:extendedcrafting:redstone_catalyst>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:redstone_catalyst>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:redstone_catalyst>, <item:miniutilities:diamond_opinium_core>, <item:powah:ender_core>], 
 	[<item:powah:ender_core>, <item:minecraft:netherite_shovel>, <item:extendedcrafting:redstone_catalyst>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:redstone_catalyst>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:redstone_catalyst>, <item:minecraft:netherite_shovel>, <item:powah:ender_core>], 
@@ -85,7 +82,7 @@ craftingTable.addShaped("c819f412-b997-4a0c-9781-db9ab54ff22b", <item:industrial
 craftingTable.removeRecipe(<item:thermal:machine_frame>);
 craftingTable.addShaped("d3c546fd-e6cf-49cf-a50c-3db8099c4470", <item:thermal:machine_frame>, [
 	[<item:create:iron_sheet>, <item:minecraft:glass>, <item:create:iron_sheet>], 
-	[<item:minecraft:glass>, <item:silents_mechanisms:alloy_machine_frame>, <item:minecraft:glass>], 
+	[<item:minecraft:glass>, <item:silents_mechanisms:stone_machine_frame>, <item:minecraft:glass>], 
 	[<item:create:iron_sheet>, <item:minecraft:glass>, <item:create:iron_sheet>]
 ]);
 
@@ -308,73 +305,13 @@ mods.extendedcrafting.TableCrafting.addShaped("7fc2fa4f-303b-4ead-9f38-e65fe09b2
 	[<item:powah:reactor_blazing>, <item:powah:reactor_blazing>, <item:create:redstone_link>, <item:powah:reactor_blazing>, <item:powah:reactor_blazing>]
 ]);
 
-craftingTable.addShaped("c8490f5d-718a-4539-a0a3-b70587305c3b", <item:industrialforegoing:range_addon0>, [
-	[<item:minecraft:redstone>, <item:minecraft:glass_pane>, <item:minecraft:redstone>], 
-	[<item:minecraft:glass_pane>, <item:thermal:latex_bucket>, <item:minecraft:cobblestone>], 
-	[<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>]
-]);
 
-craftingTable.addShaped("c8490f5d-718a-4539-a0a3-b705873", <item:industrialforegoing:range_addon1>, [
-	[<item:minecraft:redstone>, <item:minecraft:glass_pane>, <item:minecraft:redstone>], 
-	[<item:minecraft:glass_pane>, <item:minecraft:air>, <item:minecraft:lapis_lazuli>], 
-	[<item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>]
-]);
-
-craftingTable.addShaped("1001c68b-f773-449d-b533-2a918af2c65a", <item:industrialforegoing:range_addon2>, [
-	[<item:minecraft:redstone>, <item:minecraft:glass_pane>, <item:minecraft:redstone>], 
-	[<item:minecraft:glass_pane>, <item:thermal:latex_bucket>, <item:minecraft:bone_meal>], 
-	[<item:minecraft:bone_meal>, <item:minecraft:bone_meal>, <item:minecraft:bone_meal>]
-]);
-
-craftingTable.addShaped("cc102b88-7fed-47c7-9185-492061beb409",  <item:industrialforegoing:range_addon3>, [
-	[<item:minecraft:redstone>, <item:minecraft:glass_pane>, <item:minecraft:redstone>], 
-	[<item:minecraft:glass_pane>, <item:thermal:latex_bucket>, <item:minecraft:iron_ingot>], 
-	[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]
-]);
-
-craftingTable.addShaped("5ce3fcc8-f9c2-4ec9-a8fb-6f6306336a9b",  <item:industrialforegoing:range_addon4>, [
-	[<item:minecraft:redstone>, <item:minecraft:glass_pane>, <item:minecraft:redstone>], 
-	[<item:minecraft:glass_pane>, <item:thermal:latex_bucket>, <item:minecraft:blaze_rod>], 
-	[<item:minecraft:blaze_rod>, <item:minecraft:blaze_rod>, <item:minecraft:blaze_rod>]
-]);
-
-craftingTable.addShaped("567d3712-db6d-4b12-b54b-9f9135775c26", <item:industrialforegoing:machine_frame_simple>, [
-	[<item:industrialforegoing:plastic>, <item:industrialforegoing:machine_frame_pity>, <item:industrialforegoing:plastic>], 
-	[<item:minecraft:nether_brick>, <item:thermal:latex_bucket>, <item:minecraft:nether_brick>], 
-	[<item:minecraft:iron_ingot>, <item:thermal:gold_gear>, <item:minecraft:iron_ingot>]
-]);
-
-craftingTable.addShaped("c0ffc2b0-455f-485a-94b3-58943d3decd4", <item:industrialforegoing:machine_frame_advanced>, [
-	[<item:industrialforegoing:plastic>, <item:industrialforegoing:machine_frame_simple>, <item:industrialforegoing:plastic>], 
-	[<item:minecraft:netherite_ingot>, <item:industrialforegoing:pink_slime_bucket>, <item:minecraft:netherite_ingot>], 
-	[<item:minecraft:gold_ingot>, <item:thermal:diamond_gear>, <item:minecraft:gold_ingot>]
-]);
-
-craftingTable.addShaped("fa3a0871-aaa2-477b-a234-ba5588e58bdf", <item:industrialforegoing:machine_frame_supreme>, [
-	[<item:industrialforegoing:plastic>, <item:industrialforegoing:machine_frame_advanced>, <item:industrialforegoing:plastic>], 
-	[<item:minecraft:netherite_block>, <item:industrialforegoing:ether_gas_bucket>, <item:minecraft:netherite_block>], 
-	[<item:miniutilities:emerald_opinium_core>, <item:thermal:diamond_gear>, <item:miniutilities:emerald_opinium_core>]
-]);
-
-craftingTable.addShaped("abfebade-0a37-4d2e-b6a3-54db2d18b8ad", <item:industrialforegoing:laser_lens0>, [
-	[<item:minecraft:glass_pane>, <item:minecraft:glass_pane>, <item:minecraft:glass_pane>], 
-	[<item:minecraft:glass_pane>, <item:minecraft:air>, <item:minecraft:bone_meal>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
-]);
-
-craftingTable.removeRecipe(<item:miniutilities:the_final_opinium_core>);
-craftingTable.addShaped("fc05629b-26cc-4273-b136-c3eaaee9a343", <item:miniutilities:the_final_opinium_core>, [
-	[<item:envirocore:xerothium>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:xerothium>], 
-	[<item:miniutilities:nether_star_opinium_core>, <item:miniutilities:unstable_block>, <item:miniutilities:nether_star_opinium_core>], 
-	[<item:envirocore:xerothium>, <item:miniutilities:nether_star_opinium_core>, <item:envirocore:xerothium>]
-]);
 
 
 
 craftingTable.removeByModid("inventorypets");
 craftingTable.removeByModid("conjuring");
 craftingTable.removeByModid("chunkloaders");
-
 
 craftingTable.removeRecipe(<item:mekanism:basic_tier_installer>);
 craftingTable.removeRecipe(<item:mekanism:advanced_tier_installer>);
@@ -386,4 +323,4 @@ craftingTable.removeRecipe(<item:envirotech:aethium_void_miner_ccu>);
 craftingTable.removeRecipe(<item:envirotech:nanorite_void_miner_ccu>);
 craftingTable.removeRecipe(<item:envirotech:xerothium_void_miner_ccu>);
 
-craftingTable.removeRecipe(<item:industrialforegoing:dissolution_chamber>);
+craftingTable.removeRecipe(<item:industrialforegoing:infinity_backpack>);
