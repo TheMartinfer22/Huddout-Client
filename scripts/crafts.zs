@@ -404,9 +404,31 @@ craftingTable.addShaped("208c34eb-4833-4b20-905c-e84381bad9f3", <item:mekanism:t
 
 
 
+craftingTable.addShaped("c9e59b92-cf29-46e4-8ba3-69e1c9b76284", <item:curios:ring>, [
+	[<item:minecraft:gold_ingot>, <item:minecraft:gold_block>, <item:minecraft:gold_ingot>], 
+	[<item:minecraft:gold_block>, <item:minecraft:air>, <item:minecraft:gold_block>], 
+	[<item:minecraft:gold_ingot>, <item:minecraft:gold_block>, <item:minecraft:gold_ingot>]
+]);
 
+craftingTable.addShaped("fdd37c35-4829-4d4c-be06-9fe287f7ffb8", <item:curios:knuckles>, [
+	[<item:minecraft:gold_block>, <item:minecraft:air>, <item:minecraft:gold_block>], 
+	[<item:minecraft:gold_block>, <item:minecraft:gold_ingot>, <item:minecraft:gold_block>], 
+	[<item:minecraft:gold_ingot>, <item:minecraft:air>, <item:minecraft:gold_ingot>]
+]);
 
+craftingTable.removeRecipe(<item:envirocore:laser_diode>);
+craftingTable.addShaped("b90e1fb5-029e-450b-9968-5f26ec069795", <item:envirocore:laser_diode>, [
+	[<item:botania:bifrost_perm>, <item:botania:bifrost_perm>, <item:botania:bifrost_perm>], 
+	[<item:botania:bifrost_perm>, <item:mekanism:enriched_redstone>, <item:botania:bifrost_perm>], 
+	[<item:eidolon:arcane_gold_ingot>, <item:eidolon:arcane_gold_ingot>, <item:eidolon:arcane_gold_ingot>]
+]);
 
+craftingTable.removeRecipe(<item:envirocore:flash_memory>);
+craftingTable.addShaped("cea45f4b-54f5-4329-8707-32f18ed94e86", <item:envirocore:flash_memory>, [
+	[<item:silents_mechanisms:compressed_iron_ingot>, <item:createaddition:redstone_relay>, <item:silents_mechanisms:compressed_iron_ingot>], 
+	[<item:createaddition:redstone_relay>, <item:envirocore:volatile_memory>, <item:createaddition:redstone_relay>], 
+	[<item:silents_mechanisms:compressed_iron_ingot>, <item:createaddition:redstone_relay>, <item:silents_mechanisms:compressed_iron_ingot>]
+]);
 
 
 
@@ -428,3 +450,17 @@ craftingTable.removeRecipe(<item:envirotech:nanorite_void_miner_ccu>);
 craftingTable.removeRecipe(<item:envirotech:xerothium_void_miner_ccu>);
 
 craftingTable.removeRecipe(<item:industrialforegoing:dissolution_chamber>);
+
+craftingTable.removeRecipe(<item:hats:hat_launcher>);
+
+craftingTable.removeRecipe(<item:xreliquary:destruction_catalyst>);
+
+craftingTable.removeRecipe(<item:mekanismadditions:obsidian_tnt>);
+
+craftingTable.removeRecipe(<item:tconstruct:efln_ball>);
+
+craftingTable.removeRecipe(<item:botania:laputa_shard>);
+
+craftingTable.removeRecipe(<item:botania:exchange_rod>);
+
+craftingTable.removeRecipe(<item:botania:terraform_rod>);
